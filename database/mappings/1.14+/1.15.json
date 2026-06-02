@@ -1,0 +1,4678 @@
+{
+  "1.15->1.15.1": {
+    "classes": {
+      "net/minecraft/class_3608": {
+        "from": "net/minecraft/datafixers/fixes/EntityPufferfishRenameFix",
+        "to": "net/minecraft/datafixer/fix/EntityPufferfishRenameFix"
+      },
+      "net/minecraft/class_1231": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v3",
+        "to": "net/minecraft/datafixer/schema/Schema1451v3"
+      },
+      "net/minecraft/class_1202": {
+        "from": "net/minecraft/datafixers/fixes/OptionsForceVBOFix",
+        "to": "net/minecraft/datafixer/fix/OptionsForceVBOFix"
+      },
+      "net/minecraft/class_1191$class_1193": {
+        "from": "net/minecraft/datafixers/fixes/LeavesFix$ListFixer",
+        "to": "net/minecraft/datafixer/fix/LeavesFix$ListFixer"
+      },
+      "net/minecraft/class_1173": {
+        "from": "net/minecraft/datafixers/fixes/EntityTippedArrowFix",
+        "to": "net/minecraft/datafixer/fix/EntityTippedArrowFix"
+      },
+      "net/minecraft/class_1236": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v6",
+        "to": "net/minecraft/datafixer/schema/Schema1451v6"
+      },
+      "net/minecraft/class_3904": {
+        "from": "net/minecraft/datafixers/fixes/NewVillageFix",
+        "to": "net/minecraft/datafixer/fix/NewVillageFix"
+      },
+      "net/minecraft/class_3582$class_3588": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$Level",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$Level"
+      },
+      "net/minecraft/class_4541": {
+        "from": "net/minecraft/datafixers/fixes/BiomeFormatFix",
+        "to": "net/minecraft/datafixer/fix/BiomeFormatFix"
+      },
+      "net/minecraft/class_1224": {
+        "from": "net/minecraft/datafixers/schemas/Schema1022",
+        "to": "net/minecraft/datafixer/schema/Schema1022"
+      },
+      "net/minecraft/class_1232": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v2",
+        "to": "net/minecraft/datafixer/schema/Schema1451v2"
+      },
+      "net/minecraft/class_1228": {
+        "from": "net/minecraft/datafixers/schemas/Schema135",
+        "to": "net/minecraft/datafixer/schema/Schema135"
+      },
+      "net/minecraft/class_1207": {
+        "from": "net/minecraft/datafixers/mapping/LegacyCoralFanBlockMapping",
+        "to": "net/minecraft/datafixer/mapping/LegacyCoralFanBlockMapping"
+      },
+      "net/minecraft/class_3582$class_3584$class_3585": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$Facing$Axis",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$Facing$Axis"
+      },
+      "net/minecraft/class_3970": {
+        "from": "net/minecraft/datafixers/fixes/MapIdFix",
+        "to": "net/minecraft/datafixer/fix/MapIdFix"
+      },
+      "net/minecraft/class_4092": {
+        "from": "net/minecraft/datafixers/fixes/OptionsAddTextBackgroundFix",
+        "to": "net/minecraft/datafixer/fix/OptionsAddTextBackgroundFix"
+      },
+      "net/minecraft/class_3983": {
+        "from": "net/minecraft/datafixers/fixes/EntityRavagerRenameFix",
+        "to": "net/minecraft/datafixer/fix/EntityRavagerRenameFix"
+      },
+      "net/minecraft/class_3575": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityShulkerBoxColorFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityShulkerBoxColorFix"
+      },
+      "net/minecraft/class_1217": {
+        "from": "net/minecraft/datafixers/fixes/TeamDisplayNameFix",
+        "to": "net/minecraft/datafixer/fix/TeamDisplayNameFix"
+      },
+      "net/minecraft/class_3944": {
+        "from": "net/minecraft/client/network/packet/OpenContainerPacket",
+        "to": "net/minecraft/client/network/packet/OpenContainerS2CPacket"
+      },
+      "net/minecraft/class_727$class_728": {
+        "from": "net/minecraft/client/particle/BlockCrackParticle$Factory",
+        "to": "net/minecraft/client/particle/BlockDustParticle$Factory"
+      },
+      "net/minecraft/class_508$class_509$class_510": {
+        "from": "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget$AlternateButtonWidget$InputSlot",
+        "to": "net/minecraft/client/gui/screen/recipebook/RecipeAlternativesWidget$AlternativeButtonWidget$InputSlot"
+      },
+      "net/minecraft/class_3582$class_3584": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$Facing",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$Facing"
+      },
+      "net/minecraft/class_2509": {
+        "from": "net/minecraft/datafixers/NbtOps",
+        "to": "net/minecraft/datafixer/NbtOps"
+      },
+      "net/minecraft/class_4299": {
+        "from": "net/minecraft/datafixers/fixes/OminousBannerBlockEntityRenameFix",
+        "to": "net/minecraft/datafixer/fix/OminousBannerBlockEntityRenameFix"
+      },
+      "net/minecraft/class_3603": {
+        "from": "net/minecraft/datafixers/fixes/EntityIdFix",
+        "to": "net/minecraft/datafixer/fix/EntityIdFix"
+      },
+      "net/minecraft/class_3788": {
+        "from": "net/minecraft/datafixers/fixes/ChunkStatusFix2",
+        "to": "net/minecraft/datafixer/fix/ChunkStatusFix2"
+      },
+      "net/minecraft/class_1219": {
+        "from": "net/minecraft/datafixers/fixes/VillagerTradeFix",
+        "to": "net/minecraft/datafixer/fix/VillagerTradeFix"
+      },
+      "net/minecraft/class_1233": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v5",
+        "to": "net/minecraft/datafixer/schema/Schema1451v5"
+      },
+      "net/minecraft/class_3567": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityCustomNameToComponentFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityCustomNameToComponentFix"
+      },
+      "net/minecraft/class_4620": {
+        "from": "net/minecraft/datafixers/fixes/PointOfInterestRenameFIx",
+        "to": "net/minecraft/datafixer/fix/PointOfInterestRenameFix"
+      },
+      "net/minecraft/class_3599": {
+        "from": "net/minecraft/datafixers/fixes/EntityEquipmentToArmorAndHandFix",
+        "to": "net/minecraft/datafixer/fix/EntityEquipmentToArmorAndHandFix"
+      },
+      "net/minecraft/class_1174": {
+        "from": "net/minecraft/datafixers/fixes/EntityZombieVillagerTypeFix",
+        "to": "net/minecraft/datafixer/fix/EntityZombieVillagerTypeFix"
+      },
+      "net/minecraft/class_3582$class_3583": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$ChunkNibbleArray",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$ChunkNibbleArray"
+      },
+      "net/minecraft/class_1252": {
+        "from": "net/minecraft/datafixers/schemas/Schema808",
+        "to": "net/minecraft/datafixer/schema/Schema808"
+      },
+      "net/minecraft/class_508": {
+        "from": "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget",
+        "to": "net/minecraft/client/gui/screen/recipebook/RecipeAlternativesWidget"
+      },
+      "net/minecraft/class_4016": {
+        "from": "net/minecraft/datafixers/schemas/Schema1931",
+        "to": "net/minecraft/datafixer/schema/Schema1931"
+      },
+      "net/minecraft/class_1188": {
+        "from": "net/minecraft/datafixers/fixes/ItemInstanceTheFlatteningFix",
+        "to": "net/minecraft/datafixer/fix/ItemInstanceTheFlatteningFix"
+      },
+      "net/minecraft/class_3594": {
+        "from": "net/minecraft/datafixers/fixes/EntityArmorStandSilentFix",
+        "to": "net/minecraft/datafixer/fix/EntityArmorStandSilentFix"
+      },
+      "net/minecraft/class_1273": {
+        "from": "net/minecraft/container/ContainerLock",
+        "to": "net/minecraft/inventory/ContainerLock"
+      },
+      "net/minecraft/class_1178": {
+        "from": "net/minecraft/datafixers/fixes/ItemCustomNameToComponentFix",
+        "to": "net/minecraft/datafixer/fix/ItemCustomNameToComponentFix"
+      },
+      "net/minecraft/class_1199": {
+        "from": "net/minecraft/datafixers/fixes/ObjectiveRenderTypeFix",
+        "to": "net/minecraft/datafixer/fix/ObjectiveRenderTypeFix"
+      },
+      "net/minecraft/class_3589": {
+        "from": "net/minecraft/datafixers/fixes/ChunkStatusFix",
+        "to": "net/minecraft/datafixer/fix/ChunkStatusFix"
+      },
+      "net/minecraft/class_1177": {
+        "from": "net/minecraft/datafixers/fixes/HeightmapRenamingFix",
+        "to": "net/minecraft/datafixer/fix/HeightmapRenamingFix"
+      },
+      "net/minecraft/class_1208": {
+        "from": "net/minecraft/datafixers/TypeReferences",
+        "to": "net/minecraft/datafixer/TypeReferences"
+      },
+      "net/minecraft/class_4219": {
+        "from": "net/minecraft/entity/ai/tasks/GoToNearbyPositionTask",
+        "to": "net/minecraft/entity/ai/brain/task/GoToNearbyPositionTask"
+      },
+      "net/minecraft/class_1240": {
+        "from": "net/minecraft/datafixers/schemas/Schema1470",
+        "to": "net/minecraft/datafixer/schema/Schema1470"
+      },
+      "net/minecraft/class_1189": {
+        "from": "net/minecraft/datafixers/fixes/ItemInstanceSpawnEggFix",
+        "to": "net/minecraft/datafixer/fix/ItemInstanceSpawnEggFix"
+      },
+      "net/minecraft/class_3559": {
+        "from": "net/minecraft/datafixers/fixes/BedItemColorFix",
+        "to": "net/minecraft/datafixer/fix/BedItemColorFix"
+      },
+      "net/minecraft/class_1179": {
+        "from": "net/minecraft/datafixers/fixes/ItemBannerColorFix",
+        "to": "net/minecraft/datafixer/fix/ItemBannerColorFix"
+      },
+      "net/minecraft/class_1183": {
+        "from": "net/minecraft/datafixers/fixes/ItemPotionFix",
+        "to": "net/minecraft/datafixer/fix/ItemPotionFix"
+      },
+      "net/minecraft/class_1184": {
+        "from": "net/minecraft/datafixers/fixes/ItemSpawnEggFix",
+        "to": "net/minecraft/datafixer/fix/ItemSpawnEggFix"
+      },
+      "net/minecraft/class_1215": {
+        "from": "net/minecraft/datafixers/fixes/AddTrappedChestFix",
+        "to": "net/minecraft/datafixer/fix/AddTrappedChestFix"
+      },
+      "net/minecraft/class_2423$class_2424": {
+        "from": "net/minecraft/block/PortalBlock$AreaHelper",
+        "to": "net/minecraft/block/NetherPortalBlock$AreaHelper"
+      },
+      "net/minecraft/class_4158": {
+        "from": "net/minecraft/village/PointOfInterestType",
+        "to": "net/minecraft/world/poi/PointOfInterestType"
+      },
+      "net/minecraft/class_3551$2": {
+        "from": "net/minecraft/datafixers/Schemas$2",
+        "to": "net/minecraft/datafixer/Schemas$2"
+      },
+      "net/minecraft/class_1212": {
+        "from": "net/minecraft/datafixers/fixes/EntitySimpleTransformFix",
+        "to": "net/minecraft/datafixer/fix/EntitySimpleTransformFix"
+      },
+      "net/minecraft/class_3943": {
+        "from": "net/minecraft/client/network/packet/SetTradeOffersPacket",
+        "to": "net/minecraft/client/network/packet/SetTradeOffersS2CPacket"
+      },
+      "net/minecraft/class_1247": {
+        "from": "net/minecraft/datafixers/schemas/Schema501",
+        "to": "net/minecraft/datafixer/schema/Schema501"
+      },
+      "net/minecraft/class_1227": {
+        "from": "net/minecraft/datafixers/schemas/Schema143",
+        "to": "net/minecraft/datafixer/schema/Schema143"
+      },
+      "net/minecraft/class_1214": {
+        "from": "net/minecraft/datafixers/fixes/StatsCounterFix",
+        "to": "net/minecraft/datafixer/fix/StatsCounterFix"
+      },
+      "net/minecraft/class_3571": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityIdFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityIdFix"
+      },
+      "net/minecraft/class_1205": {
+        "from": "net/minecraft/datafixers/fixes/RecipeRenamingFix",
+        "to": "net/minecraft/datafixer/fix/RecipeRenamingFix"
+      },
+      "net/minecraft/class_1239": {
+        "from": "net/minecraft/datafixers/schemas/Schema1481",
+        "to": "net/minecraft/datafixer/schema/Schema1481"
+      },
+      "net/minecraft/class_1166": {
+        "from": "net/minecraft/datafixers/fixes/EntityRidingToPassengerFix",
+        "to": "net/minecraft/datafixer/fix/EntityRidingToPassengerFix"
+      },
+      "net/minecraft/class_3566": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityBlockStateFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityBlockStateFix"
+      },
+      "net/minecraft/class_3985": {
+        "from": "net/minecraft/datafixers/schemas/Schema1929",
+        "to": "net/minecraft/datafixer/schema/Schema1929"
+      },
+      "net/minecraft/class_1234": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v4",
+        "to": "net/minecraft/datafixer/schema/Schema1451v4"
+      },
+      "net/minecraft/class_2423": {
+        "from": "net/minecraft/block/PortalBlock",
+        "to": "net/minecraft/block/NetherPortalBlock"
+      },
+      "net/minecraft/class_1170": {
+        "from": "net/minecraft/datafixers/fixes/EntityTheRenameningBlock",
+        "to": "net/minecraft/datafixer/fix/EntityTheRenameningBlock"
+      },
+      "net/minecraft/class_3600": {
+        "from": "net/minecraft/datafixers/fixes/EntityHealthFix",
+        "to": "net/minecraft/datafixer/fix/EntityHealthFix"
+      },
+      "net/minecraft/class_3582": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix"
+      },
+      "net/minecraft/class_4619": {
+        "from": "net/minecraft/datafixers/fixes/BeehiveRenameFix",
+        "to": "net/minecraft/datafixer/fix/BeehiveRenameFix"
+      },
+      "net/minecraft/class_3984": {
+        "from": "net/minecraft/datafixers/schemas/Schema1928",
+        "to": "net/minecraft/datafixer/schema/Schema1928"
+      },
+      "net/minecraft/class_1198": {
+        "from": "net/minecraft/datafixers/fixes/MobSpawnerEntityIdentifiersFix",
+        "to": "net/minecraft/datafixer/fix/MobSpawnerEntityIdentifiersFix"
+      },
+      "net/minecraft/class_3598": {
+        "from": "net/minecraft/datafixers/fixes/EntityElderGuardianSplitFix",
+        "to": "net/minecraft/datafixer/fix/EntityElderGuardianSplitFix"
+      },
+      "net/minecraft/class_4294": {
+        "from": "net/minecraft/datafixers/fixes/OminousBannerItemRenameFix",
+        "to": "net/minecraft/datafixer/fix/OminousBannerItemRenameFix"
+      },
+      "net/minecraft/class_1218": {
+        "from": "net/minecraft/datafixers/fixes/WriteAndReadFix",
+        "to": "net/minecraft/datafixer/fix/WriteAndReadFix"
+      },
+      "net/minecraft/class_1169": {
+        "from": "net/minecraft/datafixers/fixes/EntityShulkerColorFix",
+        "to": "net/minecraft/datafixer/fix/EntityShulkerColorFix"
+      },
+      "net/minecraft/class_1230": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451",
+        "to": "net/minecraft/datafixer/schema/Schema1451"
+      },
+      "net/minecraft/class_4153": {
+        "from": "net/minecraft/village/PointOfInterestStorage",
+        "to": "net/minecraft/world/poi/PointOfInterestStorage"
+      },
+      "net/minecraft/class_3551$1": {
+        "from": "net/minecraft/datafixers/Schemas$1",
+        "to": "net/minecraft/datafixer/Schemas$1"
+      },
+      "net/minecraft/class_3593": {
+        "from": "net/minecraft/datafixers/mapping/LegacyDyeItemMapping",
+        "to": "net/minecraft/datafixer/mapping/LegacyDyeItemMapping"
+      },
+      "net/minecraft/class_1237": {
+        "from": "net/minecraft/datafixers/schemas/Schema1466",
+        "to": "net/minecraft/datafixer/schema/Schema1466"
+      },
+      "net/minecraft/class_1244": {
+        "from": "net/minecraft/datafixers/schemas/Schema1801",
+        "to": "net/minecraft/datafixer/schema/Schema1801"
+      },
+      "net/minecraft/class_3905": {
+        "from": "net/minecraft/datafixers/schemas/Schema1920",
+        "to": "net/minecraft/datafixer/schema/Schema1920"
+      },
+      "net/minecraft/class_3602": {
+        "from": "net/minecraft/datafixers/fixes/EntityHorseSplitFix",
+        "to": "net/minecraft/datafixer/fix/EntityHorseSplitFix"
+      },
+      "net/minecraft/class_1246": {
+        "from": "net/minecraft/datafixers/schemas/Schema700",
+        "to": "net/minecraft/datafixer/schema/Schema700"
+      },
+      "net/minecraft/class_3604": {
+        "from": "net/minecraft/datafixers/fixes/EntityItemFrameDirectionFix",
+        "to": "net/minecraft/datafixer/fix/EntityItemFrameDirectionFix"
+      },
+      "net/minecraft/class_1221": {
+        "from": "net/minecraft/datafixers/schemas/Schema102",
+        "to": "net/minecraft/datafixer/schema/Schema102"
+      },
+      "net/minecraft/class_1211": {
+        "from": "net/minecraft/datafixers/fixes/EntityRenameFix",
+        "to": "net/minecraft/datafixer/fix/EntityRenameFix"
+      },
+      "net/minecraft/class_3592": {
+        "from": "net/minecraft/datafixers/fixes/ColorlessShulkerEntityFix",
+        "to": "net/minecraft/datafixer/fix/ColorlessShulkerEntityFix"
+      },
+      "net/minecraft/class_809$class_811": {
+        "from": "net/minecraft/client/render/model/json/ModelTransformation$Type",
+        "to": "net/minecraft/client/render/model/json/ModelTransformation$Mode"
+      },
+      "net/minecraft/class_1168": {
+        "from": "net/minecraft/datafixers/fixes/EntitySkeletonSplitFix",
+        "to": "net/minecraft/datafixer/fix/EntitySkeletonSplitFix"
+      },
+      "net/minecraft/class_3555": {
+        "from": "net/minecraft/datafixers/fixes/AdvancementsFix",
+        "to": "net/minecraft/datafixer/fix/AdvancementsFix"
+      },
+      "net/minecraft/class_4301": {
+        "from": "net/minecraft/datafixers/fixes/ZombieVillagerXpRebuildFix",
+        "to": "net/minecraft/datafixer/fix/ZombieVillagerXpRebuildFix"
+      },
+      "net/minecraft/class_1249": {
+        "from": "net/minecraft/datafixers/schemas/Schema701",
+        "to": "net/minecraft/datafixer/schema/Schema701"
+      },
+      "net/minecraft/class_3579": {
+        "from": "net/minecraft/datafixers/fixes/BlockNameFix",
+        "to": "net/minecraft/datafixer/fix/BlockNameFix"
+      },
+      "net/minecraft/class_3578": {
+        "from": "net/minecraft/datafixers/fixes/BlockNameFlatteningFix",
+        "to": "net/minecraft/datafixer/fix/BlockNameFlatteningFix"
+      },
+      "net/minecraft/class_1251": {
+        "from": "net/minecraft/datafixers/schemas/Schema703",
+        "to": "net/minecraft/datafixer/schema/Schema703"
+      },
+      "net/minecraft/class_1165": {
+        "from": "net/minecraft/datafixers/fixes/EntityRedundantChanceTagsFix",
+        "to": "net/minecraft/datafixer/fix/EntityRedundantChanceTagsFix"
+      },
+      "net/minecraft/class_3595": {
+        "from": "net/minecraft/datafixers/fixes/EntityBlockStateFix",
+        "to": "net/minecraft/datafixer/fix/EntityBlockStateFix"
+      },
+      "net/minecraft/class_3755": {
+        "from": "net/minecraft/datafixers/fixes/ChunkLightRemoveFix",
+        "to": "net/minecraft/datafixer/fix/ChunkLightRemoveFix"
+      },
+      "net/minecraft/class_1194": {
+        "from": "net/minecraft/datafixers/fixes/ItemWrittenBookPagesStrictJsonFix",
+        "to": "net/minecraft/datafixer/fix/ItemWrittenBookPagesStrictJsonFix"
+      },
+      "net/minecraft/class_1191": {
+        "from": "net/minecraft/datafixers/fixes/LeavesFix",
+        "to": "net/minecraft/datafixer/fix/LeavesFix"
+      },
+      "net/minecraft/class_3557": {
+        "from": "net/minecraft/datafixers/fixes/BedBlockEntityFix",
+        "to": "net/minecraft/datafixer/fix/BedBlockEntityFix"
+      },
+      "net/minecraft/class_3561": {
+        "from": "net/minecraft/datafixers/fixes/BiomesFix",
+        "to": "net/minecraft/datafixer/fix/BiomesFix"
+      },
+      "net/minecraft/class_4731": {
+        "from": "net/minecraft/datafixer/fixes/RemovePoiValidTagFix",
+        "to": "net/minecraft/datafixer/fix/RemovePoiValidTagFix"
+      },
+      "net/minecraft/class_1171": {
+        "from": "net/minecraft/datafixers/fixes/EntityStringUuidFix",
+        "to": "net/minecraft/datafixer/fix/EntityStringUuidFix"
+      },
+      "net/minecraft/class_3553": {
+        "from": "net/minecraft/datafixers/fixes/ChoiceTypesFix",
+        "to": "net/minecraft/datafixer/fix/ChoiceTypesFix"
+      },
+      "net/minecraft/class_1220": {
+        "from": "net/minecraft/datafixers/schemas/SchemaIdentifierNormalize",
+        "to": "net/minecraft/datafixer/schema/SchemaIdentifierNormalize"
+      },
+      "net/minecraft/class_1225": {
+        "from": "net/minecraft/datafixers/schemas/Schema1125",
+        "to": "net/minecraft/datafixer/schema/Schema1125"
+      },
+      "net/minecraft/class_3597": {
+        "from": "net/minecraft/datafixers/fixes/EntityCustomNameToComponentFix",
+        "to": "net/minecraft/datafixer/fix/EntityCustomNameToComponentFix"
+      },
+      "net/minecraft/class_3582$class_3587": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$Section",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$Section"
+      },
+      "net/minecraft/class_1253": {
+        "from": "net/minecraft/datafixers/schemas/Schema705",
+        "to": "net/minecraft/datafixer/schema/Schema705"
+      },
+      "net/minecraft/class_1226": {
+        "from": "net/minecraft/datafixers/schemas/Schema107",
+        "to": "net/minecraft/datafixer/schema/Schema107"
+      },
+      "net/minecraft/class_1180": {
+        "from": "net/minecraft/datafixers/fixes/ItemLoreToComponentFix",
+        "to": "net/minecraft/datafixer/fix/ItemLoreToComponentFix"
+      },
+      "net/minecraft/class_4153$class_4155": {
+        "from": "net/minecraft/village/PointOfInterestStorage$OccupationStatus",
+        "to": "net/minecraft/world/poi/PointOfInterestStorage$OccupationStatus"
+      },
+      "net/minecraft/class_508$class_509": {
+        "from": "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget$AlternateButtonWidget",
+        "to": "net/minecraft/client/gui/screen/recipebook/RecipeAlternativesWidget$AlternativeButtonWidget"
+      },
+      "net/minecraft/class_1242": {
+        "from": "net/minecraft/datafixers/schemas/Schema1483",
+        "to": "net/minecraft/datafixer/schema/Schema1483"
+      },
+      "net/minecraft/class_3607": {
+        "from": "net/minecraft/datafixers/fixes/EntityPaintingMotiveFix",
+        "to": "net/minecraft/datafixer/fix/EntityPaintingMotiveFix"
+      },
+      "net/minecraft/class_3580": {
+        "from": "net/minecraft/datafixers/fixes/BlockStateFlattening",
+        "to": "net/minecraft/datafixer/fix/BlockStateFlattening"
+      },
+      "net/minecraft/class_1167": {
+        "from": "net/minecraft/datafixers/fixes/EntityTransformFix",
+        "to": "net/minecraft/datafixer/fix/EntityTransformFix"
+      },
+      "net/minecraft/class_1200": {
+        "from": "net/minecraft/datafixers/fixes/ObjectiveDisplayNameFix",
+        "to": "net/minecraft/datafixer/fix/ObjectiveDisplayNameFix"
+      },
+      "net/minecraft/class_1254": {
+        "from": "net/minecraft/datafixers/schemas/Schema99",
+        "to": "net/minecraft/datafixer/schema/Schema99"
+      },
+      "net/minecraft/class_1213": {
+        "from": "net/minecraft/datafixers/fixes/SwimStatsRenameFix",
+        "to": "net/minecraft/datafixer/fix/SwimStatsRenameFix"
+      },
+      "net/minecraft/class_3596": {
+        "from": "net/minecraft/datafixers/fixes/EntityCodSalmonFix",
+        "to": "net/minecraft/datafixer/fix/EntityCodSalmonFix"
+      },
+      "net/minecraft/class_3577": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntitySignTextStrictJsonFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntitySignTextStrictJsonFix"
+      },
+      "net/minecraft/class_1248": {
+        "from": "net/minecraft/datafixers/schemas/Schema702",
+        "to": "net/minecraft/datafixer/schema/Schema702"
+      },
+      "net/minecraft/class_4284": {
+        "from": "net/minecraft/datafixers/DataFixTypes",
+        "to": "net/minecraft/datafixer/DataFixTypes"
+      },
+      "net/minecraft/class_3574": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityKeepPacked",
+        "to": "net/minecraft/datafixer/fix/BlockEntityKeepPacked"
+      },
+      "net/minecraft/class_3606": {
+        "from": "net/minecraft/datafixers/fixes/HangingEntityFix",
+        "to": "net/minecraft/datafixer/fix/HangingEntityFix"
+      },
+      "net/minecraft/class_3590": {
+        "from": "net/minecraft/datafixers/fixes/ChunkStructuresTemplateRenameFix",
+        "to": "net/minecraft/datafixer/fix/ChunkStructuresTemplateRenameFix"
+      },
+      "net/minecraft/class_3687": {
+        "from": "net/minecraft/datafixers/schemas/Schema1906",
+        "to": "net/minecraft/datafixer/schema/Schema1906"
+      },
+      "net/minecraft/class_4695": {
+        "from": "net/minecraft/datafixers/StructureReferenceFixer",
+        "to": "net/minecraft/datafixer/StructureReferenceFixer"
+      },
+      "net/minecraft/class_4300": {
+        "from": "net/minecraft/datafixers/fixes/VillagerXpRebuildFix",
+        "to": "net/minecraft/datafixer/fix/VillagerXpRebuildFix"
+      },
+      "net/minecraft/class_3551": {
+        "from": "net/minecraft/datafixers/Schemas",
+        "to": "net/minecraft/datafixer/Schemas"
+      },
+      "net/minecraft/class_1215$class_1216": {
+        "from": "net/minecraft/datafixers/fixes/AddTrappedChestFix$ListFixer",
+        "to": "net/minecraft/datafixer/fix/AddTrappedChestFix$ListFixer"
+      },
+      "net/minecraft/class_3686": {
+        "from": "net/minecraft/datafixers/schemas/Schema1904",
+        "to": "net/minecraft/datafixer/schema/Schema1904"
+      },
+      "net/minecraft/class_474": {
+        "from": "net/minecraft/client/gui/screen/ingame/PageTurnWidget",
+        "to": "net/minecraft/client/gui/widget/PageTurnWidget"
+      },
+      "net/minecraft/class_4156": {
+        "from": "net/minecraft/village/PointOfInterest",
+        "to": "net/minecraft/world/poi/PointOfInterest"
+      },
+      "net/minecraft/class_3601": {
+        "from": "net/minecraft/datafixers/fixes/EntityHorseSaddleFix",
+        "to": "net/minecraft/datafixer/fix/EntityHorseSaddleFix"
+      },
+      "net/minecraft/class_1182": {
+        "from": "net/minecraft/datafixers/fixes/ItemNameFix",
+        "to": "net/minecraft/datafixer/fix/ItemNameFix"
+      },
+      "net/minecraft/class_1176": {
+        "from": "net/minecraft/datafixers/fixes/IglooMetadataRemovalFix",
+        "to": "net/minecraft/datafixer/fix/IglooMetadataRemovalFix"
+      },
+      "net/minecraft/class_3725": {
+        "from": "net/minecraft/datafixers/fixes/EntityCatSplitFix",
+        "to": "net/minecraft/datafixer/fix/EntityCatSplitFix"
+      },
+      "net/minecraft/class_1395": {
+        "from": "net/minecraft/entity/ai/goal/FlyAroundGoal",
+        "to": "net/minecraft/entity/ai/goal/FlyOntoTreeGoal"
+      },
+      "net/minecraft/class_1172": {
+        "from": "net/minecraft/datafixers/fixes/EntityWolfColorFix",
+        "to": "net/minecraft/datafixer/fix/EntityWolfColorFix"
+      },
+      "net/minecraft/class_1197": {
+        "from": "net/minecraft/datafixers/fixes/ChoiceFix",
+        "to": "net/minecraft/datafixer/fix/ChoiceFix"
+      },
+      "net/minecraft/class_1250": {
+        "from": "net/minecraft/datafixers/schemas/Schema704",
+        "to": "net/minecraft/datafixer/schema/Schema704"
+      },
+      "net/minecraft/class_1229": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v1",
+        "to": "net/minecraft/datafixer/schema/Schema1451v1"
+      },
+      "net/minecraft/class_3903": {
+        "from": "net/minecraft/datafixers/fixes/CatTypeFix",
+        "to": "net/minecraft/datafixer/fix/CatTypeFix"
+      },
+      "net/minecraft/class_3605": {
+        "from": "net/minecraft/datafixers/fixes/EntityMinecartIdentifiersFix",
+        "to": "net/minecraft/datafixer/fix/EntityMinecartIdentifiersFix"
+      },
+      "net/minecraft/class_1235": {
+        "from": "net/minecraft/datafixers/schemas/Schema1451v7",
+        "to": "net/minecraft/datafixer/schema/Schema1451v7"
+      },
+      "net/minecraft/class_1195": {
+        "from": "net/minecraft/datafixers/fixes/LevelFlatGeneratorInfoFix",
+        "to": "net/minecraft/datafixer/fix/LevelFlatGeneratorInfoFix"
+      },
+      "net/minecraft/class_1186": {
+        "from": "net/minecraft/datafixers/fixes/ItemInstanceMapIdFix",
+        "to": "net/minecraft/datafixer/fix/ItemInstanceMapIdFix"
+      },
+      "net/minecraft/class_1238": {
+        "from": "net/minecraft/datafixers/schemas/Schema1460",
+        "to": "net/minecraft/datafixer/schema/Schema1460"
+      },
+      "net/minecraft/class_1245": {
+        "from": "net/minecraft/datafixers/schemas/Schema1800",
+        "to": "net/minecraft/datafixer/schema/Schema1800"
+      },
+      "net/minecraft/class_1201": {
+        "from": "net/minecraft/datafixers/fixes/OptionsKeyLwjgl3Fix",
+        "to": "net/minecraft/datafixer/fix/OptionsKeyLwjgl3Fix"
+      },
+      "net/minecraft/class_3564": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityBannerColorFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityBannerColorFix"
+      },
+      "net/minecraft/class_1204": {
+        "from": "net/minecraft/datafixers/fixes/OptionsKeyTranslationFix",
+        "to": "net/minecraft/datafixer/fix/OptionsKeyTranslationFix"
+      },
+      "net/minecraft/class_3743": {
+        "from": "net/minecraft/datafixers/schemas/Schema1909",
+        "to": "net/minecraft/datafixer/schema/Schema1909"
+      },
+      "net/minecraft/class_1203": {
+        "from": "net/minecraft/datafixers/fixes/OptionsLowerCaseLanguageFix",
+        "to": "net/minecraft/datafixer/fix/OptionsLowerCaseLanguageFix"
+      },
+      "net/minecraft/class_1185": {
+        "from": "net/minecraft/datafixers/fixes/ItemShulkerBoxColorFix",
+        "to": "net/minecraft/datafixer/fix/ItemShulkerBoxColorFix"
+      },
+      "net/minecraft/class_3845": {
+        "from": "net/minecraft/datafixers/fixes/VillagerProfessionFix",
+        "to": "net/minecraft/datafixer/fix/VillagerProfessionFix"
+      },
+      "net/minecraft/class_1223": {
+        "from": "net/minecraft/datafixers/schemas/Schema106",
+        "to": "net/minecraft/datafixer/schema/Schema106"
+      },
+      "net/minecraft/class_727": {
+        "from": "net/minecraft/client/particle/BlockCrackParticle",
+        "to": "net/minecraft/client/particle/BlockDustParticle"
+      },
+      "net/minecraft/class_508$class_511": {
+        "from": "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget$FurnaceAlternateButtonWidget",
+        "to": "net/minecraft/client/gui/screen/recipebook/RecipeAlternativesWidget$FurnaceAlternativeButtonWidget"
+      },
+      "net/minecraft/class_1210": {
+        "from": "net/minecraft/datafixers/mapping/LegacyCoralBlockMapping",
+        "to": "net/minecraft/datafixer/mapping/LegacyCoralBlockMapping"
+      },
+      "net/minecraft/class_1196": {
+        "from": "net/minecraft/datafixers/fixes/LevelDataGeneratorOptionsFix",
+        "to": "net/minecraft/datafixer/fix/LevelDataGeneratorOptionsFix"
+      },
+      "net/minecraft/class_1181": {
+        "from": "net/minecraft/datafixers/fixes/ItemIdFix",
+        "to": "net/minecraft/datafixer/fix/ItemIdFix"
+      },
+      "net/minecraft/class_1241": {
+        "from": "net/minecraft/datafixers/schemas/Schema1486",
+        "to": "net/minecraft/datafixer/schema/Schema1486"
+      },
+      "net/minecraft/class_4157": {
+        "from": "net/minecraft/village/PointOfInterestSet",
+        "to": "net/minecraft/world/poi/PointOfInterestSet"
+      },
+      "net/minecraft/class_1187": {
+        "from": "net/minecraft/datafixers/fixes/ItemStackEnchantmentFix",
+        "to": "net/minecraft/datafixer/fix/ItemStackEnchantmentFix"
+      },
+      "net/minecraft/class_1209": {
+        "from": "net/minecraft/datafixers/fixes/SavedDataVillageCropFix",
+        "to": "net/minecraft/datafixer/fix/SavedDataVillageCropFix"
+      },
+      "net/minecraft/class_4153$class_4154": {
+        "from": "net/minecraft/village/PointOfInterestStorage$PointOfInterestDistanceTracker",
+        "to": "net/minecraft/world/poi/PointOfInterestStorage$PointOfInterestDistanceTracker"
+      },
+      "net/minecraft/class_3581": {
+        "from": "net/minecraft/datafixers/fixes/BlockStateStructureTemplateFix",
+        "to": "net/minecraft/datafixer/fix/BlockStateStructureTemplateFix"
+      },
+      "net/minecraft/class_4465": {
+        "from": "net/minecraft/datafixers/schemas/Schema2100",
+        "to": "net/minecraft/datafixer/schema/Schema2100"
+      },
+      "net/minecraft/class_3573": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntityJukeboxFix",
+        "to": "net/minecraft/datafixer/fix/BlockEntityJukeboxFix"
+      },
+      "net/minecraft/class_1243": {
+        "from": "net/minecraft/datafixers/schemas/Schema1510",
+        "to": "net/minecraft/datafixer/schema/Schema1510"
+      },
+      "net/minecraft/class_4285": {
+        "from": "net/minecraft/datafixers/fixes/PointOfInterestReorganizationFix",
+        "to": "net/minecraft/datafixer/fix/PointOfInterestReorganizationFix"
+      },
+      "net/minecraft/class_3591": {
+        "from": "net/minecraft/datafixers/fixes/ChunkToProtoChunkFix",
+        "to": "net/minecraft/datafixer/fix/ChunkToProtoChunkFix"
+      },
+      "net/minecraft/class_1206": {
+        "from": "net/minecraft/datafixers/fixes/RecipeFix",
+        "to": "net/minecraft/datafixer/fix/RecipeFix"
+      },
+      "net/minecraft/class_3582$class_3584$class_3586": {
+        "from": "net/minecraft/datafixers/fixes/ChunkPalettedStorageFix$Facing$Direction",
+        "to": "net/minecraft/datafixer/fix/ChunkPalettedStorageFix$Facing$Direction"
+      },
+      "net/minecraft/class_1360": {
+        "from": "net/minecraft/entity/ai/goal/SitOnOwnerShoulder",
+        "to": "net/minecraft/entity/ai/goal/SitOnOwnerShoulderGoal"
+      },
+      "net/minecraft/class_1222": {
+        "from": "net/minecraft/datafixers/schemas/Schema100",
+        "to": "net/minecraft/datafixer/schema/Schema100"
+      },
+      "net/minecraft/class_3577$1": {
+        "from": "net/minecraft/datafixers/fixes/BlockEntitySignTextStrictJsonFix$1",
+        "to": "net/minecraft/datafixer/fix/BlockEntitySignTextStrictJsonFix$1"
+      },
+      "net/minecraft/class_1175": {
+        "from": "net/minecraft/datafixers/fixes/EntityZombieSplitFix",
+        "to": "net/minecraft/datafixer/fix/EntityZombieSplitFix"
+      },
+      "net/minecraft/class_1190": {
+        "from": "net/minecraft/datafixers/fixes/ItemWaterPotionFix",
+        "to": "net/minecraft/datafixer/fix/ItemWaterPotionFix"
+      }
+    },
+    "methods": {
+      "net/minecraft/class_4121/<init>(Lnet/minecraft/class_4140;F)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4218/method_19588(Lnet/minecraft/class_1314;)Ljava/util/Optional;": {
+        "from": null,
+        "to": "getLeastPopularBabyInteractionTarget"
+      },
+      "net/minecraft/class_4130/method_19026(Lnet/minecraft/class_1646;)V": {
+        "from": null,
+        "to": "refreshShownOffer"
+      },
+      "net/minecraft/class_3228/compareTo(Ljava/lang/Object;)I": {
+        "from": null,
+        "to": "compareTo"
+      },
+      "net/minecraft/class_1159/method_24021(FFF)Lnet/minecraft/class_1159;": {
+        "from": null,
+        "to": "translate"
+      },
+      "net/minecraft/class_746/method_3143()Lnet/minecraft/class_3469;": {
+        "from": "getStats",
+        "to": "getStatHandler"
+      },
+      "net/minecraft/class_485/method_2477()V": {
+        "from": "drawPotionEffects",
+        "to": "drawStatusEffects"
+      },
+      "net/minecraft/class_2430/method_16329(Lnet/minecraft/class_2248;)V": {
+        "from": null,
+        "to": "registerForSelfDrop"
+      },
+      "net/minecraft/class_14/method_23476(Lnet/minecraft/class_1922;III)Lnet/minecraft/class_7;": {
+        "from": null,
+        "to": "getPathNodeType"
+      },
+      "net/minecraft/class_1291/method_5563(ILnet/minecraft/class_1322;)D": {
+        "from": null,
+        "to": "adjustModifierAmount"
+      },
+      "net/minecraft/class_4157/<init>(Ljava/lang/Runnable;Lcom/mojang/datafixers/Dynamic;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1657/method_21825()Z": {
+        "from": null,
+        "to": "clipAtLedge"
+      },
+      "net/minecraft/class_2843/method_12356(Lnet/minecraft/class_2818;)V": {
+        "from": null,
+        "to": "upgrade"
+      },
+      "net/minecraft/class_4102/<init>(Lnet/minecraft/class_1297;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_418/method_22364()V": {
+        "from": null,
+        "to": "quitLevel"
+      },
+      "net/minecraft/class_4128/method_20499(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "hasCompletedPointOfInterest"
+      },
+      "net/minecraft/class_1297/method_5760()V": {
+        "from": "tickPortalCooldown",
+        "to": "tickNetherPortalCooldown"
+      },
+      "net/minecraft/class_1309/method_6111(Lnet/minecraft/class_1291;)Lnet/minecraft/class_1293;": {
+        "from": "removeStatusEffect",
+        "to": "removeStatusEffectInternal"
+      },
+      "net/minecraft/class_793$class_795/method_24079(Lnet/minecraft/class_2960;Ljava/lang/String;)Lcom/mojang/datafixers/util/Either;": {
+        "from": null,
+        "to": "resolveReference"
+      },
+      "net/minecraft/class_2446/method_10425(Lnet/minecraft/class_2408;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V": {
+        "from": null,
+        "to": "saveRecipe"
+      },
+      "net/minecraft/class_4252/<init>(II)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4218/method_19592(Lnet/minecraft/class_1314;)Ljava/util/Map;": {
+        "from": null,
+        "to": "getBabyInteractionTargetCounts"
+      },
+      "net/minecraft/class_4168/<init>(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4117/method_20430(Lnet/minecraft/class_1314;Lnet/minecraft/class_4076;)V": {
+        "from": null,
+        "to": "updateWalkTarget"
+      },
+      "net/minecraft/class_1350/method_23345()V": {
+        "from": null,
+        "to": "tryTeleport"
+      },
+      "net/minecraft/class_1397/<init>(Lnet/minecraft/class_1439;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_408/method_23945(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "onChatFieldUpdate"
+      },
+      "net/minecraft/class_2427/method_17175(Lnet/minecraft/class_2385;)Lcom/google/gson/JsonElement;": {
+        "from": null,
+        "to": "toJson"
+      },
+      "net/minecraft/class_3532/method_20306(FFF)F": {
+        "from": "method_20306",
+        "to": "capRotation"
+      },
+      "net/minecraft/class_4581/method_22849(FFF)Lcom/mojang/datafixers/util/Pair;": {
+        "from": null,
+        "to": "getSinAndCosOfRotation"
+      },
+      "net/minecraft/class_1273/method_5474(Lnet/minecraft/class_2487;)V": {
+        "from": "serialize",
+        "to": "toTag"
+      },
+      "net/minecraft/class_4158/method_21648()I": {
+        "from": null,
+        "to": "getSearchDistance"
+      },
+      "net/minecraft/class_2446/method_10420(Lnet/minecraft/class_3494;)Lnet/minecraft/class_2066$class_2068;": {
+        "from": null,
+        "to": "conditionsFromTag"
+      },
+      "net/minecraft/class_4217/method_20641(Lnet/minecraft/class_3218;)Lnet/minecraft/class_2338;": {
+        "from": null,
+        "to": "chooseRandomTarget"
+      },
+      "net/minecraft/class_2474/method_10512(Lnet/minecraft/class_3494;)Lnet/minecraft/class_3494$class_3495;": {
+        "from": null,
+        "to": "getOrCreateTagBuilder"
+      },
+      "net/minecraft/class_4109/<init>(Lnet/minecraft/class_1299;I)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2461/method_10493(Ljava/nio/file/Path;Ljava/lang/String;Ljava/nio/file/Path;)Ljava/nio/file/Path;": {
+        "from": null,
+        "to": "convertNbtToSnbt"
+      },
+      "net/minecraft/class_4111/method_18972(Lnet/minecraft/class_1646;)Z": {
+        "from": null,
+        "to": "isReadyToBreed"
+      },
+      "net/minecraft/class_4640/method_23426(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_4640;": {
+        "from": "deserialize2",
+        "to": "deserialize"
+      },
+      "net/minecraft/class_2446/method_17585(Ljava/util/function/Consumer;Ljava/lang/String;Lnet/minecraft/class_3957;I)V": {
+        "from": null,
+        "to": "generateCookingRecipes"
+      },
+      "net/minecraft/class_2446/method_10426(Lnet/minecraft/class_1935;)Lnet/minecraft/class_2066$class_2068;": {
+        "from": null,
+        "to": "conditionsFromItem"
+      },
+      "net/minecraft/class_508/method_2617(Lnet/minecraft/class_310;Lnet/minecraft/class_516;IIIIF)V": {
+        "from": "showAlternatesForResult",
+        "to": "showAlternativesForResult"
+      },
+      "net/minecraft/class_413$class_4192$class_4193/method_19375(IILnet/minecraft/class_1799;)V": {
+        "from": null,
+        "to": "method_19375"
+      },
+      "net/minecraft/class_481/<init>(Lnet/minecraft/class_1657;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_525$class_4539/<init>(Ljava/lang/String;ILjava/lang/String;Lnet/minecraft/class_1934;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_746/method_22120()Z": {
+        "from": null,
+        "to": "hasMovementInput"
+      },
+      "net/minecraft/class_2430/method_16256(Lnet/minecraft/class_2248;Lnet/minecraft/class_1935;)V": {
+        "from": null,
+        "to": "register"
+      },
+      "net/minecraft/class_422/method_24183()V": {
+        "from": null,
+        "to": "updateButtonActiveState"
+      },
+      "net/minecraft/class_3874/<init>(Lnet/minecraft/class_3706;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1297/method_5843()Lnet/minecraft/class_2350;": {
+        "from": "getLastPortalDirection",
+        "to": "getLastNetherPortalDirection"
+      },
+      "net/minecraft/class_1309/method_22382()Z": {
+        "from": null,
+        "to": "shouldSpawnConsumptionEffects"
+      },
+      "net/minecraft/class_1160/method_23847(Lnet/minecraft/class_1160;F)V": {
+        "from": "multiplyComponentwise",
+        "to": "lerp"
+      },
+      "net/minecraft/class_1041/method_4475()V": {
+        "from": null,
+        "to": "applyVideoMode"
+      },
+      "net/minecraft/class_1293/<init>(Lnet/minecraft/class_1291;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2434/method_10401(Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForSheep"
+      },
+      "net/minecraft/class_2414/method_16118(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireAllCatsTamed"
+      },
+      "net/minecraft/class_4217/method_20640(Lnet/minecraft/class_2338;Lnet/minecraft/class_3218;)Z": {
+        "from": null,
+        "to": "isSuitableTarget"
+      },
+      "net/minecraft/class_1331/<init>(Lnet/minecraft/class_1308;IZ)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2412/method_10337(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireListedBiomesVisited"
+      },
+      "net/minecraft/class_1395/method_6314()Lnet/minecraft/class_243;": {
+        "from": null,
+        "to": "getTreeTarget"
+      },
+      "net/minecraft/class_447$class_4198$class_4197/<init>(Lnet/minecraft/class_447$class_4198;Lnet/minecraft/class_3445;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2843/method_12351(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;": {
+        "from": null,
+        "to": "applyAdjacentBlock"
+      },
+      "net/minecraft/class_1160/method_4952()Z": {
+        "from": "reciprocal",
+        "to": "normalize"
+      },
+      "net/minecraft/class_2430/method_10391(Lnet/minecraft/class_2248;Lnet/minecraft/class_1792;Lnet/minecraft/class_1792;Lnet/minecraft/class_4570$class_210;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForCrops"
+      },
+      "net/minecraft/class_3230/method_20628(Ljava/lang/String;Ljava/util/Comparator;I)Lnet/minecraft/class_3230;": {
+        "from": null,
+        "to": "create"
+      },
+      "net/minecraft/class_4111/method_19570(Lnet/minecraft/class_1646;)Lnet/minecraft/class_1646;": {
+        "from": null,
+        "to": "getBreedTarget"
+      },
+      "net/minecraft/class_4548/<init>(Lnet/minecraft/class_2540;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_2674/method_23367(Lnet/minecraft/class_2248;)Z": {
+        "from": null,
+        "to": "isBlockSticky"
+      },
+      "net/minecraft/class_3582$class_3583/method_15642(I)I": {
+        "from": null,
+        "to": "getRawIndex"
+      },
+      "net/minecraft/class_1344/method_18250()Z": {
+        "from": null,
+        "to": "targetShadedPos"
+      },
+      "net/minecraft/class_2430/method_16238(Lnet/minecraft/class_2248;Lnet/minecraft/class_2248;)V": {
+        "from": null,
+        "to": "registerForNeedingSilkTouch"
+      },
+      "net/minecraft/class_1309/method_23883()V": {
+        "from": null,
+        "to": "dropXp"
+      },
+      "net/minecraft/class_4590/method_22937()Lnet/minecraft/class_1158;": {
+        "from": null,
+        "to": "getRotation2"
+      },
+      "net/minecraft/class_518/method_2659()Lnet/minecraft/class_507;": {
+        "from": "getRecipeBookGui",
+        "to": "getRecipeBookWidget"
+      },
+      "net/minecraft/class_1439/method_6497(Z)V": {
+        "from": null,
+        "to": "setLookingAtVillager"
+      },
+      "net/minecraft/class_2430/method_10387(Lnet/minecraft/class_2248;Lnet/minecraft/class_1792;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForCropStem"
+      },
+      "net/minecraft/class_2430/method_10381(Lnet/minecraft/class_2248;Lnet/minecraft/class_4570$class_210;Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "create"
+      },
+      "net/minecraft/class_491/<init>(Lnet/minecraft/class_1724;Lnet/minecraft/class_1661;Lnet/minecraft/class_1496;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_10375(Lnet/minecraft/class_2248;Lnet/minecraft/class_2769;Ljava/lang/Comparable;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForMultiblock"
+      },
+      "net/minecraft/class_2446/method_10423([Lnet/minecraft/class_2073;)Lnet/minecraft/class_2066$class_2068;": {
+        "from": null,
+        "to": "conditionsFromItemPredicates"
+      },
+      "net/minecraft/class_1439$class_4621/<init>(Ljava/lang/String;IF)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_485/method_18644(IILjava/lang/Iterable;)V": {
+        "from": null,
+        "to": "drawStatusEffectDescriptions"
+      },
+      "net/minecraft/class_2446/method_10427(Lnet/minecraft/class_2408;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V": {
+        "from": null,
+        "to": "saveRecipeAdvancement"
+      },
+      "net/minecraft/class_4112/method_18977(Lnet/minecraft/class_1308;Lnet/minecraft/class_4142;J)Z": {
+        "from": null,
+        "to": "hasFinishedPath"
+      },
+      "net/minecraft/class_4111/method_20642(Lnet/minecraft/class_1646;Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "canReachHome"
+      },
+      "net/minecraft/class_2430/method_16258(Lnet/minecraft/class_2248;Lnet/minecraft/class_52$class_53;)V": {
+        "from": null,
+        "to": "register"
+      },
+      "net/minecraft/class_1343/method_6254(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)Z": {
+        "from": "getDoor",
+        "to": "isWoodenDoor"
+      },
+      "net/minecraft/class_2414/method_10340(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireListedFishBucketsFilled"
+      },
+      "net/minecraft/class_4111/method_20643(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;Lnet/minecraft/class_1646;)V": {
+        "from": null,
+        "to": "goHome"
+      },
+      "net/minecraft/class_1297/method_5717(Lnet/minecraft/class_2338;)V": {
+        "from": "setInPortal",
+        "to": "setInNetherPortal"
+      },
+      "net/minecraft/class_2430/method_10390(Lnet/minecraft/class_2248;Lnet/minecraft/class_2248;[F)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForLeaves"
+      },
+      "net/minecraft/class_1273/method_5472(Lnet/minecraft/class_1799;)Z": {
+        "from": "isEmpty",
+        "to": "canOpen"
+      },
+      "net/minecraft/class_1439/method_6502()I": {
+        "from": null,
+        "to": "getLookingAtVillagerTicks"
+      },
+      "net/minecraft/class_3230/method_20629()J": {
+        "from": null,
+        "to": "getExpiryTicks"
+      },
+      "net/minecraft/class_485/<init>(Lnet/minecraft/client/gui/screen/ingame/AbstractInventoryScreen$T;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1309/method_21754()Z": {
+        "from": null,
+        "to": "isHoldingOntoLadder"
+      },
+      "net/minecraft/class_4111/method_18970(Lnet/minecraft/class_1646;Lnet/minecraft/class_1646;)Ljava/util/Optional;": {
+        "from": null,
+        "to": "createChild"
+      },
+      "net/minecraft/class_2430/method_23229(Lnet/minecraft/class_2248;Lnet/minecraft/class_1792;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForAttachedCropStem"
+      },
+      "net/minecraft/class_4122/method_19597(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;Lnet/minecraft/class_4208;)Z": {
+        "from": null,
+        "to": "exceedsMaxRange"
+      },
+      "net/minecraft/class_3532/method_22859(FFF)F": {
+        "from": null,
+        "to": "lerpAngle"
+      },
+      "net/minecraft/class_4117/<init>(FII)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1309/method_23329(FF)I": {
+        "from": null,
+        "to": "computeFallDamage"
+      },
+      "net/minecraft/class_420/<init>(Lnet/minecraft/class_437;Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Lnet/minecraft/class_642;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2414/method_10341(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireFoodItemsEaten"
+      },
+      "net/minecraft/class_3582/method_15615(ZZZZ)I": {
+        "from": null,
+        "to": "getSideToUpgradeFlag"
+      },
+      "net/minecraft/class_4107/method_21698(Lnet/minecraft/class_3218;Ljava/util/List;Ljava/util/Set;ILnet/minecraft/class_1309;Lnet/minecraft/class_4095;)V": {
+        "from": null,
+        "to": "findAndCloseOpenedDoors"
+      },
+      "net/minecraft/class_1368/method_19052(Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "shouldVisit"
+      },
+      "net/minecraft/class_4157/method_22444()Z": {
+        "from": null,
+        "to": "isValid"
+      },
+      "net/minecraft/class_3979/method_17952(IIIII)V": {
+        "from": null,
+        "to": "renderRecipeBackground"
+      },
+      "net/minecraft/class_4121/method_19596(Lnet/minecraft/class_1314;Lnet/minecraft/class_1297;F)V": {
+        "from": null,
+        "to": "setWalkTarget"
+      },
+      "net/minecraft/class_498/<init>(Lnet/minecraft/class_2625;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1339/method_16462()I": {
+        "from": null,
+        "to": "getMaxProgress"
+      },
+      "net/minecraft/class_1501/method_6797()V": {
+        "from": null,
+        "to": "stopFollowing"
+      },
+      "net/minecraft/class_3610/method_20785()F": {
+        "from": null,
+        "to": "getHeight"
+      },
+      "net/minecraft/class_2430/method_10378(Lnet/minecraft/class_2248;Lnet/minecraft/class_2248;[F)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForOakLeaves"
+      },
+      "net/minecraft/class_1842/method_8051(Ljava/lang/String;)Ljava/lang/String;": {
+        "from": "getName",
+        "to": "finishTranslationKey"
+      },
+      "net/minecraft/class_3231/method_18756()V": {
+        "from": null,
+        "to": "tick"
+      },
+      "net/minecraft/class_4581/method_22853()Lorg/apache/commons/lang3/tuple/Triple;": {
+        "from": null,
+        "to": "decomposeLinearTransformation"
+      },
+      "net/minecraft/class_2430/method_22142(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBeeNest"
+      },
+      "net/minecraft/class_2843/method_12348(Lnet/minecraft/class_2818;)V": {
+        "from": null,
+        "to": "upgradeCenter"
+      },
+      "net/minecraft/server/MinecraftServer/method_3731(Z)V": {
+        "from": "setWhitelistEnabled",
+        "to": "setEnforceWhitelist"
+      },
+      "net/minecraft/class_472/<init>(Lnet/minecraft/class_1708;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4107/method_21697(Lnet/minecraft/class_3218;Ljava/util/List;ILnet/minecraft/class_1309;Lnet/minecraft/class_4095;)V": {
+        "from": null,
+        "to": "closeOpenedDoors"
+      },
+      "net/minecraft/class_1350/method_23344(Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "canTeleportTo"
+      },
+      "net/minecraft/class_413$class_4192$class_4193/method_19373(II)V": {
+        "from": null,
+        "to": "method_19373"
+      },
+      "net/minecraft/class_1350/method_23342(II)I": {
+        "from": null,
+        "to": "getRandomInt"
+      },
+      "net/minecraft/class_2430/method_10394(Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "create"
+      },
+      "net/minecraft/class_4130/method_19598(Lnet/minecraft/class_1646;)V": {
+        "from": null,
+        "to": "holdOffer"
+      },
+      "net/minecraft/class_2430/method_10373(Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForNeedingSilkTouch"
+      },
+      "net/minecraft/class_2818/method_20471(Lnet/minecraft/class_3218;)V": {
+        "from": null,
+        "to": "enableTickSchedulers"
+      },
+      "net/minecraft/class_1162/method_23852(Lnet/minecraft/class_1158;)V": {
+        "from": "setQuarternion",
+        "to": "rotate"
+      },
+      "net/minecraft/class_2430/method_16877(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBanner"
+      },
+      "net/minecraft/class_2602/method_21707(Lnet/minecraft/class_4463;)V": {
+        "from": "handlePlayerActionResponse",
+        "to": "onPlayerActionResponse"
+      },
+      "net/minecraft/class_1309/method_23733(Lnet/minecraft/class_1309;)V": {
+        "from": null,
+        "to": "onKilledBy"
+      },
+      "net/minecraft/class_4117/method_20429(Lnet/minecraft/class_1314;)V": {
+        "from": null,
+        "to": "updateWalkTarget"
+      },
+      "net/minecraft/class_1293/<init>(Lnet/minecraft/class_1293;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4218/method_19585(Lnet/minecraft/class_3218;Lnet/minecraft/class_1314;Lnet/minecraft/class_1309;)V": {
+        "from": null,
+        "to": "setGroundTarget"
+      },
+      "net/minecraft/class_2430/method_10396(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForNameableContainer"
+      },
+      "net/minecraft/class_2430/method_16876(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForShulkerBox"
+      },
+      "net/minecraft/class_492/<init>(Lnet/minecraft/class_1728;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_10371(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForTallGrass"
+      },
+      "net/minecraft/class_4634/method_23406(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_4634;": {
+        "from": null,
+        "to": "deserialize"
+      },
+      "net/minecraft/class_3580/method_15600(Ljava/lang/String;)Ljava/lang/String;": {
+        "from": "lookup",
+        "to": "lookupBlock"
+      },
+      "net/minecraft/class_3231/method_18761()V": {
+        "from": null,
+        "to": "storeEncodedCoordinates"
+      },
+      "net/minecraft/class_1333/<init>(Lnet/minecraft/class_1308;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4590/<init>(Lnet/minecraft/class_1159;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_22143(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBeehive"
+      },
+      "net/minecraft/class_1160/method_23849(FFF)V": {
+        "from": "piecewiseMultiply",
+        "to": "multiplyComponentwise"
+      },
+      "net/minecraft/class_495/<init>(Lnet/minecraft/class_1733;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3935/<init>(Lnet/minecraft/class_3916;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2535/method_10769(Ljava/net/SocketAddress;)Lnet/minecraft/class_2535;": {
+        "from": "connect",
+        "to": "connectLocal"
+      },
+      "net/minecraft/class_3742/method_20118()V": {
+        "from": null,
+        "to": "updateDoneButtonState"
+      },
+      "net/minecraft/class_1297/method_5806()I": {
+        "from": "getDefaultPortalCooldown",
+        "to": "getDefaultNetherPortalCooldown"
+      },
+      "net/minecraft/class_2461/method_10496(Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljava/lang/String;": {
+        "from": null,
+        "to": "getLocation"
+      },
+      "net/minecraft/class_2434/method_16369(Lnet/minecraft/class_2960;Lnet/minecraft/class_52$class_53;)V": {
+        "from": null,
+        "to": "register"
+      },
+      "net/minecraft/class_3979/<init>(Lnet/minecraft/class_3971;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4140/method_20738(Ljava/lang/String;)Lnet/minecraft/class_4140;": {
+        "from": null,
+        "to": "register"
+      },
+      "net/minecraft/class_2430/method_10383(Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForSlabs"
+      },
+      "net/minecraft/class_3582$class_3587/method_15650(II)V": {
+        "from": "addBlockAt",
+        "to": "addInPlaceUpdate"
+      },
+      "net/minecraft/class_4731/<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_494/<init>(Lnet/minecraft/class_1726;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2843/method_12352(Lnet/minecraft/class_2818;Lnet/minecraft/class_2355;)V": {
+        "from": null,
+        "to": "upgradeSide"
+      },
+      "net/minecraft/class_2430/method_16285(Lnet/minecraft/class_2248;)V": {
+        "from": null,
+        "to": "registerForPottedPlant"
+      },
+      "net/minecraft/class_4130/method_19601(Lnet/minecraft/class_1646;)V": {
+        "from": null,
+        "to": "loadPossibleOffers"
+      },
+      "net/minecraft/class_1383/method_19996()Z": {
+        "from": null,
+        "to": "hasAliveTarget"
+      },
+      "net/minecraft/class_4140/<init>(Ljava/util/Optional;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4581/method_23963(FFF)Lnet/minecraft/class_4581;": {
+        "from": null,
+        "to": "scale"
+      },
+      "net/minecraft/class_410/<init>(Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1439/method_6501()I": {
+        "from": null,
+        "to": "getAttackTicksLeft"
+      },
+      "net/minecraft/class_1041/method_4485(Z)V": {
+        "from": null,
+        "to": "updateFullscreen"
+      },
+      "net/minecraft/class_2430/method_10388(Lnet/minecraft/class_2248;Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForNeedingSilkTouchShears"
+      },
+      "net/minecraft/class_1343/method_6256()Z": {
+        "from": null,
+        "to": "isDoorOpen"
+      },
+      "net/minecraft/class_1309/method_6016(Lnet/minecraft/class_1291;)Z": {
+        "from": "tryRemoveStatusEffect",
+        "to": "removeStatusEffect"
+      },
+      "net/minecraft/class_4581/method_23731()F": {
+        "from": null,
+        "to": "determinantAndAdjugate"
+      },
+      "net/minecraft/class_527/<init>(Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Ljava/lang/String;Lnet/minecraft/class_32;Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_10372(Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBlockNeedingShears"
+      },
+      "net/minecraft/class_488/<init>(Lnet/minecraft/class_1722;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_422/<init>(Lnet/minecraft/class_437;Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Lnet/minecraft/class_642;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4111/method_19572(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;Lnet/minecraft/class_2338;)V": {
+        "from": null,
+        "to": "setChildHome"
+      },
+      "net/minecraft/class_2679/equals(Ljava/lang/Object;)Z": {
+        "from": "equals",
+        "to": null
+      },
+      "net/minecraft/class_2430/method_10382(Lnet/minecraft/class_2248;Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBlockWithItemDrops"
+      },
+      "net/minecraft/class_4122/method_21722(Lnet/minecraft/class_1646;J)V": {
+        "from": null,
+        "to": "giveUp"
+      },
+      "net/minecraft/class_2434/method_16368(Lnet/minecraft/class_1299;Lnet/minecraft/class_52$class_53;)V": {
+        "from": null,
+        "to": "register"
+      },
+      "net/minecraft/server/MinecraftServer/method_3729()Z": {
+        "from": "isWhitelistEnabled",
+        "to": "isEnforceWhitelist"
+      },
+      "net/minecraft/class_3873/<init>(Lnet/minecraft/class_3858;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_10385(Lnet/minecraft/class_2248;Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForLargeMushroomBlock"
+      },
+      "net/minecraft/class_1330/<init>(Lnet/minecraft/class_1308;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2414/method_10339(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireListedFishCaught"
+      },
+      "net/minecraft/class_3979/method_17951(III)V": {
+        "from": null,
+        "to": "renderRecipeIcons"
+      },
+      "net/minecraft/class_2446/method_10422(Lnet/minecraft/class_2248;)Lnet/minecraft/class_2037$class_2039;": {
+        "from": null,
+        "to": "requireEnteringFluid"
+      },
+      "net/minecraft/class_3228/method_20627(J)Z": {
+        "from": null,
+        "to": "isExpired"
+      },
+      "net/minecraft/class_4590/<init>(Lnet/minecraft/class_1160;Lnet/minecraft/class_1158;Lnet/minecraft/class_1160;Lnet/minecraft/class_1158;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2818/method_20530()V": {
+        "from": null,
+        "to": "disableTickSchedulers"
+      },
+      "net/minecraft/class_478/<init>(Lnet/minecraft/class_310;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1308/method_5986()I": {
+        "from": null,
+        "to": "getBodyYawSpeed"
+      },
+      "net/minecraft/class_3231/method_14306()V": {
+        "from": null,
+        "to": "syncEntityData"
+      },
+      "net/minecraft/class_1041/method_4479()V": {
+        "from": null,
+        "to": "updateWindowRegion"
+      },
+      "net/minecraft/class_4130/method_19603(Lnet/minecraft/class_1646;)Lnet/minecraft/class_1309;": {
+        "from": null,
+        "to": "findPotentialCuatomer"
+      },
+      "net/minecraft/class_2474/method_10511(Lnet/minecraft/class_3503;)V": {
+        "from": null,
+        "to": "setContainer"
+      },
+      "net/minecraft/class_457/<init>(Lnet/minecraft/class_632;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2674/method_11539(II)V": {
+        "from": null,
+        "to": "setMovedBlocks"
+      },
+      "net/minecraft/class_1297/method_5656()Lnet/minecraft/class_243;": {
+        "from": "getLastPortalDirectionVector",
+        "to": "getLastNetherPortalDirectionVector"
+      },
+      "net/minecraft/class_1309/method_6018(I)V": {
+        "from": null,
+        "to": "setPushCooldown"
+      },
+      "net/minecraft/class_3609/method_15725(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;)V": {
+        "from": "method_15725",
+        "to": "tryFlow"
+      },
+      "net/minecraft/class_2430/method_16262(Lnet/minecraft/class_2248;)V": {
+        "from": null,
+        "to": "registerForNeedingSilkTouch"
+      },
+      "net/minecraft/class_1297/method_18379()V": {
+        "from": "tickPortal",
+        "to": "tickNetherPortal"
+      },
+      "net/minecraft/class_4019/method_18283()V": {
+        "from": "wakeUp",
+        "to": "stopSleeping"
+      },
+      "net/minecraft/class_339/playDownSound(Lnet/minecraft/class_1144;)V": {
+        "from": null,
+        "to": "playDownSound"
+      },
+      "net/minecraft/class_2430/method_10384(Lnet/minecraft/class_1935;Lnet/minecraft/class_59;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "create"
+      },
+      "net/minecraft/class_1291/method_5573()Z": {
+        "from": null,
+        "to": "isBeneficial"
+      },
+      "net/minecraft/class_481$class_484/<init>(Lnet/minecraft/class_1735;III)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4173/method_19227(IF)Lnet/minecraft/class_4173;": {
+        "from": "withEntry",
+        "to": "add"
+      },
+      "net/minecraft/class_2843/method_12349()Z": {
+        "from": null,
+        "to": "isDone"
+      },
+      "net/minecraft/class_2463$class_4511/<init>(Ljava/lang/String;[BLjava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1041/method_15998()V": {
+        "from": "setFullscreen",
+        "to": "swapBuffers"
+      },
+      "net/minecraft/class_793/method_24077(Ljava/lang/String;)Lnet/minecraft/class_4730;": {
+        "from": null,
+        "to": "resolveSprite"
+      },
+      "net/minecraft/class_4111/method_19573(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;)Ljava/util/Optional;": {
+        "from": null,
+        "to": "getReachableHome"
+      },
+      "net/minecraft/class_4130/method_19027(Lnet/minecraft/class_1309;Lnet/minecraft/class_1646;)V": {
+        "from": null,
+        "to": "setupOffers"
+      },
+      "net/minecraft/class_485/method_18643(IILjava/lang/Iterable;)V": {
+        "from": null,
+        "to": "drawStatusEffectSprites"
+      },
+      "net/minecraft/class_3802/<init>(Lnet/minecraft/class_3803;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3580/method_15599(I)Ljava/lang/String;": {
+        "from": "lookup",
+        "to": "lookupStateBlock"
+      },
+      "net/minecraft/class_4218/method_19580(Lnet/minecraft/class_1314;Lnet/minecraft/class_1309;)V": {
+        "from": null,
+        "to": "setPlayTarget"
+      },
+      "net/minecraft/class_2430/method_10393(Lnet/minecraft/class_1935;Lnet/minecraft/class_116;)Ljava/lang/Object;": {
+        "from": null,
+        "to": "addExplosionDecayLootFunction"
+      },
+      "net/minecraft/class_1297/method_5741()I": {
+        "from": "getMaxPortalTime",
+        "to": "getMaxNetherPortalTime"
+      },
+      "net/minecraft/class_2674/method_23675(Lnet/minecraft/class_2248;Lnet/minecraft/class_2248;)Z": {
+        "from": null,
+        "to": "isAdjacentBlockStuck"
+      },
+      "net/minecraft/class_1355/<init>(Lnet/minecraft/class_3695;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1291/<init>(Lnet/minecraft/class_4081;I)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3898$class_3208/method_22844()I": {
+        "from": null,
+        "to": "getMaxTrackDistance"
+      },
+      "net/minecraft/class_4158/<init>(Ljava/lang/String;Ljava/util/Set;II)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2430/method_10392(Lnet/minecraft/class_1935;Lnet/minecraft/class_192;)Ljava/lang/Object;": {
+        "from": null,
+        "to": "addSurvivesExplosionLootCondition"
+      },
+      "net/minecraft/class_4590/method_22932(Lnet/minecraft/class_1159;)Lcom/mojang/datafixers/util/Pair;": {
+        "from": null,
+        "to": "getLinearTransformationAndTranslationFromAffine"
+      },
+      "net/minecraft/class_3231/method_18758(Lnet/minecraft/class_2596;)V": {
+        "from": null,
+        "to": "sendSyncPacket"
+      },
+      "net/minecraft/class_2430/method_16293(Lnet/minecraft/class_2248;Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "registerWithFunction"
+      },
+      "net/minecraft/class_2430/method_10389(Lnet/minecraft/class_1935;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForPottedPlant"
+      },
+      "net/minecraft/class_2414/method_10342(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireListedAnimalsBred"
+      },
+      "net/minecraft/class_3609/method_15738(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;Lnet/minecraft/class_3611;)Z": {
+        "from": null,
+        "to": "canFlow"
+      },
+      "net/minecraft/class_4103$class_4104/<init>(Ljava/lang/String;ILjava/util/function/Consumer;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_485/method_18642(IILjava/lang/Iterable;)V": {
+        "from": null,
+        "to": "drawStatusEffectBackgrounds"
+      },
+      "net/minecraft/class_3580/method_22426()V": {
+        "from": null,
+        "to": "fillEmptyStates"
+      },
+      "net/minecraft/class_3582$class_3583/method_15641(I)Z": {
+        "from": null,
+        "to": "usesLowNibble"
+      },
+      "net/minecraft/class_1368/method_6297()V": {
+        "from": null,
+        "to": "forgetOldTarget"
+      },
+      "net/minecraft/class_3611/method_20784(Lnet/minecraft/class_3610;)F": {
+        "from": null,
+        "to": "getHeight"
+      },
+      "net/minecraft/class_459$class_460/<init>(Lnet/minecraft/class_459;Ljava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1334/<init>(Lnet/minecraft/class_1308;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_508$class_509$class_510/<init>(Lnet/minecraft/class_508$class_509;II[Lnet/minecraft/class_1799;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4219/<init>(Lnet/minecraft/class_4140;II)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1350/method_23343(III)Z": {
+        "from": null,
+        "to": "tryTeleportTo"
+      },
+      "net/minecraft/class_433/<init>(Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_512/<init>(Lnet/minecraft/class_314;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4581/method_23732()Z": {
+        "from": null,
+        "to": "invert"
+      },
+      "net/minecraft/class_4636/method_23408(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_4636;": {
+        "from": null,
+        "to": "deserialize"
+      },
+      "net/minecraft/class_4128/method_20500(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z": {
+        "from": null,
+        "to": "isBedOccupiedByOthers"
+      },
+      "net/minecraft/class_2430/method_10380(Lnet/minecraft/class_2248;Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForNeedingShears"
+      },
+      "net/minecraft/class_4158/<init>(Ljava/lang/String;Ljava/util/Set;ILjava/util/function/Predicate;I)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1273/method_5473(Lnet/minecraft/class_2487;)Lnet/minecraft/class_1273;": {
+        "from": "deserialize",
+        "to": "fromTag"
+      },
+      "net/minecraft/class_4112/method_18980(Lnet/minecraft/class_1308;Lnet/minecraft/class_4142;)Z": {
+        "from": null,
+        "to": "hasReached"
+      },
+      "net/minecraft/class_1293/compareTo(Ljava/lang/Object;)I": {
+        "from": null,
+        "to": "compareTo"
+      },
+      "net/minecraft/class_1309/method_23328()V": {
+        "from": null,
+        "to": "playBlockFallSound"
+      },
+      "net/minecraft/class_1501$class_1503/<init>(I)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3231/method_18759()Lnet/minecraft/class_243;": {
+        "from": null,
+        "to": "getLastPos"
+      },
+      "net/minecraft/class_2430/method_10395()Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createEmpty"
+      },
+      "net/minecraft/class_2674/method_11538(Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "canMoveAdjacentBlock"
+      },
+      "net/minecraft/class_1273/<init>(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_793$class_795/deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;": {
+        "from": null,
+        "to": "deserialize"
+      },
+      "net/minecraft/class_4130/method_19028(Lnet/minecraft/class_1914;)Z": {
+        "from": null,
+        "to": "isPossible"
+      },
+      "net/minecraft/class_3228/method_23956(J)V": {
+        "from": null,
+        "to": "setTickCreated"
+      },
+      "net/minecraft/class_1159/method_24019(FFF)Lnet/minecraft/class_1159;": {
+        "from": null,
+        "to": "scale"
+      },
+      "net/minecraft/class_2430/method_10397(Lnet/minecraft/class_2248;Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForNeedingSilkTouch"
+      },
+      "net/minecraft/class_1357/method_6282(Lnet/minecraft/class_2338;III)Z": {
+        "from": "isAir",
+        "to": "isAirAbove"
+      },
+      "net/minecraft/class_2430/method_10377(Lnet/minecraft/class_2248;Lnet/minecraft/class_1792;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForOreWithSingleItemDrop"
+      },
+      "net/minecraft/class_2430/method_10386(Lnet/minecraft/class_2248;Lnet/minecraft/class_1935;Lnet/minecraft/class_59;)Lnet/minecraft/class_52$class_53;": {
+        "from": null,
+        "to": "createForBlockWithItemDrops"
+      },
+      "net/minecraft/class_447$class_4200/<init>(Lnet/minecraft/class_447;Lnet/minecraft/class_310;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2412/method_10336(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
+        "from": null,
+        "to": "requireListedMobsKilled"
+      }
+    },
+    "fields": {
+      "net/minecraft/class_4217/field_19351": {
+        "from": null,
+        "to": "targetPositions"
+      },
+      "net/minecraft/class_1439/field_6762": {
+        "from": null,
+        "to": "attackTicksLeft"
+      },
+      "net/minecraft/class_2430/field_11339": {
+        "from": null,
+        "to": "SAPLING_DROP_CHANCES_FROM_LEAVES"
+      },
+      "net/minecraft/class_1297/field_6020": {
+        "from": "lastPortalDirectionVector",
+        "to": "lastNetherPortalDirectionVector"
+      },
+      "net/minecraft/class_4290/field_20292": {
+        "from": null,
+        "to": "tries"
+      },
+      "net/minecraft/class_1297/field_5991": {
+        "from": "lastPortalPosition",
+        "to": "lastNetherPortalPosition"
+      },
+      "net/minecraft/class_1380/field_6568": {
+        "from": null,
+        "to": "combatTicks"
+      },
+      "net/minecraft/class_3228/field_14024": {
+        "from": "location",
+        "to": "tickCreated"
+      },
+      "net/minecraft/class_3582$class_3587/field_15881": {
+        "from": "seenIds",
+        "to": "inPlaceUpdates"
+      },
+      "net/minecraft/class_4122/field_18385": {
+        "from": null,
+        "to": "maxRange"
+      },
+      "net/minecraft/class_1366/field_19200": {
+        "from": null,
+        "to": "lastUpdateTime"
+      },
+      "net/minecraft/class_1158/field_21583": {
+        "from": null,
+        "to": "c"
+      },
+      "net/minecraft/class_1366/field_6501": {
+        "from": null,
+        "to": "updateCountdownTicks"
+      },
+      "net/minecraft/class_2434/field_16543": {
+        "from": null,
+        "to": "lootTables"
+      },
+      "net/minecraft/class_4590/field_20902": {
+        "from": null,
+        "to": "translation"
+      },
+      "net/minecraft/class_3231/field_18259": {
+        "from": null,
+        "to": "receiver"
+      },
+      "net/minecraft/class_2430/field_16493": {
+        "from": null,
+        "to": "lootTables"
+      },
+      "net/minecraft/class_4096/field_20287": {
+        "from": null,
+        "to": "targetMemoryModuleType"
+      },
+      "net/minecraft/class_1366/field_6504": {
+        "from": null,
+        "to": "attackIntervalTicks"
+      },
+      "net/minecraft/class_2430/field_11340": {
+        "from": null,
+        "to": "ALWAYS_DROPPED_FROM_EXPLOSION"
+      },
+      "net/minecraft/class_1802/field_20416": {
+        "from": "BEE_HIVE",
+        "to": "BEEHIVE"
+      },
+      "net/minecraft/class_2430/field_11341": {
+        "from": null,
+        "to": "DOESNT_NEED_SILK_TOUCH_SHEARS"
+      },
+      "net/minecraft/class_2674/field_12243": {
+        "from": "direction",
+        "to": "motionDirection"
+      },
+      "net/minecraft/class_1338/field_6393": {
+        "from": null,
+        "to": "extraInclusionSelector"
+      },
+      "net/minecraft/class_4130/field_18396": {
+        "from": null,
+        "to": "ticksLeft"
+      },
+      "net/minecraft/class_420/field_21790": {
+        "from": null,
+        "to": "parent"
+      },
+      "net/minecraft/class_1383/field_16529": {
+        "from": null,
+        "to": "chargedTicksLeft"
+      },
+      "net/minecraft/class_1802/field_20389": {
+        "from": null,
+        "to": "SMOOTH_STONE"
+      },
+      "net/minecraft/class_4130/field_18392": {
+        "from": null,
+        "to": "customerHeldStack"
+      },
+      "net/minecraft/class_3898/field_18307": {
+        "from": null,
+        "to": "loadedChunks"
+      },
+      "net/minecraft/class_1842/field_8954": {
+        "from": "name",
+        "to": "baseName"
+      },
+      "net/minecraft/class_4252/field_19000": {
+        "from": null,
+        "to": "maxHiddenTicks"
+      },
+      "net/minecraft/class_4096/field_18332": {
+        "from": "lastRunTime",
+        "to": "positionExpireTimeLimit"
+      },
+      "net/minecraft/class_2422/field_17168": {
+        "from": null,
+        "to": "GSON"
+      },
+      "net/minecraft/class_3580/field_15831": {
+        "from": "OLD_STATES_TO_NEW_IDS",
+        "to": "OLD_STATE_TO_ID"
+      },
+      "net/minecraft/class_1343/field_6412": {
+        "from": null,
+        "to": "doorValid"
+      },
+      "net/minecraft/class_2430/field_11342": {
+        "from": null,
+        "to": "NEEDS_SILK_TOUCH_SHEARS"
+      },
+      "net/minecraft/class_1380/field_6572": {
+        "from": null,
+        "to": "targetSeeingTicker"
+      },
+      "net/minecraft/class_1381/field_6579": {
+        "from": null,
+        "to": "seenTargetTicks"
+      },
+      "net/minecraft/class_1381/field_6581": {
+        "from": null,
+        "to": "updateCountdownTicks"
+      },
+      "net/minecraft/class_3582$class_3588/field_15885": {
+        "from": "sides",
+        "to": "sidesToUpgrade"
+      },
+      "net/minecraft/class_1802/field_20388": {
+        "from": null,
+        "to": "SMOOTH_SANDSTONE"
+      },
+      "net/minecraft/class_1366/field_6509": {
+        "from": null,
+        "to": "path"
+      },
+      "net/minecraft/class_4219/field_18863": {
+        "from": null,
+        "to": "completionRange"
+      },
+      "net/minecraft/class_1339/field_16596": {
+        "from": null,
+        "to": "maxProgress"
+      },
+      "net/minecraft/class_4130/field_18394": {
+        "from": null,
+        "to": "offerShownTicks"
+      },
+      "net/minecraft/class_1338/field_6388": {
+        "from": null,
+        "to": "inclusionSelector"
+      },
+      "net/minecraft/class_1331/field_20350": {
+        "from": null,
+        "to": "noGravity"
+      },
+      "net/minecraft/class_4256/field_20297": {
+        "from": null,
+        "to": "expiryTime"
+      },
+      "net/minecraft/class_4217/field_18860": {
+        "from": null,
+        "to": "ableToPickUpSeed"
+      },
+      "net/minecraft/class_2425/field_17169": {
+        "from": null,
+        "to": "GSON"
+      },
+      "net/minecraft/class_1346/field_6428": {
+        "from": null,
+        "to": "updateCountdownTicks"
+      },
+      "net/minecraft/class_3204/field_13894": {
+        "from": "location",
+        "to": "age"
+      },
+      "net/minecraft/class_4255/field_19004": {
+        "from": null,
+        "to": "delayedClose"
+      },
+      "net/minecraft/class_1802/field_20392": {
+        "from": null,
+        "to": "MOSSY_COBBLESTONE"
+      },
+      "net/minecraft/class_4112/field_18964": {
+        "from": null,
+        "to": "pathUpdateCountdownTicks"
+      },
+      "net/minecraft/class_1396/field_6627": {
+        "from": null,
+        "to": "ticks"
+      },
+      "net/minecraft/class_4256/field_20295": {
+        "from": null,
+        "to": "positionToExpiryTime"
+      },
+      "net/minecraft/class_3580/field_15830": {
+        "from": "NEW_IDS_TO_STATES",
+        "to": "ID_TO_NEW_STATE"
+      },
+      "net/minecraft/class_3231/field_18258": {
+        "from": null,
+        "to": "world"
+      },
+      "net/minecraft/class_4590/field_20903": {
+        "from": null,
+        "to": "rotation2"
+      },
+      "net/minecraft/class_1380/field_6571": {
+        "from": null,
+        "to": "backward"
+      },
+      "net/minecraft/class_1802/field_20393": {
+        "from": null,
+        "to": "PURPUR_BLOCK"
+      },
+      "net/minecraft/class_2843/field_12955": {
+        "from": "indices",
+        "to": "centerIndicesToUpgrade"
+      },
+      "net/minecraft/class_508/field_3106": {
+        "from": "alternateButtons",
+        "to": "alternativeButtons"
+      },
+      "net/minecraft/class_4217/field_19239": {
+        "from": null,
+        "to": "ticksRan"
+      },
+      "net/minecraft/class_2437/field_11346": {
+        "from": null,
+        "to": "NEEDS_JUNGLE_BIOME"
+      },
+      "net/minecraft/class_3580/field_20682": {
+        "from": null,
+        "to": "ID_TO_NEW_BLOCK"
+      },
+      "net/minecraft/class_4096/field_19289": {
+        "from": null,
+        "to": "foundPositionsToExpiry"
+      },
+      "net/minecraft/class_3231/field_14040": {
+        "from": null,
+        "to": "trackingTick"
+      },
+      "net/minecraft/class_2843/field_12951": {
+        "from": "sides",
+        "to": "sidesToUpgrade"
+      },
+      "net/minecraft/class_4256/field_20296": {
+        "from": null,
+        "to": "tries"
+      },
+      "net/minecraft/class_1332/field_6357": {
+        "from": null,
+        "to": "maxYawDifference"
+      },
+      "net/minecraft/class_4123/field_18848": {
+        "from": null,
+        "to": "startTime"
+      },
+      "net/minecraft/class_2414/field_11297": {
+        "from": null,
+        "to": "FISH_BUCKET_ITEMS"
+      },
+      "net/minecraft/class_2437/field_11352": {
+        "from": null,
+        "to": "NEEDS_BAMBOO_JUNGLE_HILLS_BIOME"
+      },
+      "net/minecraft/class_1331/field_20349": {
+        "from": null,
+        "to": "maxPitchChange"
+      },
+      "net/minecraft/class_4290/field_19260": {
+        "from": "lastRunTime",
+        "to": "expiryTimeLimit"
+      },
+      "net/minecraft/class_2378/field_11155": {
+        "from": "DIMENSION",
+        "to": "DIMENSION_TYPE"
+      },
+      "net/minecraft/class_1350/field_6447": {
+        "from": null,
+        "to": "oldWaterPathfindingPenalty"
+      },
+      "net/minecraft/class_4121/field_18381": {
+        "from": null,
+        "to": "speed"
+      },
+      "net/minecraft/class_1368/field_18413": {
+        "from": null,
+        "to": "visitedTargets"
+      },
+      "net/minecraft/class_2434/field_11344": {
+        "from": null,
+        "to": "NEEDS_ENTITY_ON_FIRE"
+      },
+      "net/minecraft/class_3580/field_15833": {
+        "from": "BLOCKS_TO_DEFAULT_IDS",
+        "to": "OLD_BLOCK_TO_ID"
+      },
+      "net/minecraft/class_508$class_509$class_510/field_3119": {
+        "from": null,
+        "to": "y"
+      },
+      "net/minecraft/class_433/field_19319": {
+        "from": null,
+        "to": "showMenu"
+      },
+      "net/minecraft/class_3231/field_18278": {
+        "from": null,
+        "to": "velocity"
+      },
+      "net/minecraft/class_1357/field_6473": {
+        "from": null,
+        "to": "inWater"
+      },
+      "net/minecraft/class_1380/field_6573": {
+        "from": null,
+        "to": "movingToLeft"
+      },
+      "net/minecraft/class_1348/field_6437": {
+        "from": null,
+        "to": "oldWaterPathFindingPenalty"
+      },
+      "net/minecraft/class_1900/field_9133": {
+        "from": "type",
+        "to": "protectionType"
+      },
+      "net/minecraft/class_4130/field_18395": {
+        "from": null,
+        "to": "offerIndex"
+      },
+      "net/minecraft/class_1297/field_6028": {
+        "from": "lastPortalDirection",
+        "to": "lastNetherPortalDirection"
+      },
+      "net/minecraft/class_4590/field_20905": {
+        "from": null,
+        "to": "rotation1"
+      },
+      "net/minecraft/class_4217/field_18859": {
+        "from": null,
+        "to": "ableToPlant"
+      },
+      "net/minecraft/class_4112/field_18370": {
+        "from": null,
+        "to": "lookTargetPos"
+      },
+      "net/minecraft/class_1381/field_6577": {
+        "from": null,
+        "to": "maxIntervalTicks"
+      },
+      "net/minecraft/class_4290/field_20291": {
+        "from": null,
+        "to": "positionToExpiry"
+      },
+      "net/minecraft/class_1802/field_20386": {
+        "from": null,
+        "to": "SMOOTH_QUARTZ"
+      },
+      "net/minecraft/class_804/field_4284": {
+        "from": "NONE",
+        "to": "IDENTITY"
+      },
+      "net/minecraft/class_4103$class_4104/field_18350": {
+        "from": "consumer",
+        "to": "listModifier"
+      },
+      "net/minecraft/class_508$class_509$class_510/field_3120": {
+        "from": null,
+        "to": "stacks"
+      },
+      "net/minecraft/class_2414/field_11298": {
+        "from": null,
+        "to": "FOOD_ITEMS"
+      },
+      "net/minecraft/class_2437/field_11348": {
+        "from": null,
+        "to": "NEEDS_MODIFIED_JUNGLE_BIOME"
+      },
+      "net/minecraft/class_422/field_21791": {
+        "from": null,
+        "to": "parent"
+      },
+      "net/minecraft/class_3231/field_14043": {
+        "from": null,
+        "to": "updatesWithoutVehicle"
+      },
+      "net/minecraft/class_3230/field_19348": {
+        "from": null,
+        "to": "expiryTicks"
+      },
+      "net/minecraft/class_4590/field_20904": {
+        "from": null,
+        "to": "scale"
+      },
+      "net/minecraft/class_2414/field_11295": {
+        "from": null,
+        "to": "FISH_ITEMS"
+      },
+      "net/minecraft/class_1408/field_20294": {
+        "from": null,
+        "to": "currentDistance"
+      },
+      "net/minecraft/class_2679/field_12286": {
+        "from": "hashCode",
+        "to": null
+      },
+      "net/minecraft/class_2437/field_11350": {
+        "from": null,
+        "to": "NEEDS_JUNGLE_EDGE_BIOME"
+      },
+      "net/minecraft/class_1357/field_6474": {
+        "from": null,
+        "to": "OFFSET_MULTIPLIERS"
+      },
+      "net/minecraft/class_1348/field_6431": {
+        "from": null,
+        "to": "updateCountdownTicks"
+      },
+      "net/minecraft/class_2438/field_11354": {
+        "from": null,
+        "to": "lootTypeGenerators"
+      },
+      "net/minecraft/class_4252/field_19001": {
+        "from": null,
+        "to": "hiddenTicks"
+      },
+      "net/minecraft/class_412/field_19097": {
+        "from": null,
+        "to": "narratorTimer"
+      },
+      "net/minecraft/class_3582/field_15854": {
+        "from": null,
+        "to": "blocksNeedingInPlaceUpdate"
+      },
+      "net/minecraft/class_4096/field_19290": {
+        "from": null,
+        "to": "tries"
+      },
+      "net/minecraft/class_4217/field_18861": {
+        "from": null,
+        "to": "nextResponseTime"
+      },
+      "net/minecraft/class_1368/field_18414": {
+        "from": null,
+        "to": "distance"
+      },
+      "net/minecraft/class_2414/field_11296": {
+        "from": null,
+        "to": "BREEDABLE_ANIMALS"
+      },
+      "net/minecraft/class_4252/field_19154": {
+        "from": null,
+        "to": "distance"
+      },
+      "net/minecraft/class_1350/field_6442": {
+        "from": null,
+        "to": "speed"
+      },
+      "net/minecraft/class_1802/field_21087": {
+        "from": null,
+        "to": "HONEYCOMB_BLOCK"
+      },
+      "net/minecraft/class_1802/field_21086": {
+        "from": null,
+        "to": "HONEY_BLOCK"
+      },
+      "net/minecraft/class_4112/field_18371": {
+        "from": null,
+        "to": "speed"
+      },
+      "net/minecraft/class_4112/field_18369": {
+        "from": null,
+        "to": "path"
+      },
+      "net/minecraft/class_4158/field_18850": {
+        "from": "workStationStates",
+        "to": "blockStates"
+      },
+      "net/minecraft/class_2674/field_12248": {
+        "from": null,
+        "to": "pistonDirection"
+      },
+      "net/minecraft/class_508$class_509$class_510/field_3118": {
+        "from": null,
+        "to": "x"
+      },
+      "net/minecraft/class_2430/field_11337": {
+        "from": null,
+        "to": "DOESNT_NEED_SILK_TOUCH"
+      },
+      "net/minecraft/class_3582/field_15842": {
+        "from": null,
+        "to": "blocksNeedingSideUpdate"
+      },
+      "net/minecraft/class_1383/field_6592": {
+        "from": null,
+        "to": "seeingTargetTicker"
+      },
+      "net/minecraft/class_1343/field_6409": {
+        "from": null,
+        "to": "zOffset"
+      },
+      "net/minecraft/class_2474/field_11481": {
+        "from": null,
+        "to": "tagBuilders"
+      },
+      "net/minecraft/class_1158/field_21584": {
+        "from": null,
+        "to": "d"
+      },
+      "net/minecraft/class_1842/field_8955": {
+        "from": "effectList",
+        "to": "effects"
+      },
+      "net/minecraft/class_2378/field_11137": {
+        "from": "BLOCK_ENTITY",
+        "to": "BLOCK_ENTITY_TYPE"
+      },
+      "net/minecraft/class_4173/field_18613": {
+        "from": null,
+        "to": "prioritizedEntryIndex"
+      },
+      "net/minecraft/class_2437/field_11349": {
+        "from": null,
+        "to": "NEEDS_BAMBOO_JUNGLE_BIOME"
+      },
+      "net/minecraft/class_1297/field_6018": {
+        "from": "portalCooldown",
+        "to": "netherPortalCooldown"
+      },
+      "net/minecraft/class_1299$class_1300/field_19424": {
+        "from": null,
+        "to": "spawnableFarFromPlayer"
+      },
+      "net/minecraft/class_2674/field_12247": {
+        "from": null,
+        "to": "retracted"
+      },
+      "net/minecraft/class_1397/field_19340": {
+        "from": null,
+        "to": "targetPredicate"
+      },
+      "net/minecraft/class_1343/field_6410": {
+        "from": null,
+        "to": "xOffset"
+      },
+      "net/minecraft/class_759/field_21808": {
+        "from": null,
+        "to": "MAP_BACKGROUND_CHECKERBOARD"
+      },
+      "net/minecraft/class_2430/field_11343": {
+        "from": null,
+        "to": "NEEDS_SHEARS"
+      },
+      "net/minecraft/class_1297/field_5963": {
+        "from": "inPortal",
+        "to": "inNetherPortal"
+      },
+      "net/minecraft/class_4117/field_19353": {
+        "from": null,
+        "to": "maxVerticalDistance"
+      },
+      "net/minecraft/class_746/field_3928": {
+        "from": "stats",
+        "to": "statHandler"
+      },
+      "net/minecraft/class_1041/field_5177": {
+        "from": null,
+        "to": "currentFullscreen"
+      },
+      "net/minecraft/class_4117/field_19352": {
+        "from": null,
+        "to": "maxHorizontalDistance"
+      },
+      "net/minecraft/class_1297/field_5972": {
+        "from": "portalTime",
+        "to": "netherPortalTime"
+      },
+      "net/minecraft/class_1350/field_6443": {
+        "from": null,
+        "to": "updateCountdownTicks"
+      },
+      "net/minecraft/class_1802/field_20387": {
+        "from": null,
+        "to": "SMOOTH_RED_SANDSTONE"
+      },
+      "net/minecraft/class_759/field_21807": {
+        "from": null,
+        "to": "MAP_BACKGROUND"
+      },
+      "net/minecraft/class_1802/field_20390": {
+        "from": null,
+        "to": "BRICKS"
+      },
+      "net/minecraft/class_2430/field_11336": {
+        "from": null,
+        "to": "NEEDS_SILK_TOUCH"
+      },
+      "net/minecraft/class_1368/field_18415": {
+        "from": null,
+        "to": "doorPassingThroughGetter"
+      },
+      "net/minecraft/class_4111/field_18368": {
+        "from": null,
+        "to": "breedEndTime"
+      },
+      "net/minecraft/class_1350/field_21078": {
+        "from": null,
+        "to": "leavesAllowed"
+      },
+      "net/minecraft/class_2427/field_17170": {
+        "from": null,
+        "to": "GSON"
+      },
+      "net/minecraft/class_4290/field_20290": {
+        "from": null,
+        "to": "speed"
+      },
+      "net/minecraft/class_2434/field_19339": {
+        "from": null,
+        "to": "ENTITY_TYPES_IN_MISC_CATEGORY_TO_CHECK"
+      },
+      "net/minecraft/class_2437/field_11347": {
+        "from": null,
+        "to": "NEEDS_JUNGLE_HILLS_BIOME"
+      },
+      "net/minecraft/class_1381/field_6578": {
+        "from": null,
+        "to": "minIntervalTicks"
+      },
+      "net/minecraft/class_1299/field_19423": {
+        "from": null,
+        "to": "spawnableFarFromPlayer"
+      },
+      "net/minecraft/class_1158/field_21582": {
+        "from": null,
+        "to": "b"
+      },
+      "net/minecraft/class_1273/field_5817": {
+        "from": "NONE",
+        "to": "EMPTY"
+      },
+      "net/minecraft/class_3231/field_14051": {
+        "from": null,
+        "to": "hadVehicle"
+      },
+      "net/minecraft/class_4158/field_20298": {
+        "from": null,
+        "to": "searchDistance"
+      },
+      "net/minecraft/class_4217/field_18858": {
+        "from": null,
+        "to": "currentTarget"
+      },
+      "net/minecraft/class_2430/field_11338": {
+        "from": null,
+        "to": "JUNGLE_SAPLING_DROP_CHANCES_FROM_LEAVES"
+      },
+      "net/minecraft/server/MinecraftServer/field_4570": {
+        "from": "whitelistEnabled",
+        "to": "enforceWhitelist"
+      },
+      "net/minecraft/class_2437/field_11351": {
+        "from": null,
+        "to": "NEEDS_MODIFIED_JUNGLE_EDGE_BIOME"
+      },
+      "net/minecraft/class_1439/field_6759": {
+        "from": null,
+        "to": "lookingAtVillagerTicksLeft"
+      }
+    }
+  },
+  "1.15.1->1.15.2": {
+    "classes": {
+      "net/minecraft/class_480": {
+        "from": "net/minecraft/client/gui/screen/ingame/ContainerScreen9",
+        "to": "net/minecraft/client/gui/screen/ingame/Generic3x3ContainerScreen"
+      },
+      "net/minecraft/class_2616": {
+        "from": "net/minecraft/client/network/packet/EntityAnimationS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityAnimationS2CPacket"
+      },
+      "net/minecraft/class_2757": {
+        "from": "net/minecraft/client/network/packet/ScoreboardPlayerUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ScoreboardPlayerUpdateS2CPacket"
+      },
+      "net/minecraft/class_2644": {
+        "from": "net/minecraft/client/network/packet/ConfirmGuiActionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ConfirmGuiActionS2CPacket"
+      },
+      "net/minecraft/class_2675": {
+        "from": "net/minecraft/client/network/packet/ParticleS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ParticleS2CPacket"
+      },
+      "net/minecraft/class_2790": {
+        "from": "net/minecraft/client/network/packet/SynchronizeTagsS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SynchronizeTagsS2CPacket"
+      },
+      "net/minecraft/class_1921$class_4750": {
+        "from": null,
+        "to": "net/minecraft/client/render/RenderLayer$OutlineMode"
+      },
+      "net/minecraft/class_2637": {
+        "from": "net/minecraft/client/network/packet/ChunkDeltaUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ChunkDeltaUpdateS2CPacket"
+      },
+      "net/minecraft/class_2856": {
+        "from": "net/minecraft/server/network/packet/ResourcePackStatusC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ResourcePackStatusC2SPacket"
+      },
+      "net/minecraft/class_2848$class_2849": {
+        "from": "net/minecraft/server/network/packet/ClientCommandC2SPacket$Mode",
+        "to": "net/minecraft/network/packet/c2s/play/ClientCommandC2SPacket$Mode"
+      },
+      "net/minecraft/class_2735": {
+        "from": "net/minecraft/client/network/packet/HeldItemChangeS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/HeldItemChangeS2CPacket"
+      },
+      "net/minecraft/class_2726": {
+        "from": "net/minecraft/client/network/packet/EntitySetHeadYawS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntitySetHeadYawS2CPacket"
+      },
+      "net/minecraft/class_2759": {
+        "from": "net/minecraft/client/network/packet/PlayerSpawnPositionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerSpawnPositionS2CPacket"
+      },
+      "net/minecraft/class_3908": {
+        "from": "net/minecraft/container/NameableContainerProvider",
+        "to": "net/minecraft/container/NameableContainerFactory"
+      },
+      "net/minecraft/class_2730": {
+        "from": "net/minecraft/client/network/packet/WorldBorderS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/WorldBorderS2CPacket"
+      },
+      "net/minecraft/class_2708": {
+        "from": "net/minecraft/client/network/packet/PlayerPositionLookS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerPositionLookS2CPacket"
+      },
+      "net/minecraft/class_2899": {
+        "from": "net/minecraft/client/network/packet/LoginQueryRequestS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/login/LoginQueryRequestS2CPacket"
+      },
+      "net/minecraft/class_2637$class_2638": {
+        "from": "net/minecraft/client/network/packet/ChunkDeltaUpdateS2CPacket$ChunkDeltaRecord",
+        "to": "net/minecraft/network/packet/s2c/play/ChunkDeltaUpdateS2CPacket$ChunkDeltaRecord"
+      },
+      "net/minecraft/class_3689$class_3691": {
+        "from": "net/minecraft/util/profiler/DisableableProfiler$ProfilerControllerImpl",
+        "to": "net/minecraft/util/profiler/DisableableProfiler$ControllerImpl"
+      },
+      "net/minecraft/class_2915": {
+        "from": "net/minecraft/server/network/packet/LoginHelloC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/login/LoginHelloC2SPacket"
+      },
+      "net/minecraft/class_2743": {
+        "from": "net/minecraft/client/network/packet/EntityVelocityUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityVelocityUpdateS2CPacket"
+      },
+      "net/minecraft/class_2868": {
+        "from": "net/minecraft/server/network/packet/UpdateSelectedSlotC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateSelectedSlotC2SPacket"
+      },
+      "net/minecraft/class_2661": {
+        "from": "net/minecraft/client/network/packet/DisconnectS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/DisconnectS2CPacket"
+      },
+      "net/minecraft/class_2875": {
+        "from": "net/minecraft/server/network/packet/UpdateStructureBlockC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateStructureBlockC2SPacket"
+      },
+      "net/minecraft/class_2935": {
+        "from": "net/minecraft/server/network/packet/QueryPingC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/query/QueryPingC2SPacket"
+      },
+      "net/minecraft/class_2623": {
+        "from": "net/minecraft/client/network/packet/BlockActionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/BlockActionS2CPacket"
+      },
+      "net/minecraft/class_696": {
+        "from": "net/minecraft/client/particle/FireSmokeLargeParticle",
+        "to": "net/minecraft/client/particle/LargeFireSmokeParticle"
+      },
+      "net/minecraft/class_2851": {
+        "from": "net/minecraft/server/network/packet/PlayerInputC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerInputC2SPacket"
+      },
+      "net/minecraft/class_2695": {
+        "from": "net/minecraft/client/network/packet/CraftFailedResponseS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CraftFailedResponseS2CPacket"
+      },
+      "net/minecraft/class_2783": {
+        "from": "net/minecraft/client/network/packet/EntityPotionEffectS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityStatusEffectS2CPacket"
+      },
+      "net/minecraft/class_2828$class_2829": {
+        "from": "net/minecraft/server/network/packet/PlayerMoveC2SPacket$PositionOnly",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerMoveC2SPacket$PositionOnly"
+      },
+      "net/minecraft/class_2663": {
+        "from": "net/minecraft/client/network/packet/EntityStatusS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityStatusS2CPacket"
+      },
+      "net/minecraft/class_4745": {
+        "from": null,
+        "to": "net/minecraft/datafixer/fix/RecipeRenameFix"
+      },
+      "net/minecraft/class_2734": {
+        "from": "net/minecraft/client/network/packet/SetCameraEntityS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SetCameraEntityS2CPacket"
+      },
+      "net/minecraft/class_2772": {
+        "from": "net/minecraft/client/network/packet/PlayerListHeaderS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerListHeaderS2CPacket"
+      },
+      "net/minecraft/class_2676": {
+        "from": "net/minecraft/client/network/packet/LightUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/LightUpdateS2CPacket"
+      },
+      "net/minecraft/class_3944": {
+        "from": "net/minecraft/client/network/packet/OpenContainerS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/OpenContainerS2CPacket"
+      },
+      "net/minecraft/class_4434$class_4444": {
+        "from": "com/mojang/realmsclient/util/RealmsTasks$TrialCreationTask",
+        "to": null
+      },
+      "net/minecraft/class_2641": {
+        "from": "net/minecraft/client/network/packet/CommandTreeS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CommandTreeS2CPacket"
+      },
+      "net/minecraft/class_2886": {
+        "from": "net/minecraft/server/network/packet/PlayerInteractItemC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerInteractItemC2SPacket"
+      },
+      "net/minecraft/class_2729": {
+        "from": "net/minecraft/client/network/packet/SelectAdvancementTabS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SelectAdvancementTabS2CPacket"
+      },
+      "net/minecraft/class_4282": {
+        "from": "net/minecraft/client/network/packet/ChunkRenderDistanceCenterS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ChunkRenderDistanceCenterS2CPacket"
+      },
+      "net/minecraft/class_2724": {
+        "from": "net/minecraft/client/network/packet/PlayerRespawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerRespawnS2CPacket"
+      },
+      "net/minecraft/class_2703": {
+        "from": "net/minecraft/client/network/packet/PlayerListS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerListS2CPacket"
+      },
+      "net/minecraft/class_2718": {
+        "from": "net/minecraft/client/network/packet/RemoveEntityEffectS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/RemoveEntityStatusEffectS2CPacket"
+      },
+      "net/minecraft/class_4655": {
+        "from": "net/minecraft/world/gen/stateprovider/BlockStateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/PillarBlockStateProvider"
+      },
+      "net/minecraft/class_2913": {
+        "from": "net/minecraft/server/network/packet/LoginQueryResponseC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/login/LoginQueryResponseC2SPacket"
+      },
+      "net/minecraft/class_2607": {
+        "from": "net/minecraft/client/network/packet/EntitySpawnGlobalS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntitySpawnGlobalS2CPacket"
+      },
+      "net/minecraft/class_2901": {
+        "from": "net/minecraft/client/network/packet/LoginSuccessS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/login/LoginSuccessS2CPacket"
+      },
+      "net/minecraft/class_4749": {
+        "from": null,
+        "to": "net/minecraft/client/gui/screen/multiplayer/MultiplayerWarningScreen"
+      },
+      "net/minecraft/class_2863": {
+        "from": "net/minecraft/server/network/packet/SelectVillagerTradeC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/SelectVillagerTradeC2SPacket"
+      },
+      "net/minecraft/class_2909": {
+        "from": "net/minecraft/client/network/packet/LoginDisconnectS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/login/LoginDisconnectS2CPacket"
+      },
+      "net/minecraft/class_2310": {
+        "from": "net/minecraft/block/HorizontalConnectedBlock",
+        "to": "net/minecraft/block/HorizontalConnectingBlock"
+      },
+      "net/minecraft/class_2658": {
+        "from": "net/minecraft/client/network/packet/CustomPayloadS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CustomPayloadS2CPacket"
+      },
+      "net/minecraft/class_2632": {
+        "from": "net/minecraft/client/network/packet/DifficultyS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/DifficultyS2CPacket"
+      },
+      "net/minecraft/class_2762$class_2763": {
+        "from": "net/minecraft/client/network/packet/TitleS2CPacket$Action",
+        "to": "net/minecraft/network/packet/s2c/play/TitleS2CPacket$Action"
+      },
+      "net/minecraft/class_2848": {
+        "from": "net/minecraft/server/network/packet/ClientCommandC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ClientCommandC2SPacket"
+      },
+      "net/minecraft/class_2672": {
+        "from": "net/minecraft/client/network/packet/ChunkDataS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ChunkDataS2CPacket"
+      },
+      "net/minecraft/class_2703$class_2705": {
+        "from": "net/minecraft/client/network/packet/PlayerListS2CPacket$Entry",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerListS2CPacket$Entry"
+      },
+      "net/minecraft/class_3692$class_4747": {
+        "from": null,
+        "to": "net/minecraft/util/profiler/ProfileResultImpl$CounterInfo"
+      },
+      "net/minecraft/class_2853$class_2854": {
+        "from": "net/minecraft/server/network/packet/RecipeBookDataC2SPacket$Mode",
+        "to": "net/minecraft/network/packet/c2s/play/RecipeBookDataC2SPacket$Mode"
+      },
+      "net/minecraft/class_2793": {
+        "from": "net/minecraft/server/network/packet/TeleportConfirmC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/TeleportConfirmC2SPacket"
+      },
+      "net/minecraft/class_2866": {
+        "from": "net/minecraft/server/network/packet/UpdateBeaconC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateBeaconC2SPacket"
+      },
+      "net/minecraft/class_2777": {
+        "from": "net/minecraft/client/network/packet/EntityPositionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityPositionS2CPacket"
+      },
+      "net/minecraft/class_2803": {
+        "from": "net/minecraft/server/network/packet/ClientSettingsC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ClientSettingsC2SPacket"
+      },
+      "net/minecraft/class_2744": {
+        "from": "net/minecraft/client/network/packet/EntityEquipmentUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityEquipmentUpdateS2CPacket"
+      },
+      "net/minecraft/class_476": {
+        "from": "net/minecraft/client/gui/screen/ingame/ContainerScreen54",
+        "to": "net/minecraft/client/gui/screen/ingame/GenericContainerScreen"
+      },
+      "net/minecraft/class_2797": {
+        "from": "net/minecraft/server/network/packet/ChatMessageC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ChatMessageC2SPacket"
+      },
+      "net/minecraft/class_2827": {
+        "from": "net/minecraft/server/network/packet/KeepAliveC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/KeepAliveC2SPacket"
+      },
+      "net/minecraft/class_696$class_697": {
+        "from": "net/minecraft/client/particle/FireSmokeLargeParticle$Factory",
+        "to": "net/minecraft/client/particle/LargeFireSmokeParticle$Factory"
+      },
+      "net/minecraft/class_3689$class_3690": {
+        "from": "net/minecraft/util/profiler/DisableableProfiler$ProfilerController",
+        "to": "net/minecraft/util/profiler/DisableableProfiler$Controller"
+      },
+      "net/minecraft/class_2884": {
+        "from": "net/minecraft/server/network/packet/SpectatorTeleportC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/SpectatorTeleportC2SPacket"
+      },
+      "net/minecraft/class_3533$class_4746": {
+        "from": null,
+        "to": "net/minecraft/util/profiler/ProfilerSystem$LocatedInfo"
+      },
+      "net/minecraft/class_2770": {
+        "from": "net/minecraft/client/network/packet/StopSoundS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/StopSoundS2CPacket"
+      },
+      "net/minecraft/class_2917": {
+        "from": "net/minecraft/server/network/packet/LoginKeyC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/login/LoginKeyC2SPacket"
+      },
+      "net/minecraft/class_2635": {
+        "from": "net/minecraft/client/network/packet/ChatMessageS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ChatMessageS2CPacket"
+      },
+      "net/minecraft/class_2820": {
+        "from": "net/minecraft/server/network/packet/BookUpdateC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/BookUpdateC2SPacket"
+      },
+      "net/minecraft/class_3943": {
+        "from": "net/minecraft/client/network/packet/SetTradeOffersS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SetTradeOffersS2CPacket"
+      },
+      "net/minecraft/class_4463": {
+        "from": "net/minecraft/client/network/packet/PlayerActionResponseS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerActionResponseS2CPacket"
+      },
+      "net/minecraft/class_4275": {
+        "from": "net/minecraft/client/block/ColoredBlock",
+        "to": "net/minecraft/block/Stainable"
+      },
+      "net/minecraft/class_2905": {
+        "from": "net/minecraft/client/network/packet/LoginHelloS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/login/LoginHelloS2CPacket"
+      },
+      "net/minecraft/class_2604": {
+        "from": "net/minecraft/client/network/packet/EntitySpawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntitySpawnS2CPacket"
+      },
+      "net/minecraft/class_2836": {
+        "from": "net/minecraft/server/network/packet/BoatPaddleStateC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/BoatPaddleStateC2SPacket"
+      },
+      "net/minecraft/class_2840": {
+        "from": "net/minecraft/server/network/packet/CraftRequestC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/CraftRequestC2SPacket"
+      },
+      "net/minecraft/class_465": {
+        "from": "net/minecraft/client/gui/screen/ingame/AbstractContainerScreen",
+        "to": "net/minecraft/client/gui/screen/ingame/ContainerScreen"
+      },
+      "net/minecraft/class_2824$class_2825": {
+        "from": "net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket$InteractionType",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractionType"
+      },
+      "net/minecraft/class_2429": {
+        "from": "net/minecraft/block/ConnectedPlantBlock",
+        "to": "net/minecraft/block/ConnectingBlock"
+      },
+      "net/minecraft/class_3825": {
+        "from": "net/minecraft/structure/rule/AbstractRuleTest",
+        "to": "net/minecraft/structure/rule/RuleTest"
+      },
+      "net/minecraft/class_2730$class_2731": {
+        "from": "net/minecraft/client/network/packet/WorldBorderS2CPacket$Type",
+        "to": "net/minecraft/network/packet/s2c/play/WorldBorderS2CPacket$Type"
+      },
+      "net/minecraft/class_4656": {
+        "from": "net/minecraft/world/gen/stateprovider/SimpleStateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/SimpleBlockStateProvider"
+      },
+      "net/minecraft/class_2781": {
+        "from": "net/minecraft/client/network/packet/EntityAttributesS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityAttributesS2CPacket"
+      },
+      "net/minecraft/class_4391": {
+        "from": "com/mojang/realmsclient/gui/screens/RealmsCreateTrialScreen",
+        "to": null
+      },
+      "net/minecraft/class_2877": {
+        "from": "net/minecraft/server/network/packet/UpdateSignC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateSignC2SPacket"
+      },
+      "net/minecraft/class_2736": {
+        "from": "net/minecraft/client/network/packet/ScoreboardDisplayS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ScoreboardDisplayS2CPacket"
+      },
+      "net/minecraft/class_2645": {
+        "from": "net/minecraft/client/network/packet/GuiCloseS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CloseContainerS2CPacket"
+      },
+      "net/minecraft/class_2809": {
+        "from": "net/minecraft/server/network/packet/GuiActionConfirmC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ConfirmGuiActionC2SPacket"
+      },
+      "net/minecraft/class_2824": {
+        "from": "net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket"
+      },
+      "net/minecraft/class_2629$class_2630": {
+        "from": "net/minecraft/client/network/packet/BossBarS2CPacket$Type",
+        "to": "net/minecraft/network/packet/s2c/play/BossBarS2CPacket$Type"
+      },
+      "net/minecraft/class_2622": {
+        "from": "net/minecraft/client/network/packet/BlockEntityUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/BlockEntityUpdateS2CPacket"
+      },
+      "net/minecraft/class_2708$class_2709": {
+        "from": "net/minecraft/client/network/packet/PlayerPositionLookS2CPacket$Flag",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerPositionLookS2CPacket$Flag"
+      },
+      "net/minecraft/class_2610": {
+        "from": "net/minecraft/client/network/packet/MobSpawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/MobSpawnS2CPacket"
+      },
+      "net/minecraft/class_2720": {
+        "from": "net/minecraft/client/network/packet/ResourcePackSendS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ResourcePackSendS2CPacket"
+      },
+      "net/minecraft/class_2692": {
+        "from": "net/minecraft/client/network/packet/VehicleMoveS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/VehicleMoveS2CPacket"
+      },
+      "net/minecraft/class_2833": {
+        "from": "net/minecraft/server/network/packet/VehicleMoveC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/VehicleMoveC2SPacket"
+      },
+      "net/minecraft/class_793$class_4751": {
+        "from": null,
+        "to": "net/minecraft/client/render/model/json/JsonUnbakedModel$GuiLight"
+      },
+      "net/minecraft/class_2828$class_2830": {
+        "from": "net/minecraft/server/network/packet/PlayerMoveC2SPacket$Both",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerMoveC2SPacket$Both"
+      },
+      "net/minecraft/class_2805": {
+        "from": "net/minecraft/server/network/packet/RequestCommandCompletionsC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/RequestCommandCompletionsC2SPacket"
+      },
+      "net/minecraft/class_2859": {
+        "from": "net/minecraft/server/network/packet/AdvancementTabC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/AdvancementTabC2SPacket"
+      },
+      "net/minecraft/class_2703$class_2704": {
+        "from": "net/minecraft/client/network/packet/PlayerListS2CPacket$Action",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerListS2CPacket$Action"
+      },
+      "net/minecraft/class_2749": {
+        "from": "net/minecraft/client/network/packet/HealthUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/HealthUpdateS2CPacket"
+      },
+      "net/minecraft/class_2799$class_2800": {
+        "from": "net/minecraft/server/network/packet/ClientStatusC2SPacket$Mode",
+        "to": "net/minecraft/network/packet/c2s/play/ClientStatusC2SPacket$Mode"
+      },
+      "net/minecraft/class_2684$class_2685": {
+        "from": "net/minecraft/client/network/packet/EntityS2CPacket$MoveRelative",
+        "to": "net/minecraft/network/packet/s2c/play/EntityS2CPacket$MoveRelative"
+      },
+      "net/minecraft/class_2739": {
+        "from": "net/minecraft/client/network/packet/EntityTrackerUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityTrackerUpdateS2CPacket"
+      },
+      "net/minecraft/class_2751": {
+        "from": "net/minecraft/client/network/packet/ScoreboardObjectiveUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ScoreboardObjectiveUpdateS2CPacket"
+      },
+      "net/minecraft/class_2846$class_2847": {
+        "from": "net/minecraft/server/network/packet/PlayerActionC2SPacket$Action",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerActionC2SPacket$Action"
+      },
+      "net/minecraft/class_2907": {
+        "from": "net/minecraft/client/network/packet/LoginCompressionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/login/LoginCompressionS2CPacket"
+      },
+      "net/minecraft/class_2846": {
+        "from": "net/minecraft/server/network/packet/PlayerActionC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerActionC2SPacket"
+      },
+      "net/minecraft/class_2859$class_2860": {
+        "from": "net/minecraft/server/network/packet/AdvancementTabC2SPacket$Action",
+        "to": "net/minecraft/network/packet/c2s/play/AdvancementTabC2SPacket$Action"
+      },
+      "net/minecraft/class_3895": {
+        "from": "net/minecraft/client/network/packet/OpenWrittenBookS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/OpenWrittenBookS2CPacket"
+      },
+      "net/minecraft/class_3753": {
+        "from": "net/minecraft/server/network/packet/UpdateJigsawC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateJigsawC2SPacket"
+      },
+      "net/minecraft/class_2873": {
+        "from": "net/minecraft/server/network/packet/CreativeInventoryActionC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/CreativeInventoryActionC2SPacket"
+      },
+      "net/minecraft/class_2656": {
+        "from": "net/minecraft/client/network/packet/CooldownUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CooldownUpdateS2CPacket"
+      },
+      "net/minecraft/class_2885": {
+        "from": "net/minecraft/server/network/packet/PlayerInteractBlockC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerInteractBlockC2SPacket"
+      },
+      "net/minecraft/class_2889": {
+        "from": "net/minecraft/server/network/packet/HandshakeC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/handshake/HandshakeC2SPacket"
+      },
+      "net/minecraft/class_2660": {
+        "from": "net/minecraft/client/network/packet/PlaySoundIdS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlaySoundIdS2CPacket"
+      },
+      "net/minecraft/class_2684$class_2687": {
+        "from": "net/minecraft/client/network/packet/EntityS2CPacket$Rotate",
+        "to": "net/minecraft/network/packet/s2c/play/EntityS2CPacket$Rotate"
+      },
+      "net/minecraft/class_4653": {
+        "from": "net/minecraft/world/gen/stateprovider/ForestFlowerStateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/ForestFlowerBlockStateProvider"
+      },
+      "net/minecraft/class_4748": {
+        "from": null,
+        "to": "net/minecraft/util/profiler/ProfileLocationInfo"
+      },
+      "net/minecraft/class_2626": {
+        "from": "net/minecraft/client/network/packet/BlockUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/BlockUpdateS2CPacket"
+      },
+      "net/minecraft/class_2788": {
+        "from": "net/minecraft/client/network/packet/SynchronizeRecipesS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SynchronizeRecipesS2CPacket"
+      },
+      "net/minecraft/class_2673": {
+        "from": "net/minecraft/client/network/packet/WorldEventS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/WorldEventS2CPacket"
+      },
+      "net/minecraft/class_2762": {
+        "from": "net/minecraft/client/network/packet/TitleS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/TitleS2CPacket"
+      },
+      "net/minecraft/class_2924": {
+        "from": "net/minecraft/client/network/packet/QueryResponseS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/query/QueryResponseS2CPacket"
+      },
+      "net/minecraft/class_2838": {
+        "from": "net/minecraft/server/network/packet/PickFromInventoryC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PickFromInventoryC2SPacket"
+      },
+      "net/minecraft/class_2678": {
+        "from": "net/minecraft/client/network/packet/GameJoinS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/GameJoinS2CPacket"
+      },
+      "net/minecraft/class_2740": {
+        "from": "net/minecraft/client/network/packet/EntityAttachS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityAttachS2CPacket"
+      },
+      "net/minecraft/class_2713$class_2714": {
+        "from": "net/minecraft/client/network/packet/UnlockRecipesS2CPacket$Action",
+        "to": "net/minecraft/network/packet/s2c/play/UnlockRecipesS2CPacket$Action"
+      },
+      "net/minecraft/class_2813": {
+        "from": "net/minecraft/server/network/packet/ClickWindowC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ClickWindowC2SPacket"
+      },
+      "net/minecraft/class_2606": {
+        "from": "net/minecraft/client/network/packet/ExperienceOrbSpawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ExperienceOrbSpawnS2CPacket"
+      },
+      "net/minecraft/class_4618$class_4586": {
+        "from": "net/minecraft/client/render/OutlineVertexConsumerProvider$VertexConsumer",
+        "to": "net/minecraft/client/render/OutlineVertexConsumerProvider$OutlineVertexConsumer"
+      },
+      "net/minecraft/class_2670": {
+        "from": "net/minecraft/client/network/packet/KeepAliveS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/KeepAliveS2CPacket"
+      },
+      "net/minecraft/class_2937": {
+        "from": "net/minecraft/server/network/packet/QueryRequestC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/query/QueryRequestC2SPacket"
+      },
+      "net/minecraft/class_2799": {
+        "from": "net/minecraft/server/network/packet/ClientStatusC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ClientStatusC2SPacket"
+      },
+      "net/minecraft/class_2653": {
+        "from": "net/minecraft/client/network/packet/GuiSlotUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ContainerSlotUpdateS2CPacket"
+      },
+      "net/minecraft/class_2666": {
+        "from": "net/minecraft/client/network/packet/UnloadChunkS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/UnloadChunkS2CPacket"
+      },
+      "net/minecraft/class_2765": {
+        "from": "net/minecraft/client/network/packet/PlaySoundFromEntityS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlaySoundFromEntityS2CPacket"
+      },
+      "net/minecraft/class_2795": {
+        "from": "net/minecraft/server/network/packet/QueryBlockNbtC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/QueryBlockNbtC2SPacket"
+      },
+      "net/minecraft/class_1220": {
+        "from": "net/minecraft/datafixer/schema/SchemaIdentifierNormalize",
+        "to": "net/minecraft/datafixer/schema/IdentifierNormalizingSchema"
+      },
+      "net/minecraft/class_4273": {
+        "from": "net/minecraft/client/network/packet/ChunkLoadDistanceS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ChunkLoadDistanceS2CPacket"
+      },
+      "net/minecraft/class_2629": {
+        "from": "net/minecraft/client/network/packet/BossBarS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/BossBarS2CPacket"
+      },
+      "net/minecraft/class_2713": {
+        "from": "net/minecraft/client/network/packet/UnlockRecipesS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/UnlockRecipesS2CPacket"
+      },
+      "net/minecraft/class_2698$class_2699": {
+        "from": "net/minecraft/client/network/packet/CombatEventS2CPacket$Type",
+        "to": "net/minecraft/network/packet/s2c/play/CombatEventS2CPacket$Type"
+      },
+      "net/minecraft/class_2870": {
+        "from": "net/minecraft/server/network/packet/UpdateCommandBlockC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateCommandBlockC2SPacket"
+      },
+      "net/minecraft/class_2871": {
+        "from": "net/minecraft/server/network/packet/UpdateCommandBlockMinecartC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateCommandBlockMinecartC2SPacket"
+      },
+      "net/minecraft/class_2828$class_2831": {
+        "from": "net/minecraft/server/network/packet/PlayerMoveC2SPacket$LookOnly",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerMoveC2SPacket$LookOnly"
+      },
+      "net/minecraft/class_2639": {
+        "from": "net/minecraft/client/network/packet/CommandSuggestionsS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CommandSuggestionsS2CPacket"
+      },
+      "net/minecraft/class_4211": {
+        "from": "net/minecraft/server/network/packet/UpdateDifficultyLockC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateDifficultyLockC2SPacket"
+      },
+      "net/minecraft/class_2817": {
+        "from": "net/minecraft/server/network/packet/CustomPayloadC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/CustomPayloadC2SPacket"
+      },
+      "net/minecraft/class_2879": {
+        "from": "net/minecraft/server/network/packet/HandSwingC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/HandSwingC2SPacket"
+      },
+      "net/minecraft/class_2613": {
+        "from": "net/minecraft/client/network/packet/PlayerSpawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerSpawnS2CPacket"
+      },
+      "net/minecraft/class_2781$class_2782": {
+        "from": "net/minecraft/client/network/packet/EntityAttributesS2CPacket$Entry",
+        "to": "net/minecraft/network/packet/s2c/play/EntityAttributesS2CPacket$Entry"
+      },
+      "net/minecraft/class_4695": {
+        "from": "net/minecraft/datafixer/StructureReferenceFixer",
+        "to": "net/minecraft/datafixer/fix/StructureReferenceFix"
+      },
+      "net/minecraft/class_2855": {
+        "from": "net/minecraft/server/network/packet/RenameItemC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/RenameItemC2SPacket"
+      },
+      "net/minecraft/class_3827": {
+        "from": "net/minecraft/structure/rule/RuleTest",
+        "to": "net/minecraft/structure/rule/RuleTestType"
+      },
+      "net/minecraft/class_4651": {
+        "from": "net/minecraft/world/gen/stateprovider/StateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/BlockStateProvider"
+      },
+      "net/minecraft/class_2620": {
+        "from": "net/minecraft/client/network/packet/BlockBreakingProgressS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/BlockBreakingProgressS2CPacket"
+      },
+      "net/minecraft/class_2923": {
+        "from": "net/minecraft/client/network/packet/QueryPongS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/query/QueryPongS2CPacket"
+      },
+      "net/minecraft/class_4210": {
+        "from": "net/minecraft/server/network/packet/UpdateDifficultyC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdateDifficultyC2SPacket"
+      },
+      "net/minecraft/class_4209": {
+        "from": "net/minecraft/client/network/DebugRendererInfoManager",
+        "to": "net/minecraft/server/network/DebugInfoSender"
+      },
+      "net/minecraft/class_747": {
+        "from": "net/minecraft/client/network/ClientDummyContainerProvider",
+        "to": "net/minecraft/container/SimpleNamedContainerFactory"
+      },
+      "net/minecraft/class_2683": {
+        "from": "net/minecraft/client/network/packet/MapUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/MapUpdateS2CPacket"
+      },
+      "net/minecraft/class_2716": {
+        "from": "net/minecraft/client/network/packet/EntitiesDestroyS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntitiesDestroyS2CPacket"
+      },
+      "net/minecraft/class_2617": {
+        "from": "net/minecraft/client/network/packet/StatisticsS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/StatisticsS2CPacket"
+      },
+      "net/minecraft/class_2752": {
+        "from": "net/minecraft/client/network/packet/EntityPassengersSetS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityPassengersSetS2CPacket"
+      },
+      "net/minecraft/class_2828": {
+        "from": "net/minecraft/server/network/packet/PlayerMoveC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/PlayerMoveC2SPacket"
+      },
+      "net/minecraft/class_2696": {
+        "from": "net/minecraft/client/network/packet/PlayerAbilitiesS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlayerAbilitiesS2CPacket"
+      },
+      "net/minecraft/class_2815": {
+        "from": "net/minecraft/server/network/packet/GuiCloseC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/GuiCloseC2SPacket"
+      },
+      "net/minecraft/class_2842": {
+        "from": "net/minecraft/server/network/packet/UpdatePlayerAbilitiesC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/UpdatePlayerAbilitiesC2SPacket"
+      },
+      "net/minecraft/class_2761": {
+        "from": "net/minecraft/client/network/packet/WorldTimeUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/WorldTimeUpdateS2CPacket"
+      },
+      "net/minecraft/class_2684": {
+        "from": "net/minecraft/client/network/packet/EntityS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/EntityS2CPacket"
+      },
+      "net/minecraft/class_2612": {
+        "from": "net/minecraft/client/network/packet/PaintingSpawnS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PaintingSpawnS2CPacket"
+      },
+      "net/minecraft/class_4652": {
+        "from": "net/minecraft/world/gen/stateprovider/StateProviderType",
+        "to": "net/minecraft/world/gen/stateprovider/BlockStateProviderType"
+      },
+      "net/minecraft/class_2684$class_2686": {
+        "from": "net/minecraft/client/network/packet/EntityS2CPacket$RotateAndMoveRelative",
+        "to": "net/minecraft/network/packet/s2c/play/EntityS2CPacket$RotateAndMoveRelative"
+      },
+      "net/minecraft/class_2668": {
+        "from": "net/minecraft/client/network/packet/GameStateChangeS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/GameStateChangeS2CPacket"
+      },
+      "net/minecraft/class_2853": {
+        "from": "net/minecraft/server/network/packet/RecipeBookDataC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/RecipeBookDataC2SPacket"
+      },
+      "net/minecraft/class_2707": {
+        "from": "net/minecraft/client/network/packet/LookAtS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/LookAtS2CPacket"
+      },
+      "net/minecraft/class_2698": {
+        "from": "net/minecraft/client/network/packet/CombatEventS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/CombatEventS2CPacket"
+      },
+      "net/minecraft/class_2822": {
+        "from": "net/minecraft/server/network/packet/QueryEntityNbtC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/QueryEntityNbtC2SPacket"
+      },
+      "net/minecraft/class_4657": {
+        "from": "net/minecraft/world/gen/stateprovider/WeightedStateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/WeightedBlockStateProvider"
+      },
+      "net/minecraft/class_2649": {
+        "from": "net/minecraft/client/network/packet/InventoryS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/InventoryS2CPacket"
+      },
+      "net/minecraft/class_2651": {
+        "from": "net/minecraft/client/network/packet/GuiUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ContainerPropertyUpdateS2CPacket"
+      },
+      "net/minecraft/class_2641$class_2642": {
+        "from": "net/minecraft/client/network/packet/CommandTreeS2CPacket$CommandNodeData",
+        "to": "net/minecraft/network/packet/s2c/play/CommandTreeS2CPacket$CommandNodeData"
+      },
+      "net/minecraft/class_2748": {
+        "from": "net/minecraft/client/network/packet/ExperienceBarUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ExperienceBarUpdateS2CPacket"
+      },
+      "net/minecraft/class_2779": {
+        "from": "net/minecraft/client/network/packet/AdvancementUpdateS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/AdvancementUpdateS2CPacket"
+      },
+      "net/minecraft/class_2856$class_2857": {
+        "from": "net/minecraft/server/network/packet/ResourcePackStatusC2SPacket$Status",
+        "to": "net/minecraft/network/packet/c2s/play/ResourcePackStatusC2SPacket$Status"
+      },
+      "net/minecraft/class_2811": {
+        "from": "net/minecraft/server/network/packet/ButtonClickC2SPacket",
+        "to": "net/minecraft/network/packet/c2s/play/ButtonClickC2SPacket"
+      },
+      "net/minecraft/class_2767": {
+        "from": "net/minecraft/client/network/packet/PlaySoundS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/PlaySoundS2CPacket"
+      },
+      "net/minecraft/class_2775": {
+        "from": "net/minecraft/client/network/packet/ItemPickupAnimationS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ItemPickupAnimationS2CPacket"
+      },
+      "net/minecraft/class_2648": {
+        "from": "net/minecraft/client/network/packet/GuiOpenS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/OpenHorseContainerS2CPacket"
+      },
+      "net/minecraft/class_2664": {
+        "from": "net/minecraft/client/network/packet/ExplosionS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/ExplosionS2CPacket"
+      },
+      "net/minecraft/class_4744": {
+        "from": null,
+        "to": "net/minecraft/datafixer/fix/AdvancementRenameFix"
+      },
+      "net/minecraft/class_2755": {
+        "from": "net/minecraft/client/network/packet/TeamS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/TeamS2CPacket"
+      },
+      "net/minecraft/class_2774": {
+        "from": "net/minecraft/client/network/packet/TagQueryResponseS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/TagQueryResponseS2CPacket"
+      },
+      "net/minecraft/class_2693": {
+        "from": "net/minecraft/client/network/packet/SignEditorOpenS2CPacket",
+        "to": "net/minecraft/network/packet/s2c/play/SignEditorOpenS2CPacket"
+      },
+      "net/minecraft/class_4654": {
+        "from": "net/minecraft/world/gen/stateprovider/PlainsFlowerStateProvider",
+        "to": "net/minecraft/world/gen/stateprovider/PlainsFlowerBlockStateProvider"
+      },
+      "net/minecraft/class_1270": {
+        "from": "net/minecraft/container/ContainerProvider",
+        "to": "net/minecraft/container/ContainerFactory"
+      }
+    },
+    "methods": {
+      "net/minecraft/class_922/method_4045(Lnet/minecraft/class_1309;F)F": {
+        "from": "getCustomAngle",
+        "to": "getAnimationProgress"
+      },
+      "net/minecraft/class_3825/method_16767(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;": {
+        "from": null,
+        "to": "serializeWithId"
+      },
+      "net/minecraft/class_3222/method_14247()V": {
+        "from": null,
+        "to": "closeCurrentScreen"
+      },
+      "net/minecraft/class_3695/method_24271(Ljava/util/function/Supplier;)V": {
+        "from": null,
+        "to": "visit"
+      },
+      "net/minecraft/class_4434$class_4444/<init>(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/class_4325;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_395/method_15975(Ljava/nio/ByteBuffer;)Lorg/lwjgl/stb/STBTTFontinfo;": {
+        "from": "getSTBTTFontInfo",
+        "to": null
+      },
+      "net/minecraft/class_793/<init>(Lnet/minecraft/class_2960;Ljava/util/List;Ljava/util/Map;ZZLnet/minecraft/class_809;Ljava/util/List;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_3609/method_15726(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Ljava/util/Map;": {
+        "from": null,
+        "to": "getSpread"
+      },
+      "net/minecraft/class_1921/method_24296()Ljava/util/Optional;": {
+        "from": null,
+        "to": "asOptional"
+      },
+      "net/minecraft/class_3692/method_24260(Ljava/util/Map;Ljava/lang/StringBuilder;I)V": {
+        "from": null,
+        "to": "appendCounterDump"
+      },
+      "net/minecraft/class_914/method_3988(Lnet/minecraft/class_1581;Z)Z": {
+        "from": "method_4056",
+        "to": null
+      },
+      "net/minecraft/class_1921$class_4688/<init>(Lnet/minecraft/class_4668$class_4683;Lnet/minecraft/class_4668$class_4685;Lnet/minecraft/class_4668$class_4673;Lnet/minecraft/class_4668$class_4681;Lnet/minecraft/class_4668$class_4669;Lnet/minecraft/class_4668$class_4672;Lnet/minecraft/class_4668$class_4671;Lnet/minecraft/class_4668$class_4676;Lnet/minecraft/class_4668$class_4679;Lnet/minecraft/class_4668$class_4674;Lnet/minecraft/class_4668$class_4675;Lnet/minecraft/class_4668$class_4678;Lnet/minecraft/class_4668$class_4684;Lnet/minecraft/class_4668$class_4686;Lnet/minecraft/class_4668$class_4677;Lnet/minecraft/class_1921$class_4750;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1087/method_4712()Z": {
+        "from": "hasDepthInGui",
+        "to": "hasDepth"
+      },
+      "net/minecraft/class_1297/method_5876()V": {
+        "from": "updateInWater",
+        "to": "updateWaterState"
+      },
+      "net/minecraft/class_1297/method_5630()V": {
+        "from": "updateWetState",
+        "to": "updateSubmergedInWaterState"
+      },
+      "net/minecraft/class_1542/method_24016(Lnet/minecraft/class_1542;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)V": {
+        "from": null,
+        "to": "merge"
+      },
+      "net/minecraft/class_3692/method_24262(Ljava/lang/String;)Lnet/minecraft/class_4748;": {
+        "from": null,
+        "to": "getInfo"
+      },
+      "net/minecraft/class_1542/method_24017(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z": {
+        "from": null,
+        "to": "canMerge"
+      },
+      "net/minecraft/class_897/<init>(Lnet/minecraft/class_898;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_300/method_1402(Ljava/util/function/Consumer;)I": {
+        "from": "setNextQueryConsumer",
+        "to": "nextQuery"
+      },
+      "net/minecraft/class_4391/keyPressed(III)Z": {
+        "from": "keyPressed",
+        "to": null
+      },
+      "net/minecraft/class_4209/method_19775(Lnet/minecraft/class_3218;Lnet/minecraft/class_1923;)V": {
+        "from": null,
+        "to": "sendChunkWatchingChange"
+      },
+      "net/minecraft/class_4325/method_20905()V": {
+        "from": "closePopup",
+        "to": null
+      },
+      "net/minecraft/class_2248/method_17454(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)Lnet/minecraft/class_3908;": {
+        "from": "createContainerProvider",
+        "to": "createContainerFactory"
+      },
+      "net/minecraft/class_2936/<init>(Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2680/method_17526(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)Lnet/minecraft/class_3908;": {
+        "from": "createContainerProvider",
+        "to": "createContainerFactory"
+      },
+      "net/minecraft/class_1297/method_5756(Lnet/minecraft/class_1657;)Z": {
+        "from": "canSeePlayer",
+        "to": "isInvisibleTo"
+      },
+      "net/minecraft/class_2647/method_11430(Ljava/util/Random;)Lnet/minecraft/class_2975;": {
+        "from": "createTreeFeature",
+        "to": null
+      },
+      "net/minecraft/class_1222/method_5195(Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/lang/String;)V": {
+        "from": null,
+        "to": "targetEntity"
+      },
+      "net/minecraft/class_3692/method_24256(Ljava/lang/StringBuilder;I)Ljava/lang/StringBuilder;": {
+        "from": null,
+        "to": "indent"
+      },
+      "net/minecraft/class_2573/method_10909()Ljava/util/List;": {
+        "from": "getPatternColors",
+        "to": null
+      },
+      "net/minecraft/class_3616/method_15819(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "canLightFire"
+      },
+      "net/minecraft/class_3695/method_24270(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "visit"
+      },
+      "net/minecraft/class_4209/method_19776(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)V": {
+        "from": null,
+        "to": "sendPoiAddition"
+      },
+      "net/minecraft/class_1324/method_22323(Lnet/minecraft/class_1324;)V": {
+        "from": null,
+        "to": "copyFrom"
+      },
+      "net/minecraft/class_1297/method_5725(Lnet/minecraft/class_2338;FF)V": {
+        "from": "setPositionAndAngles",
+        "to": "refreshPositionAndAngles"
+      },
+      "net/minecraft/class_1297/method_5808(DDDFF)V": {
+        "from": "setPositionAndAngles",
+        "to": "refreshPositionAndAngles"
+      },
+      "net/minecraft/class_1293/method_5583(Lnet/minecraft/class_2487;)Lnet/minecraft/class_1293;": {
+        "from": "deserialize",
+        "to": "fromTag"
+      },
+      "net/minecraft/class_310/method_24288()V": {
+        "from": null,
+        "to": "updateWindowTitle"
+      },
+      "net/minecraft/class_637/method_2930(I)Ljava/lang/String;": {
+        "from": "formatInt",
+        "to": "format"
+      },
+      "net/minecraft/class_1060/method_4616(Lnet/minecraft/class_2960;Lnet/minecraft/class_1044;)Z": {
+        "from": "registerTexture",
+        "to": null
+      },
+      "net/minecraft/class_4749/<init>(Lnet/minecraft/class_437;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3692/method_24264()Ljava/util/Map;": {
+        "from": null,
+        "to": "setupCounters"
+      },
+      "net/minecraft/class_2934/<init>(Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3696/method_16069(Ljava/io/File;)Z": {
+        "from": "saveToFile",
+        "to": "save"
+      },
+      "net/minecraft/class_1530/method_6895()V": {
+        "from": null,
+        "to": "updateAttachmentPosition"
+      },
+      "net/minecraft/class_2573/method_10914()V": {
+        "from": "readPattern",
+        "to": null
+      },
+      "net/minecraft/class_1293/method_5582(Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;": {
+        "from": "serialize",
+        "to": "toTag"
+      },
+      "net/minecraft/class_4662/method_23470(Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Ljava/util/Set;Lnet/minecraft/class_3341;)V": {
+        "from": null,
+        "to": "setBlockStateAndEncompassPosition"
+      },
+      "net/minecraft/class_951/method_4125(Lnet/minecraft/class_1477;F)F": {
+        "from": "getCustomAngle",
+        "to": "getAnimationProgress"
+      },
+      "net/minecraft/class_1297/method_5814(DDD)V": {
+        "from": "setPosition",
+        "to": "updatePosition"
+      },
+      "net/minecraft/class_1222/method_5196(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;": {
+        "from": null,
+        "to": "targetItems"
+      },
+      "net/minecraft/class_2724/method_22425()J": {
+        "from": null,
+        "to": "getSha256Seed"
+      },
+      "net/minecraft/class_2651/method_11448()I": {
+        "from": "getId",
+        "to": "getSyncId"
+      },
+      "net/minecraft/class_2457/b(Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;I)V": {
+        "from": "b",
+        "to": null
+      },
+      "net/minecraft/class_2602/method_11102(Lnet/minecraft/class_2645;)V": {
+        "from": "onGuiClose",
+        "to": "onCloseContainer"
+      },
+      "net/minecraft/class_747/<init>(Lnet/minecraft/class_1270;Lnet/minecraft/class_2561;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4209/method_19777(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)V": {
+        "from": null,
+        "to": "sendPoiRemoval"
+      },
+      "net/minecraft/class_2535/method_10760(I)V": {
+        "from": "setMinCompressedSize",
+        "to": "setCompressionThreshold"
+      },
+      "net/minecraft/class_3852/method_22384()Lnet/minecraft/class_3414;": {
+        "from": null,
+        "to": "getWorkSound"
+      },
+      "net/minecraft/class_3609/method_15752(Lnet/minecraft/class_3610;)Z": {
+        "from": null,
+        "to": "isMatchingAndStill"
+      },
+      "net/minecraft/class_1493/method_6711()Z": {
+        "from": "isWet",
+        "to": "isFurWet"
+      },
+      "net/minecraft/class_793/method_24298()Lnet/minecraft/class_793$class_4751;": {
+        "from": null,
+        "to": "getGuiLight"
+      },
+      "net/minecraft/class_1297/method_23311()V": {
+        "from": "updatePosition",
+        "to": "refreshPosition"
+      },
+      "net/minecraft/class_3494$class_3497/<init>(Lnet/minecraft/class_3494;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3693/method_16064()Lnet/minecraft/class_3696;": {
+        "from": "getResults",
+        "to": "getResult"
+      },
+      "net/minecraft/class_1921/method_24293(Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_1921;": {
+        "from": null,
+        "to": "getCutoutNoCull"
+      },
+      "net/minecraft/class_922/<init>(Lnet/minecraft/class_898;Lnet/minecraft/class_583;F)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1657/method_7288(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;Z)Ljava/util/Optional;": {
+        "from": null,
+        "to": "findRespawnPosition"
+      },
+      "net/minecraft/class_4748/method_24273()J": {
+        "from": null,
+        "to": "getVisitCount"
+      },
+      "net/minecraft/class_3616/method_15818(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;)V": {
+        "from": null,
+        "to": "playExtinguishEvent"
+      },
+      "net/minecraft/class_4209/method_22319(Lnet/minecraft/class_3218;Lnet/minecraft/class_2540;Lnet/minecraft/class_2960;)V": {
+        "from": null,
+        "to": "sendToAll"
+      },
+      "net/minecraft/class_3692$class_4747/method_24267(Ljava/util/Iterator;J)V": {
+        "from": null,
+        "to": "add"
+      },
+      "net/minecraft/class_485/<init>(Lnet/minecraft/client/gui/screen/ingame/AbstractInventoryScreen$T;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_634/method_19691(Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;": {
+        "from": null,
+        "to": "getActiveTotemOfUndying"
+      },
+      "net/minecraft/class_2602/method_11089(Lnet/minecraft/class_2648;)V": {
+        "from": "onGuiOpen",
+        "to": "onOpenHorseContainer"
+      },
+      "net/minecraft/class_310/method_24289()Z": {
+        "from": null,
+        "to": "isModded"
+      },
+      "net/minecraft/class_1921/method_24295()Z": {
+        "from": null,
+        "to": "isOutline"
+      },
+      "net/minecraft/class_1703/method_7606(II)V": {
+        "from": "setProperties",
+        "to": "setProperty"
+      },
+      "net/minecraft/class_3449/method_23676()I": {
+        "from": null,
+        "to": "getReferences"
+      },
+      "net/minecraft/class_1297/method_5637()Z": {
+        "from": "isTouchingWater",
+        "to": "isWet"
+      },
+      "net/minecraft/class_2648/method_11432()I": {
+        "from": "getId",
+        "to": "getSyncId"
+      },
+      "net/minecraft/class_3696/method_21721(Ljava/lang/String;)Ljava/lang/String;": {
+        "from": null,
+        "to": "getHumanReadableName"
+      },
+      "net/minecraft/class_3692/method_24255(Ljava/lang/String;Ljava/lang/String;)Z": {
+        "from": null,
+        "to": "isSubpath"
+      },
+      "net/minecraft/class_4341/method_21000(Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/realmsclient/dto/RealmsServer;": {
+        "from": "createTrial",
+        "to": null
+      },
+      "net/minecraft/class_4745/<init>(Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1921$class_4688$class_4689/method_24297(Lnet/minecraft/class_1921$class_4750;)Lnet/minecraft/class_1921$class_4688;": {
+        "from": null,
+        "to": "build"
+      },
+      "net/minecraft/class_4744/<init>(Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2586/method_11009(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V": {
+        "from": "setWorld",
+        "to": "setLocation"
+      },
+      "net/minecraft/class_1093$class_1094/<init>(Lnet/minecraft/class_793;Lnet/minecraft/class_806;Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1542/method_24018(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;I)Lnet/minecraft/class_1799;": {
+        "from": null,
+        "to": "merge"
+      },
+      "net/minecraft/class_1093/<init>(Ljava/util/List;Ljava/util/Map;ZZZLnet/minecraft/class_1058;Lnet/minecraft/class_809;Lnet/minecraft/class_806;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1060/method_4616(Lnet/minecraft/class_2960;Lnet/minecraft/class_1044;)V": {
+        "from": null,
+        "to": "registerTexture"
+      },
+      "net/minecraft/class_793/method_3445()Z": {
+        "from": "hasDepthInGui",
+        "to": null
+      },
+      "net/minecraft/class_2573/method_22534(Z)V": {
+        "from": "setPreview",
+        "to": null
+      },
+      "net/minecraft/class_1921/method_24294(Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_1921;": {
+        "from": null,
+        "to": "getEntityTranslucent"
+      },
+      "net/minecraft/class_1293/method_24277(Lnet/minecraft/class_2487;)V": {
+        "from": null,
+        "to": "typelessToTag"
+      },
+      "net/minecraft/class_2960/<init>(Ljava/lang/String;Ljava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4662/method_23471(Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2746;Ljava/util/Set;Lnet/minecraft/class_3341;)V": {
+        "from": null,
+        "to": "placeVine"
+      },
+      "net/minecraft/class_2158$class_2159/<init>(Lnet/minecraft/class_2158;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3609/method_15746(Lnet/minecraft/class_1922;Lnet/minecraft/class_3611;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;)Z": {
+        "from": null,
+        "to": "canFlowThrough"
+      },
+      "net/minecraft/class_2653/method_11452()I": {
+        "from": "getId",
+        "to": "getSyncId"
+      },
+      "net/minecraft/class_969/method_4167(Lnet/minecraft/class_1493;F)F": {
+        "from": "getCustomAngle",
+        "to": "getAnimationProgress"
+      },
+      "net/minecraft/class_2248/method_9581(Lnet/minecraft/class_2248;)Z": {
+        "from": "canConnect",
+        "to": "cannotConnect"
+      },
+      "net/minecraft/class_395/<init>(Lorg/lwjgl/stb/STBTTFontinfo;FFFFLjava/lang/String;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_3692/<init>(Ljava/util/Map;JIJI)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1293/method_24276(Lnet/minecraft/class_1293;)V": {
+        "from": null,
+        "to": "copyFrom"
+      },
+      "net/minecraft/class_1093$class_1094/<init>(Lnet/minecraft/class_793;Lnet/minecraft/class_806;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_1921/method_23289()Ljava/util/Optional;": {
+        "from": "getTexture",
+        "to": "getAffectedOutline"
+      },
+      "net/minecraft/class_3674/method_15978(JLjava/nio/ByteBuffer;Ljava/lang/String;)V": {
+        "from": "setClipboard",
+        "to": null
+      },
+      "net/minecraft/class_4391/charTyped(CI)Z": {
+        "from": "charTyped",
+        "to": null
+      },
+      "net/minecraft/class_3494$class_3497/<init>(Lnet/minecraft/class_2960;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2573/method_22535()Z": {
+        "from": "isPreview",
+        "to": null
+      },
+      "net/minecraft/class_2960/<init>(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1959/method_8696(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z": {
+        "from": "canSetIce",
+        "to": "canSetSnow"
+      },
+      "net/minecraft/class_877/method_24301(Lnet/minecraft/class_1531;ZZ)Lnet/minecraft/class_1921;": {
+        "from": null,
+        "to": "getRenderLayer"
+      },
+      "net/minecraft/class_1093$class_1094/<init>(ZZLnet/minecraft/class_809;Lnet/minecraft/class_806;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_1293/<init>(Lnet/minecraft/class_1291;IIZZZLnet/minecraft/class_1293;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4391/method_21251()Z": {
+        "from": "valid",
+        "to": null
+      },
+      "net/minecraft/class_1297/method_5869()Z": {
+        "from": "isInWater",
+        "to": "isSubmergedInWater"
+      },
+      "net/minecraft/class_793/method_3446(Lnet/minecraft/class_1088;Lnet/minecraft/class_793;Ljava/util/function/Function;Lnet/minecraft/class_3665;Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_1087;": {
+        "from": null,
+        "to": "bake"
+      },
+      "net/minecraft/class_793$class_4751/method_24299()Z": {
+        "from": null,
+        "to": "isSide"
+      },
+      "net/minecraft/class_1657/method_7295()Z": {
+        "from": "updateInWater",
+        "to": "updateWaterSubmersionState"
+      },
+      "net/minecraft/class_634/method_2870(IILnet/minecraft/class_3568;Lnet/minecraft/class_1944;IILjava/util/Iterator;)V": {
+        "from": null,
+        "to": "updateLighting"
+      },
+      "net/minecraft/class_3943/method_20722()Z": {
+        "from": null,
+        "to": "isRefreshable"
+      },
+      "net/minecraft/class_824/method_3552(Lnet/minecraft/class_2586;Lnet/minecraft/class_4587;)V": {
+        "from": "renderEntity",
+        "to": null
+      },
+      "net/minecraft/class_1297/method_5641(DDDFF)V": {
+        "from": "setPositionAnglesAndUpdate",
+        "to": "updatePositionAndAngles"
+      },
+      "net/minecraft/class_1087/method_24304()Z": {
+        "from": null,
+        "to": "isSideLit"
+      },
+      "net/minecraft/class_1293/method_5585(Lnet/minecraft/class_1309;Ljava/lang/Runnable;)Z": {
+        "from": null,
+        "to": "update"
+      },
+      "net/minecraft/class_3609/method_15754(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3611;)Z": {
+        "from": null,
+        "to": "canFill"
+      },
+      "net/minecraft/class_793/method_3446(Lnet/minecraft/class_1088;Lnet/minecraft/class_793;Ljava/util/function/Function;Lnet/minecraft/class_3665;Lnet/minecraft/class_2960;)Lnet/minecraft/class_1087;": {
+        "from": "bake",
+        "to": null
+      },
+      "net/minecraft/class_4391/method_21249()V": {
+        "from": "createWorld",
+        "to": null
+      },
+      "net/minecraft/class_1530/method_6888()Z": {
+        "from": null,
+        "to": "canStayAttached"
+      },
+      "net/minecraft/class_1325/method_22324(Lnet/minecraft/class_1325;)V": {
+        "from": null,
+        "to": "copyFrom"
+      },
+      "net/minecraft/class_793$class_4751/<init>(Ljava/lang/String;ILjava/lang/String;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_2647/method_11430(Ljava/util/Random;Z)Lnet/minecraft/class_2975;": {
+        "from": null,
+        "to": "createTreeFeature"
+      },
+      "net/minecraft/class_3533/method_24246()Lnet/minecraft/class_3533$class_4746;": {
+        "from": null,
+        "to": "getCurrentInfo"
+      },
+      "net/minecraft/class_4325/method_20869(Z)V": {
+        "from": "setCreatedTrial",
+        "to": null
+      },
+      "net/minecraft/class_1959/method_8705(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z": {
+        "from": "canSetSnow",
+        "to": "canSetIce"
+      },
+      "net/minecraft/class_1297/method_5799()Z": {
+        "from": "isInsideWater",
+        "to": "isTouchingWater"
+      },
+      "net/minecraft/class_310/method_24287()Ljava/lang/String;": {
+        "from": null,
+        "to": "getWindowTitle"
+      },
+      "net/minecraft/class_3674/method_15978(JLjava/nio/ByteBuffer;[B)V": {
+        "from": null,
+        "to": "setClipboard"
+      },
+      "net/minecraft/class_1093/<init>(Ljava/util/List;Ljava/util/Map;ZZLnet/minecraft/class_1058;Lnet/minecraft/class_809;Lnet/minecraft/class_806;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/server/MinecraftServer/method_24306(Lnet/minecraft/class_3738;)V": {
+        "from": null,
+        "to": "executeTask"
+      },
+      "net/minecraft/class_914/method_3988(Lnet/minecraft/class_1581;)Z": {
+        "from": null,
+        "to": "isFullyVisible"
+      },
+      "net/minecraft/class_1093$class_1094/<init>(ZZZLnet/minecraft/class_809;Lnet/minecraft/class_806;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1493/method_6707(F)F": {
+        "from": "getWetBrightnessMultiplier",
+        "to": "getFurWetBrightnessMultiplier"
+      },
+      "net/minecraft/class_3825/method_16766()Lnet/minecraft/class_3827;": {
+        "from": "getRuleTest",
+        "to": "getType"
+      },
+      "net/minecraft/class_2158$class_2160/<init>(Lcom/mojang/brigadier/ParseResults;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_3915/method_17408()Z": {
+        "from": "detectChanges",
+        "to": "hasChanged"
+      },
+      "net/minecraft/class_877/method_23152(Lnet/minecraft/class_1531;Z)Z": {
+        "from": "method_4056",
+        "to": null
+      },
+      "net/minecraft/class_4748/method_24272()J": {
+        "from": null,
+        "to": "getTotalTime"
+      },
+      "net/minecraft/class_3692/<init>(Ljava/util/Map;Ljava/util/Map;JIJI)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_1703/method_7622(Lnet/minecraft/class_1657;)Z": {
+        "from": "isRestricted",
+        "to": "isNotRestricted"
+      },
+      "net/minecraft/class_1921$class_4688/<init>(Lnet/minecraft/class_4668$class_4683;Lnet/minecraft/class_4668$class_4685;Lnet/minecraft/class_4668$class_4673;Lnet/minecraft/class_4668$class_4681;Lnet/minecraft/class_4668$class_4669;Lnet/minecraft/class_4668$class_4672;Lnet/minecraft/class_4668$class_4671;Lnet/minecraft/class_4668$class_4676;Lnet/minecraft/class_4668$class_4679;Lnet/minecraft/class_4668$class_4674;Lnet/minecraft/class_4668$class_4675;Lnet/minecraft/class_4668$class_4678;Lnet/minecraft/class_4668$class_4684;Lnet/minecraft/class_4668$class_4686;Lnet/minecraft/class_4668$class_4677;Z)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_2602/method_11109(Lnet/minecraft/class_2653;)V": {
+        "from": "onGuiSlotUpdate",
+        "to": "onContainerSlotUpdate"
+      },
+      "net/minecraft/class_882/method_3893(Lnet/minecraft/class_1428;F)F": {
+        "from": "getCustomAngle",
+        "to": "getAnimationProgress"
+      },
+      "net/minecraft/class_2602/method_11131(Lnet/minecraft/class_2651;)V": {
+        "from": "onGuiUpdate",
+        "to": "onContainerPropertyUpdate"
+      },
+      "net/minecraft/class_2918/<init>(Ljava/util/function/Function;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_1293/method_5585(Lnet/minecraft/class_1309;)Z": {
+        "from": "update",
+        "to": null
+      },
+      "net/minecraft/class_922/method_4056(Lnet/minecraft/class_1309;)Z": {
+        "from": null,
+        "to": "isFullyVisible"
+      },
+      "net/minecraft/class_1419/method_6445(Lnet/minecraft/class_3218;ZZ)I": {
+        "from": "tick",
+        "to": "spawn"
+      },
+      "net/minecraft/class_1959/method_8685(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;Z)Z": {
+        "from": "canSetSnow",
+        "to": "canSetIce"
+      },
+      "net/minecraft/class_1297/method_5721()Z": {
+        "from": "isInsideWaterOrRain",
+        "to": "isTouchingWaterOrRain"
+      },
+      "net/minecraft/class_3611/method_15777(Lnet/minecraft/class_3610;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3611;Lnet/minecraft/class_2350;)Z": {
+        "from": null,
+        "to": "canBeReplacedWith"
+      },
+      "net/minecraft/class_793$class_4751/method_24300(Ljava/lang/String;)Lnet/minecraft/class_793$class_4751;": {
+        "from": null,
+        "to": "deserialize"
+      },
+      "net/minecraft/class_3692/method_24253(ILjava/lang/String;Lnet/minecraft/class_3692$class_4747;ILjava/lang/StringBuilder;)V": {
+        "from": null,
+        "to": "appendCounter"
+      },
+      "net/minecraft/class_1041/method_24286(Ljava/lang/String;)V": {
+        "from": null,
+        "to": "setTitle"
+      },
+      "net/minecraft/class_4748/method_24274()Lit/unimi/dsi/fastutil/objects/Object2LongMap;": {
+        "from": null,
+        "to": "getCounts"
+      },
+      "net/minecraft/class_2596/method_11051()Z": {
+        "from": "isErrorFatal",
+        "to": "isWritingErrorSkippable"
+      },
+      "net/minecraft/class_3441/method_20732(Lnet/minecraft/class_2499;Ljava/util/function/Consumer;)V": {
+        "from": null,
+        "to": "handleList"
+      },
+      "net/minecraft/class_3607/method_15723(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;": {
+        "from": null,
+        "to": "renameMotive"
+      },
+      "net/minecraft/class_930/method_4081(Lnet/minecraft/class_1453;F)F": {
+        "from": "getCustomAngle",
+        "to": "getAnimationProgress"
+      },
+      "net/minecraft/class_922/method_24302(Lnet/minecraft/class_1309;ZZ)Lnet/minecraft/class_1921;": {
+        "from": null,
+        "to": "getRenderLayer"
+      },
+      "net/minecraft/class_793/<init>(Lnet/minecraft/class_2960;Ljava/util/List;Ljava/util/Map;ZLnet/minecraft/class_793$class_4751;Lnet/minecraft/class_809;Ljava/util/List;)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4391/<init>(Lnet/minecraft/class_4325;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_3616/method_15817(Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z": {
+        "from": null,
+        "to": "hasBurnableBlock"
+      },
+      "net/minecraft/class_3533/<init>(JLjava/util/function/IntSupplier;Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_4391/render(IIF)V": {
+        "from": "render",
+        "to": null
+      },
+      "net/minecraft/class_1535/<init>(II)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_634/method_2885(Ljava/util/concurrent/CompletableFuture;)V": {
+        "from": null,
+        "to": "feedbackAfterDownload"
+      },
+      "net/minecraft/class_1090/<init>(Lnet/minecraft/class_809;Lnet/minecraft/class_806;Lnet/minecraft/class_1058;)V": {
+        "from": "<init>",
+        "to": null
+      },
+      "net/minecraft/class_1293/method_24275(Lnet/minecraft/class_1291;Lnet/minecraft/class_2487;)Lnet/minecraft/class_1293;": {
+        "from": null,
+        "to": "fromTag"
+      },
+      "net/minecraft/class_1090/<init>(Lnet/minecraft/class_809;Lnet/minecraft/class_806;Lnet/minecraft/class_1058;Z)V": {
+        "from": null,
+        "to": "<init>"
+      },
+      "net/minecraft/class_637/method_2929(D)Ljava/lang/String;": {
+        "from": "formatDouble",
+        "to": "format"
+      }
+    },
+    "fields": {
+      "net/minecraft/class_3692/field_21823": {
+        "from": null,
+        "to": "EMPTY_INFO"
+      },
+      "net/minecraft/class_4492/field_20462": {
+        "from": null,
+        "to": "FRAME_BUFFER_INCOMPLETE_ATTACHMENT"
+      },
+      "net/minecraft/class_793$class_4751/field_21860": {
+        "from": null,
+        "to": "name"
+      },
+      "net/minecraft/class_4634/field_21229": {
+        "from": null,
+        "to": "stateProvider"
+      },
+      "net/minecraft/class_1530/field_7097": {
+        "from": null,
+        "to": "obstructionCheckCounter"
+      },
+      "net/minecraft/class_4744/field_21815": {
+        "from": null,
+        "to": "renamer"
+      },
+      "net/minecraft/class_2648/field_12142": {
+        "from": "entityHorseId",
+        "to": "horseId"
+      },
+      "net/minecraft/class_1723/field_7830": {
+        "from": "invCraftingResult",
+        "to": "craftingResultInventory"
+      },
+      "net/minecraft/class_4745/field_21816": {
+        "from": null,
+        "to": "name"
+      },
+      "net/minecraft/class_3935/field_17422": {
+        "from": "lecternContainer",
+        "to": "container"
+      },
+      "net/minecraft/class_2573/field_20743": {
+        "from": "preview",
+        "to": null
+      },
+      "net/minecraft/class_4492/field_20459": {
+        "from": null,
+        "to": "COLOR_ATTACHMENT"
+      },
+      "net/minecraft/class_3533/field_21819": {
+        "from": null,
+        "to": "currentInfo"
+      },
+      "net/minecraft/class_3201/field_13890": {
+        "from": null,
+        "to": "sentHelp"
+      },
+      "net/minecraft/class_634/field_3698": {
+        "from": null,
+        "to": "positionLookSetup"
+      },
+      "net/minecraft/class_3534/field_19384": {
+        "from": null,
+        "to": "visitCount"
+      },
+      "net/minecraft/class_4745/field_21817": {
+        "from": null,
+        "to": "renamer"
+      },
+      "net/minecraft/class_1703/field_7764": {
+        "from": "stackList",
+        "to": "trackedStacks"
+      },
+      "net/minecraft/class_4749/field_21849": {
+        "from": null,
+        "to": "lines"
+      },
+      "net/minecraft/class_1921$class_4687/field_21851": {
+        "from": null,
+        "to": "outline"
+      },
+      "net/minecraft/class_793/field_21857": {
+        "from": null,
+        "to": "guiLight"
+      },
+      "net/minecraft/class_1921$class_4688/field_21421": {
+        "from": "textured",
+        "to": null
+      },
+      "net/minecraft/class_4662/field_21319": {
+        "from": null,
+        "to": "type"
+      },
+      "net/minecraft/class_3692$class_4747/field_21828": {
+        "from": null,
+        "to": "totalTime"
+      },
+      "net/minecraft/class_3614/field_15949": {
+        "from": "ANVIL",
+        "to": "REPAIR_STATION"
+      },
+      "net/minecraft/class_1703/field_7761": {
+        "from": "slotList",
+        "to": "slots"
+      },
+      "net/minecraft/class_1921$class_4688/field_21852": {
+        "from": null,
+        "to": "outlineMode"
+      },
+      "net/minecraft/class_4749/field_21842": {
+        "from": null,
+        "to": "parent"
+      },
+      "net/minecraft/class_1293/field_21830": {
+        "from": null,
+        "to": "hiddenEffect"
+      },
+      "net/minecraft/class_3614/field_15948": {
+        "from": "SNOW",
+        "to": "SNOW_LAYER"
+      },
+      "net/minecraft/class_2499/field_21461": {
+        "from": null,
+        "to": "NBT_NUMBER_TYPES"
+      },
+      "net/minecraft/class_2573/field_11771": {
+        "from": "patternColors",
+        "to": null
+      },
+      "net/minecraft/class_300/field_1642": {
+        "from": "queryConsumer",
+        "to": "callback"
+      },
+      "net/minecraft/class_1723/field_7827": {
+        "from": "local",
+        "to": "onServer"
+      },
+      "net/minecraft/class_3201/field_13888": {
+        "from": null,
+        "to": "reminderTicks"
+      },
+      "net/minecraft/class_1921$class_4750/field_21854": {
+        "from": null,
+        "to": "IS_OUTLINE"
+      },
+      "net/minecraft/class_4391/field_19840": {
+        "from": "initialized",
+        "to": null
+      },
+      "net/minecraft/class_3533/field_15732": {
+        "from": null,
+        "to": "startTime"
+      },
+      "net/minecraft/class_3692/field_16277": {
+        "from": "timings",
+        "to": null
+      },
+      "net/minecraft/class_2535/field_11640": {
+        "from": null,
+        "to": "errored"
+      },
+      "net/minecraft/class_2653/field_12152": {
+        "from": "id",
+        "to": "syncId"
+      },
+      "net/minecraft/class_1093/field_5413": {
+        "from": "depthInGui",
+        "to": "hasDepth"
+      },
+      "net/minecraft/class_4749/field_21843": {
+        "from": null,
+        "to": "header"
+      },
+      "net/minecraft/class_1408/field_6683": {
+        "from": null,
+        "to": "nodeReachProximity"
+      },
+      "net/minecraft/class_2889/field_13156": {
+        "from": "state",
+        "to": "intendedState"
+      },
+      "net/minecraft/class_3201/field_13887": {
+        "from": null,
+        "to": "tick"
+      },
+      "net/minecraft/class_1530/field_7100": {
+        "from": "blockPos",
+        "to": "attachmentPos"
+      },
+      "net/minecraft/class_4434$class_4444/field_20247": {
+        "from": "motd",
+        "to": null
+      },
+      "net/minecraft/class_4391/field_19841": {
+        "from": "createButton",
+        "to": null
+      },
+      "net/minecraft/class_2645/field_12137": {
+        "from": "id",
+        "to": "syncId"
+      },
+      "net/minecraft/class_3533/field_15729": {
+        "from": null,
+        "to": "startTick"
+      },
+      "net/minecraft/class_4492/field_20458": {
+        "from": "renderBufferTarget",
+        "to": "RENDER_BUFFER"
+      },
+      "net/minecraft/class_747/field_17280": {
+        "from": "containerProvider",
+        "to": "baseFactory"
+      },
+      "net/minecraft/class_1928/field_21832": {
+        "from": null,
+        "to": "DO_TRADER_SPAWNING"
+      },
+      "net/minecraft/class_3614/field_15936": {
+        "from": "CLAY",
+        "to": "ORGANIC_PRODUCT"
+      },
+      "net/minecraft/class_1297/field_6000": {
+        "from": "inWater",
+        "to": "submergedInWater"
+      },
+      "net/minecraft/class_3246/field_14153": {
+        "from": "client",
+        "to": "connection"
+      },
+      "net/minecraft/class_3248/field_14158": {
+        "from": "client",
+        "to": "connection"
+      },
+      "net/minecraft/class_1297/field_5957": {
+        "from": "insideWater",
+        "to": "touchingWater"
+      },
+      "net/minecraft/class_1928/field_21831": {
+        "from": null,
+        "to": "DO_PATROL_SPAWNING"
+      },
+      "net/minecraft/class_3692/field_21824": {
+        "from": null,
+        "to": "SPLITTER"
+      },
+      "net/minecraft/class_1921$class_4687/field_21697": {
+        "from": "texture",
+        "to": "affectedOutline"
+      },
+      "net/minecraft/class_1093$class_1094/field_5420": {
+        "from": "depthInGui",
+        "to": "isSideLit"
+      },
+      "net/minecraft/class_3533/field_15731": {
+        "from": "nameDurationMap",
+        "to": null
+      },
+      "net/minecraft/class_4749/field_21848": {
+        "from": null,
+        "to": "checkbox"
+      },
+      "net/minecraft/class_3852/field_20633": {
+        "from": null,
+        "to": "workSound"
+      },
+      "net/minecraft/class_4492/field_20460": {
+        "from": "attachment",
+        "to": "DEPTH_ATTACHMENT"
+      },
+      "net/minecraft/class_4492/field_20463": {
+        "from": null,
+        "to": "FRAME_BUFFER_INCOMPLETE_MISSING_ATTACHMENT"
+      },
+      "net/minecraft/class_1921$class_4750/field_21855": {
+        "from": null,
+        "to": "AFFECTS_OUTLINE"
+      },
+      "net/minecraft/class_793$class_4751/field_21859": {
+        "from": null,
+        "to": "field_21859"
+      },
+      "net/minecraft/class_3692$class_4747/field_21827": {
+        "from": null,
+        "to": "selfTime"
+      },
+      "net/minecraft/class_3864/field_21835": {
+        "from": null,
+        "to": "OAK_TREE_WITH_RARE_BEEHIVES_CONFIG"
+      },
+      "net/minecraft/class_3533/field_20345": {
+        "from": null,
+        "to": "checkTimeout"
+      },
+      "net/minecraft/class_3692$class_4747/field_21829": {
+        "from": null,
+        "to": "subCounters"
+      },
+      "net/minecraft/class_1132/field_5524": {
+        "from": null,
+        "to": "paused"
+      },
+      "net/minecraft/class_2378/field_11150": {
+        "from": "MOTIVE",
+        "to": "PAINTING_MOTIVE"
+      },
+      "net/minecraft/class_2651/field_12150": {
+        "from": "id",
+        "to": "syncId"
+      },
+      "net/minecraft/class_4434$class_4444/field_20248": {
+        "from": "lastScreen",
+        "to": null
+      },
+      "net/minecraft/class_793/field_4246": {
+        "from": "depthInGui",
+        "to": null
+      },
+      "net/minecraft/class_3533$class_4746/field_21821": {
+        "from": null,
+        "to": "visits"
+      },
+      "net/minecraft/class_4391/field_19838": {
+        "from": "nameBox",
+        "to": null
+      },
+      "net/minecraft/class_3614/field_15926": {
+        "from": "SEAGRASS",
+        "to": "REPLACEABLE_UNDERWATER_PLANT"
+      },
+      "net/minecraft/class_3689/field_19286": {
+        "from": null,
+        "to": "LOGGER"
+      },
+      "net/minecraft/class_2532/field_11623": {
+        "from": "minCompressedSize",
+        "to": "compressionThreshold"
+      },
+      "net/minecraft/class_1723/field_7831": {
+        "from": "invCrafting",
+        "to": "craftingInventory"
+      },
+      "net/minecraft/class_378/field_18013": {
+        "from": "fonts",
+        "to": null
+      },
+      "net/minecraft/class_4391/field_19839": {
+        "from": "descriptionBox",
+        "to": null
+      },
+      "net/minecraft/class_3692/field_21826": {
+        "from": null,
+        "to": "locationInfos"
+      },
+      "net/minecraft/class_315/field_21840": {
+        "from": null,
+        "to": "skipMultiplayerWarning"
+      },
+      "net/minecraft/class_1657/field_7490": {
+        "from": "isInWater",
+        "to": "isSubmergedInWater"
+      },
+      "net/minecraft/class_3692/field_21825": {
+        "from": null,
+        "to": "COMPARATOR"
+      },
+      "net/minecraft/class_3864/field_21836": {
+        "from": null,
+        "to": "BIRCH_TREE_WITH_MORE_BEEHIVES_CONFIG"
+      },
+      "net/minecraft/class_4492/field_20457": {
+        "from": "target",
+        "to": "FRAME_BUFFER"
+      },
+      "net/minecraft/class_3533$class_4746/field_21820": {
+        "from": null,
+        "to": "time"
+      },
+      "net/minecraft/class_2648/field_12144": {
+        "from": "id",
+        "to": "syncId"
+      },
+      "net/minecraft/class_4744/field_21814": {
+        "from": null,
+        "to": "name"
+      },
+      "net/minecraft/class_793$class_4751/field_21858": {
+        "from": null,
+        "to": "field_21858"
+      },
+      "net/minecraft/class_3614/field_15954": {
+        "from": "PUMPKIN",
+        "to": "GOURD"
+      },
+      "net/minecraft/class_4391/field_19837": {
+        "from": "lastScreen",
+        "to": null
+      },
+      "net/minecraft/class_3533/field_21818": {
+        "from": null,
+        "to": "locationInfos"
+      },
+      "net/minecraft/class_1093/field_21864": {
+        "from": null,
+        "to": "isSideLit"
+      },
+      "net/minecraft/class_3864/field_21833": {
+        "from": null,
+        "to": "BIRCH_TREE_WITH_RARE_BEEHIVES_CONFIG"
+      },
+      "net/minecraft/class_4749/field_21845": {
+        "from": null,
+        "to": "checkMessage"
+      },
+      "net/minecraft/class_310/field_1746": {
+        "from": "clientConnection",
+        "to": "connection"
+      },
+      "net/minecraft/class_1093$class_1094/field_21865": {
+        "from": null,
+        "to": "hasDepth"
+      },
+      "net/minecraft/class_4749/field_21844": {
+        "from": null,
+        "to": "message"
+      },
+      "net/minecraft/class_1921$class_4750/field_21853": {
+        "from": null,
+        "to": "NONE"
+      },
+      "net/minecraft/class_4749/field_21846": {
+        "from": null,
+        "to": "proceedText"
+      },
+      "net/minecraft/class_4749/field_21847": {
+        "from": null,
+        "to": "backText"
+      },
+      "net/minecraft/class_2724/field_20667": {
+        "from": null,
+        "to": "sha256Seed"
+      },
+      "net/minecraft/class_3244/field_14127": {
+        "from": "client",
+        "to": "connection"
+      },
+      "net/minecraft/class_2889/field_13158": {
+        "from": "version",
+        "to": "protocolVersion"
+      },
+      "net/minecraft/class_2573/field_11775": {
+        "from": "patternCacheKey",
+        "to": null
+      },
+      "net/minecraft/class_3533/field_16266": {
+        "from": null,
+        "to": "endTickGetter"
+      },
+      "net/minecraft/class_4434$class_4444/field_20246": {
+        "from": "name",
+        "to": null
+      },
+      "net/minecraft/class_3614/field_15945": {
+        "from": "ORGANIC",
+        "to": "SOLID_ORGANIC"
+      },
+      "net/minecraft/class_3251/field_14178": {
+        "from": "client",
+        "to": "connection"
+      },
+      "net/minecraft/class_3240/field_14103": {
+        "from": "client",
+        "to": "connection"
+      },
+      "net/minecraft/class_1493/field_6944": {
+        "from": "wet",
+        "to": "furWet"
+      },
+      "net/minecraft/class_4492/field_20461": {
+        "from": null,
+        "to": "FRAME_BUFFER_COMPLETE"
+      },
+      "net/minecraft/class_3614/field_15916": {
+        "from": "SAND",
+        "to": "AGGREGATE"
+      },
+      "net/minecraft/class_4492/field_20464": {
+        "from": null,
+        "to": "FRAME_BUFFER_INCOMPLETE_DRAW_BUFFER"
+      },
+      "net/minecraft/class_3614/field_15924": {
+        "from": "PART",
+        "to": "SUPPORTED"
+      },
+      "net/minecraft/class_3864/field_21834": {
+        "from": null,
+        "to": "FANCY_TREE_WITH_RARE_BEEHIVES_CONFIG"
+      },
+      "net/minecraft/class_3533$class_4746/field_21822": {
+        "from": null,
+        "to": "counts"
+      },
+      "net/minecraft/class_3614/field_15928": {
+        "from": "PACKED_ICE",
+        "to": "DENSE_ICE"
+      },
+      "net/minecraft/class_3533/field_15736": {
+        "from": "nameList",
+        "to": "path"
+      },
+      "net/minecraft/class_2600/field_20318": {
+        "from": null,
+        "to": "LOGGER"
+      },
+      "net/minecraft/class_2612/field_12010": {
+        "from": "motive",
+        "to": "motiveId"
+      },
+      "net/minecraft/class_494/field_20785": {
+        "from": "preview",
+        "to": null
+      },
+      "net/minecraft/class_3692/field_19383": {
+        "from": null,
+        "to": "tickDuration"
+      },
+      "net/minecraft/class_4492/field_20465": {
+        "from": null,
+        "to": "FRAME_BUFFER_INCOMPLETE_READ_BUFFER"
+      },
+      "net/minecraft/class_2498/field_21214": {
+        "from": null,
+        "to": "HONEY"
+      },
+      "net/minecraft/class_3614/field_15941": {
+        "from": "EARTH",
+        "to": "SOIL"
+      },
+      "net/minecraft/class_1921/field_21850": {
+        "from": null,
+        "to": "optionalThis"
+      },
+      "net/minecraft/class_395/field_2322": {
+        "from": "LOGGER",
+        "to": null
+      }
+    }
+  }
+}
