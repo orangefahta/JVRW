@@ -1846,6 +1846,54 @@
       "net/minecraft/class_2412/method_10336(Lnet/minecraft/class_161$class_162;)Lnet/minecraft/class_161$class_162;": {
         "from": null,
         "to": "requireListedMobsKilled"
+      },
+      "net/minecraft/class_1293/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_1291;IIZZZ)V",
+        "new_sig": "(Lnet/minecraft/class_1293;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/class_1291;",
+            "I",
+            "I",
+            "Z",
+            "Z",
+            "Z"
+          ],
+          "new_args": [
+            "Lnet/minecraft/class_1293;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_4117/<init>": {
+        "type": "signature_change",
+        "old_sig": "(F)V",
+        "new_sig": "(FII)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "F"
+          ],
+          "new_args": [
+            "F",
+            "I",
+            "I"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_4157/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/lang/Runnable;)V",
+        "new_sig": "(Ljava/lang/Runnable;Lcom/mojang/datafixers/Dynamic;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
       }
     },
     "fields": {
@@ -4126,6 +4174,200 @@
       "net/minecraft/class_637/method_2929(D)Ljava/lang/String;": {
         "from": "formatDouble",
         "to": "format"
+      },
+      "net/minecraft/class_1060/method_4616": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_2960;Lnet/minecraft/class_1044;)Z",
+        "new_sig": "(Lnet/minecraft/class_2960;Lnet/minecraft/class_1044;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/class_2960;",
+            "Lnet/minecraft/class_1044;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/class_2960;",
+            "Lnet/minecraft/class_1044;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_1090/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_809;Lnet/minecraft/class_806;Lnet/minecraft/class_1058;)V",
+        "new_sig": "(Lnet/minecraft/class_809;Lnet/minecraft/class_806;Lnet/minecraft/class_1058;Z)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 3,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_1093/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/List;Ljava/util/Map;ZZLnet/minecraft/class_1058;Lnet/minecraft/class_809;Lnet/minecraft/class_806;)V",
+        "new_sig": "(Ljava/util/List;Ljava/util/Map;ZZZLnet/minecraft/class_1058;Lnet/minecraft/class_809;Lnet/minecraft/class_806;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 2,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_1093$class_1094/<init>": {
+        "type": "signature_change",
+        "old_sig": "(ZZLnet/minecraft/class_809;Lnet/minecraft/class_806;)V",
+        "new_sig": "(ZZZLnet/minecraft/class_809;Lnet/minecraft/class_806;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 0,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_1293/method_5585": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_1309;)Z",
+        "new_sig": "(Lnet/minecraft/class_1309;Ljava/lang/Runnable;)Z",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_1921$class_4688/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_4668$class_4683;Lnet/minecraft/class_4668$class_4685;Lnet/minecraft/class_4668$class_4673;Lnet/minecraft/class_4668$class_4681;Lnet/minecraft/class_4668$class_4669;Lnet/minecraft/class_4668$class_4672;Lnet/minecraft/class_4668$class_4671;Lnet/minecraft/class_4668$class_4676;Lnet/minecraft/class_4668$class_4679;Lnet/minecraft/class_4668$class_4674;Lnet/minecraft/class_4668$class_4675;Lnet/minecraft/class_4668$class_4678;Lnet/minecraft/class_4668$class_4684;Lnet/minecraft/class_4668$class_4686;Lnet/minecraft/class_4668$class_4677;Z)V",
+        "new_sig": "(Lnet/minecraft/class_4668$class_4683;Lnet/minecraft/class_4668$class_4685;Lnet/minecraft/class_4668$class_4673;Lnet/minecraft/class_4668$class_4681;Lnet/minecraft/class_4668$class_4669;Lnet/minecraft/class_4668$class_4672;Lnet/minecraft/class_4668$class_4671;Lnet/minecraft/class_4668$class_4676;Lnet/minecraft/class_4668$class_4679;Lnet/minecraft/class_4668$class_4674;Lnet/minecraft/class_4668$class_4675;Lnet/minecraft/class_4668$class_4678;Lnet/minecraft/class_4668$class_4684;Lnet/minecraft/class_4668$class_4686;Lnet/minecraft/class_4668$class_4677;Lnet/minecraft/class_1921$class_4750;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/class_4668$class_4683;",
+            "Lnet/minecraft/class_4668$class_4685;",
+            "Lnet/minecraft/class_4668$class_4673;",
+            "Lnet/minecraft/class_4668$class_4681;",
+            "Lnet/minecraft/class_4668$class_4669;",
+            "Lnet/minecraft/class_4668$class_4672;",
+            "Lnet/minecraft/class_4668$class_4671;",
+            "Lnet/minecraft/class_4668$class_4676;",
+            "Lnet/minecraft/class_4668$class_4679;",
+            "Lnet/minecraft/class_4668$class_4674;",
+            "Lnet/minecraft/class_4668$class_4675;",
+            "Lnet/minecraft/class_4668$class_4678;",
+            "Lnet/minecraft/class_4668$class_4684;",
+            "Lnet/minecraft/class_4668$class_4686;",
+            "Lnet/minecraft/class_4668$class_4677;",
+            "Z"
+          ],
+          "new_args": [
+            "Lnet/minecraft/class_4668$class_4683;",
+            "Lnet/minecraft/class_4668$class_4685;",
+            "Lnet/minecraft/class_4668$class_4673;",
+            "Lnet/minecraft/class_4668$class_4681;",
+            "Lnet/minecraft/class_4668$class_4669;",
+            "Lnet/minecraft/class_4668$class_4672;",
+            "Lnet/minecraft/class_4668$class_4671;",
+            "Lnet/minecraft/class_4668$class_4676;",
+            "Lnet/minecraft/class_4668$class_4679;",
+            "Lnet/minecraft/class_4668$class_4674;",
+            "Lnet/minecraft/class_4668$class_4675;",
+            "Lnet/minecraft/class_4668$class_4678;",
+            "Lnet/minecraft/class_4668$class_4684;",
+            "Lnet/minecraft/class_4668$class_4686;",
+            "Lnet/minecraft/class_4668$class_4677;",
+            "Lnet/minecraft/class_1921$class_4750;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_2647/method_11430": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Random;)Lnet/minecraft/class_2975;",
+        "new_sig": "(Ljava/util/Random;Z)Lnet/minecraft/class_2975;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_3674/method_15978": {
+        "type": "signature_change",
+        "old_sig": "(JLjava/nio/ByteBuffer;Ljava/lang/String;)V",
+        "new_sig": "(JLjava/nio/ByteBuffer;[B)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "J",
+            "Ljava/nio/ByteBuffer;",
+            "Ljava/lang/String;"
+          ],
+          "new_args": [
+            "J",
+            "Ljava/nio/ByteBuffer;",
+            "[B"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_3692/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Map;Ljava/util/Map;JIJI)V",
+        "new_sig": "(Ljava/util/Map;JIJI)V",
+        "adapter": {
+          "strategy": "remove_arg",
+          "position": 0,
+          "auto": true
+        }
+      },
+      "net/minecraft/class_793/<init>": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_2960;Ljava/util/List;Ljava/util/Map;ZZLnet/minecraft/class_809;Ljava/util/List;)V",
+        "new_sig": "(Lnet/minecraft/class_2960;Ljava/util/List;Ljava/util/Map;ZLnet/minecraft/class_793$class_4751;Lnet/minecraft/class_809;Ljava/util/List;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/class_2960;",
+            "Ljava/util/List;",
+            "Ljava/util/Map;",
+            "Z",
+            "Z",
+            "Lnet/minecraft/class_809;",
+            "Ljava/util/List;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/class_2960;",
+            "Ljava/util/List;",
+            "Ljava/util/Map;",
+            "Z",
+            "Lnet/minecraft/class_793$class_4751;",
+            "Lnet/minecraft/class_809;",
+            "Ljava/util/List;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/class_793/method_3446": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_1088;Lnet/minecraft/class_793;Ljava/util/function/Function;Lnet/minecraft/class_3665;Lnet/minecraft/class_2960;)Lnet/minecraft/class_1087;",
+        "new_sig": "(Lnet/minecraft/class_1088;Lnet/minecraft/class_793;Ljava/util/function/Function;Lnet/minecraft/class_3665;Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_1087;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 5,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/class_914/method_3988": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/class_1581;Z)Z",
+        "new_sig": "(Lnet/minecraft/class_1581;)Z",
+        "adapter": {
+          "strategy": "remove_arg",
+          "position": 1,
+          "auto": true
+        }
       }
     },
     "fields": {

@@ -10678,6 +10678,868 @@
       "net/minecraft/entity/vehicle/BoatEntity/method_7533()I": {
         "from": "method_7533",
         "to": null
+      },
+      "net/minecraft/block/entity/BellBlockEntity/method_20218": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V",
+        "new_sig": "(Lnet/minecraft/world/World;)V",
+        "adapter": {
+          "strategy": "remove_arg",
+          "position": 1,
+          "auto": true
+        }
+      },
+      "net/minecraft/block/entity/BlockEntityType$Builder/create": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/function/Supplier;)Lnet/minecraft/block/entity/BlockEntityType$Builder;",
+        "new_sig": "(Ljava/util/function/Supplier;[Lnet/minecraft/block/Block;)Lnet/minecraft/block/entity/BlockEntityType$Builder;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/block/entity/CampfireBlockEntity/method_17504": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/inventory/Inventory;Lnet/minecraft/recipe/cooking/CampfireCookingRecipe;)Lnet/minecraft/item/ItemStack;",
+        "new_sig": "(Lnet/minecraft/inventory/Inventory;Lnet/minecraft/recipe/CampfireCookingRecipe;)Lnet/minecraft/item/ItemStack;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/inventory/Inventory;",
+            "Lnet/minecraft/recipe/cooking/CampfireCookingRecipe;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/inventory/Inventory;",
+            "Lnet/minecraft/recipe/CampfireCookingRecipe;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/openPauseMenu": {
+        "type": "signature_change",
+        "old_sig": "()V",
+        "new_sig": "(Z)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 0,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/client/network/ClientPlayNetworkHandler/method_2881": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/ClientRecipeBook;Lnet/minecraft/client/recipe/book/RecipeResultCollection;)V",
+        "new_sig": "(Lnet/minecraft/client/recipe/book/ClientRecipeBook;Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/ClientRecipeBook;",
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/recipe/book/ClientRecipeBook;",
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/resource/ClientResourcePackCreator/method_4639": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/gui/menu/WorkingScreen;)V",
+        "new_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/gui/screen/ProgressScreen;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/gui/menu/WorkingScreen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/gui/screen/ProgressScreen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/data/server/RecipesProvider/method_17585": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/function/Consumer;Ljava/lang/String;Lnet/minecraft/recipe/cooking/CookingRecipeSerializer;I)V",
+        "new_sig": "(Ljava/util/function/Consumer;Ljava/lang/String;Lnet/minecraft/recipe/CookingRecipeSerializer;I)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Ljava/util/function/Consumer;",
+            "Ljava/lang/String;",
+            "Lnet/minecraft/recipe/cooking/CookingRecipeSerializer;",
+            "I"
+          ],
+          "new_args": [
+            "Ljava/util/function/Consumer;",
+            "Ljava/lang/String;",
+            "Lnet/minecraft/recipe/CookingRecipeSerializer;",
+            "I"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/data/server/recipe/CookingRecipeJsonFactory/create": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/recipe/Ingredient;Lnet/minecraft/item/ItemConvertible;FILnet/minecraft/recipe/cooking/CookingRecipeSerializer;)Lnet/minecraft/data/server/recipe/CookingRecipeJsonFactory;",
+        "new_sig": "(Lnet/minecraft/recipe/Ingredient;Lnet/minecraft/item/ItemConvertible;FILnet/minecraft/recipe/CookingRecipeSerializer;)Lnet/minecraft/data/server/recipe/CookingRecipeJsonFactory;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/recipe/Ingredient;",
+            "Lnet/minecraft/item/ItemConvertible;",
+            "F",
+            "I",
+            "Lnet/minecraft/recipe/cooking/CookingRecipeSerializer;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/recipe/Ingredient;",
+            "Lnet/minecraft/item/ItemConvertible;",
+            "F",
+            "I",
+            "Lnet/minecraft/recipe/CookingRecipeSerializer;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/ai/brain/task/Task/method_18917": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/entity/LivingEntity;Lcom/mojang/datafixers/util/Pair;)Z",
+        "new_sig": "(Lnet/minecraft/entity/LivingEntity;Ljava/util/Map$Entry;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Lcom/mojang/datafixers/util/Pair;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Ljava/util/Map$Entry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/ai/brain/task/WanderAroundTask/method_18977": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/entity/mob/MobEntity;Lnet/minecraft/entity/ai/brain/WalkTarget;)Z",
+        "new_sig": "(Lnet/minecraft/entity/mob/MobEntity;Lnet/minecraft/entity/ai/brain/WalkTarget;J)Z",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 2,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/entity/ai/pathing/Path/method_19313": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/util/math/Vec3d;)Z",
+        "new_sig": "(Lnet/minecraft/util/math/BlockPos;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/util/math/Vec3d;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/util/math/BlockPos;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/ai/pathing/PathNodeMaker/getPathNodes": {
+        "type": "signature_change",
+        "old_sig": "([Lnet/minecraft/entity/ai/pathing/PathNode;Lnet/minecraft/entity/ai/pathing/PathNode;Lnet/minecraft/entity/ai/pathing/PathNode;F)I",
+        "new_sig": "([Lnet/minecraft/entity/ai/pathing/PathNode;Lnet/minecraft/entity/ai/pathing/PathNode;)I",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "[Lnet/minecraft/entity/ai/pathing/PathNode;",
+            "Lnet/minecraft/entity/ai/pathing/PathNode;",
+            "Lnet/minecraft/entity/ai/pathing/PathNode;",
+            "F"
+          ],
+          "new_args": [
+            "[Lnet/minecraft/entity/ai/pathing/PathNode;",
+            "Lnet/minecraft/entity/ai/pathing/PathNode;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/ai/pathing/PathNodeMaker/init": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/BlockView;Lnet/minecraft/entity/mob/MobEntity;)V",
+        "new_sig": "(Lnet/minecraft/world/ViewableWorld;Lnet/minecraft/entity/mob/MobEntity;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/BlockView;",
+            "Lnet/minecraft/entity/mob/MobEntity;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ViewableWorld;",
+            "Lnet/minecraft/entity/mob/MobEntity;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/ai/pathing/PathNodeNavigator/pathfind": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/BlockView;Lnet/minecraft/entity/mob/MobEntity;DDDF)Lnet/minecraft/entity/ai/pathing/Path;",
+        "new_sig": "(Lnet/minecraft/world/ViewableWorld;Lnet/minecraft/entity/mob/MobEntity;DDDF)Lnet/minecraft/entity/ai/pathing/Path;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/BlockView;",
+            "Lnet/minecraft/entity/mob/MobEntity;",
+            "D",
+            "D",
+            "D",
+            "F"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ViewableWorld;",
+            "Lnet/minecraft/entity/mob/MobEntity;",
+            "D",
+            "D",
+            "D",
+            "F"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/raid/RaidManager/getRaidAt": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/raid/Raid;",
+        "new_sig": "(Lnet/minecraft/util/math/BlockPos;I)Lnet/minecraft/entity/raid/Raid;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/item/CrossbowItem/method_7765": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;ZZ)V",
+        "new_sig": "(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;ZZ)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Z",
+            "Z"
+          ],
+          "new_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Z",
+            "Z"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/item/CrossbowItem/method_7767": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;)V",
+        "new_sig": "(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Lnet/minecraft/item/ItemStack;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/entity/LivingEntity;",
+            "Lnet/minecraft/item/ItemStack;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsBridge/getNotificationScreen": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Screen;)Lnet/minecraft/realms/RealmsScreenProxy;",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Screen;)Lnet/minecraft/realms/RealmsScreenProxy;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Screen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Screen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsBridge/switchToRealms": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Screen;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Screen;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Screen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Screen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsObjectSelectionListProxy/addEntry": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;)I",
+        "new_sig": "(Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;)I",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsObjectSelectionListProxy/remove": {
+        "type": "signature_change",
+        "old_sig": "(I)Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;",
+        "new_sig": "(I)Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "I"
+          ],
+          "new_args": [
+            "I"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsObjectSelectionListProxy/removeEntry": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;)Z",
+        "new_sig": "(Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/realms/RealmsObjectSelectionListProxy/setSelected": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/widget/AlwaysSelectedEntryListWidget$Entry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/server/world/ChunkHolder/method_20457": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/world/ThreadedAnvilChunkStorage;Lcom/mojang/datafixers/util/Either;)V",
+        "new_sig": "(Lnet/minecraft/server/world/ThreadedAnvilChunkStorage;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Either;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/server/world/ThreadedAnvilChunkStorage;",
+            "Lcom/mojang/datafixers/util/Either;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/world/ThreadedAnvilChunkStorage;",
+            "Lcom/mojang/datafixers/util/Either;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/util/ThreadExecutor/method_5386": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/lang/Runnable;)Ljava/lang/Object;",
+        "new_sig": "(Ljava/lang/Runnable;)Ljava/lang/Void;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Ljava/lang/Runnable;"
+          ],
+          "new_args": [
+            "Ljava/lang/Runnable;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/util/crash/CrashReportSection/add": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/lang/String;Lnet/minecraft/util/crash/ICrashCallable;)V",
+        "new_sig": "(Ljava/lang/String;Lnet/minecraft/util/crash/CrashCallable;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Ljava/lang/String;",
+            "Lnet/minecraft/util/crash/ICrashCallable;"
+          ],
+          "new_args": [
+            "Ljava/lang/String;",
+            "Lnet/minecraft/util/crash/CrashCallable;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/util/registry/Registry/create": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/lang/String;Lnet/minecraft/util/registry/MutableRegistry;Ljava/util/function/Supplier;)Lnet/minecraft/util/registry/MutableRegistry;",
+        "new_sig": "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraft/util/registry/Registry;",
+        "adapter": {
+          "strategy": "remove_arg",
+          "position": 1,
+          "auto": true
+        }
+      },
+      "net/minecraft/util/registry/Registry/putDefaultEntry": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/lang/String;Ljava/util/function/Supplier;)V",
+        "new_sig": "(Ljava/lang/String;Lnet/minecraft/util/registry/MutableRegistry;Ljava/util/function/Supplier;)Lnet/minecraft/util/registry/MutableRegistry;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/ChunkSerializer/deserialize": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/World;Lnet/minecraft/structure/StructureManager;Lnet/minecraft/village/PointOfInterestStorage;Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/chunk/ProtoChunk;",
+        "new_sig": "(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/structure/StructureManager;Lnet/minecraft/village/PointOfInterestStorage;Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/chunk/ProtoChunk;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/World;",
+            "Lnet/minecraft/structure/StructureManager;",
+            "Lnet/minecraft/village/PointOfInterestStorage;",
+            "Lnet/minecraft/util/math/ChunkPos;",
+            "Lnet/minecraft/nbt/CompoundTag;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/world/ServerWorld;",
+            "Lnet/minecraft/structure/StructureManager;",
+            "Lnet/minecraft/village/PointOfInterestStorage;",
+            "Lnet/minecraft/util/math/ChunkPos;",
+            "Lnet/minecraft/nbt/CompoundTag;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/ChunkSerializer/serialize": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/World;Lnet/minecraft/world/chunk/Chunk;)Lnet/minecraft/nbt/CompoundTag;",
+        "new_sig": "(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/world/chunk/Chunk;)Lnet/minecraft/nbt/CompoundTag;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/World;",
+            "Lnet/minecraft/world/chunk/Chunk;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/world/ServerWorld;",
+            "Lnet/minecraft/world/chunk/Chunk;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/AbstractTreeFeature/generate": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/MutableIntBoundingBox;)Z",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 4,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/AbstractTreeFeature/setBlockState": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 4,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/DarkOakTreeFeature/addLeaves": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;III)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;IIILnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "I",
+            "I",
+            "I"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "I",
+            "I",
+            "I",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/DarkOakTreeFeature/addLog": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 3,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/HugeBrownMushroomFeature/method_13362": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/chunk/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/DefaultFeatureConfig;)Z",
+        "new_sig": "(Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/chunk/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/PlantedFeatureConfig;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/IWorld;",
+            "Lnet/minecraft/world/gen/chunk/ChunkGenerator;",
+            "Ljava/util/Random;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/world/gen/feature/DefaultFeatureConfig;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/IWorld;",
+            "Lnet/minecraft/world/gen/chunk/ChunkGenerator;",
+            "Ljava/util/Random;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/world/gen/feature/PlantedFeatureConfig;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/HugeRedMushroomFeature/method_13398": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/chunk/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/DefaultFeatureConfig;)Z",
+        "new_sig": "(Lnet/minecraft/world/IWorld;Lnet/minecraft/world/gen/chunk/ChunkGenerator;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/feature/PlantedFeatureConfig;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/IWorld;",
+            "Lnet/minecraft/world/gen/chunk/ChunkGenerator;",
+            "Ljava/util/Random;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/world/gen/feature/DefaultFeatureConfig;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/IWorld;",
+            "Lnet/minecraft/world/gen/chunk/ChunkGenerator;",
+            "Ljava/util/Random;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/world/gen/feature/PlantedFeatureConfig;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/getTreeHeight": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;I)I",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/math/MutableIntBoundingBox;)I",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 4,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/makeBranches": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;ILnet/minecraft/util/math/BlockPos;Ljava/util/List;)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;ILnet/minecraft/util/math/BlockPos;Ljava/util/List;Lnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 5,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/makeLeafLayer": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;F)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;FLnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "F"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "F",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/makeLeaves": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/makeOrCheckBranch": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;Z)I",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;ZLnet/minecraft/util/math/MutableIntBoundingBox;)I",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 5,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/LargeOakTreeFeature/makeTrunk": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;I)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 4,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/gen/feature/MegaJungleTreeFeature/makeLeaves": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;I)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/MegaPineTreeFeature/makeTopLeaves": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;IIIILjava/util/Random;)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;IIIILjava/util/Random;Lnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "I",
+            "I",
+            "I",
+            "I",
+            "Ljava/util/Random;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "I",
+            "I",
+            "I",
+            "I",
+            "Ljava/util/Random;",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/MegaTreeFeature/makeRoundLeafLayer": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;I)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/MegaTreeFeature/makeSquaredLeafLayer": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;I)V",
+        "new_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/math/MutableIntBoundingBox;Ljava/util/Set;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;",
+            "Ljava/util/Set;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/SavannaTreeFeature/addLeaves": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableTestableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;"
+          ],
+          "new_args": [
+            "Ljava/util/Set;",
+            "Lnet/minecraft/world/ModifiableTestableWorld;",
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/util/math/MutableIntBoundingBox;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/gen/feature/SavannaTreeFeature/addLog": {
+        "type": "signature_change",
+        "old_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableWorld;Lnet/minecraft/util/math/BlockPos;)V",
+        "new_sig": "(Ljava/util/Set;Lnet/minecraft/world/ModifiableWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/MutableIntBoundingBox;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 3,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/loot/entry/CombinedEntry/combine": {
+        "type": "signature_change",
+        "old_sig": "([Lnet/minecraft/world/loot/LootChoiceProvider;)Lnet/minecraft/world/loot/LootChoiceProvider;",
+        "new_sig": "([Lnet/minecraft/world/loot/entry/EntryCombiner;)Lnet/minecraft/world/loot/entry/EntryCombiner;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "[Lnet/minecraft/world/loot/LootChoiceProvider;"
+          ],
+          "new_args": [
+            "[Lnet/minecraft/world/loot/entry/EntryCombiner;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/loot/entry/GroupEntry/method_399": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/loot/LootChoiceProvider;Lnet/minecraft/world/loot/LootChoiceProvider;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "new_sig": "(Lnet/minecraft/world/loot/entry/EntryCombiner;Lnet/minecraft/world/loot/entry/EntryCombiner;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/world/loot/LootChoiceProvider;",
+            "Lnet/minecraft/world/loot/LootChoiceProvider;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/world/loot/entry/EntryCombiner;",
+            "Lnet/minecraft/world/loot/entry/EntryCombiner;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/loot/entry/GroupEntry/method_400": {
+        "type": "signature_change",
+        "old_sig": "([Lnet/minecraft/world/loot/LootChoiceProvider;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "new_sig": "([Lnet/minecraft/world/loot/entry/EntryCombiner;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "[Lnet/minecraft/world/loot/LootChoiceProvider;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "new_args": [
+            "[Lnet/minecraft/world/loot/entry/EntryCombiner;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/loot/entry/SequenceEntry/method_452": {
+        "type": "signature_change",
+        "old_sig": "([Lnet/minecraft/world/loot/LootChoiceProvider;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "new_sig": "([Lnet/minecraft/world/loot/entry/EntryCombiner;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "[Lnet/minecraft/world/loot/LootChoiceProvider;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "new_args": [
+            "[Lnet/minecraft/world/loot/entry/EntryCombiner;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "auto": false
+        }
       }
     },
     "fields": {
@@ -20706,6 +21568,752 @@
       "net/minecraft/item/FireworkItem$Type/fromId(I)Lnet/minecraft/item/FireworkItem$Type;": {
         "from": "method_7813",
         "to": null
+      },
+      "com/mojang/blaze3d/platform/GLX/populateSnooperWithOpenGL": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/sortme/Snooper;)V",
+        "new_sig": "(Lnet/minecraft/client/util/Snooper;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/sortme/Snooper;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/util/Snooper;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/advancement/criterion/FishingRodHookedCriterion/handle": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishHookEntity;Ljava/util/Collection;)V",
+        "new_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishingBobberEntity;Ljava/util/Collection;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishHookEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishingBobberEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/advancement/criterion/FishingRodHookedCriterion$Conditions/matches": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishHookEntity;Ljava/util/Collection;)Z",
+        "new_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishingBobberEntity;Ljava/util/Collection;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishHookEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishingBobberEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/advancement/criterion/FishingRodHookedCriterion$Handler/handle": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishHookEntity;Ljava/util/Collection;)V",
+        "new_sig": "(Lnet/minecraft/server/network/ServerPlayerEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/projectile/FishingBobberEntity;Ljava/util/Collection;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishHookEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/server/network/ServerPlayerEntity;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/entity/projectile/FishingBobberEntity;",
+            "Ljava/util/Collection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/disconnect": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Screen;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Screen;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Screen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Screen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/getOverlay": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/gui/Overlay;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/Overlay;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/method_1518": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/RecipeResultCollection;)Ljava/util/stream/Stream;",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;)Ljava/util/stream/Stream;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/method_1529": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/RecipeResultCollection;)Ljava/util/stream/Stream;",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;)Ljava/util/stream/Stream;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/openScreen": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Screen;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Screen;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Screen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Screen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/reset": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Screen;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Screen;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Screen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Screen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/MinecraftClient/setOverlay": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/Overlay;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/Overlay;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/Overlay;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/Overlay;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/ConnectScreen/method_2128": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/screen/ConnectScreen;)Lnet/minecraft/client/gui/Screen;",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/ConnectScreen;)Lnet/minecraft/client/gui/screen/Screen;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/screen/ConnectScreen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/ConnectScreen;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/ContainerScreenRegistry$GuiFactory/create": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/container/Container;Lnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/Screen;",
+        "new_sig": "(Lnet/minecraft/container/Container;Lnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screen/Screen;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/container/Container;",
+            "Lnet/minecraft/entity/player/PlayerInventory;",
+            "Lnet/minecraft/network/chat/Component;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/container/Container;",
+            "Lnet/minecraft/entity/player/PlayerInventory;",
+            "Lnet/minecraft/network/chat/Component;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/advancement/AdvancementTreeWidget/create": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/gui/menu/AdvancementsScreen;ILnet/minecraft/advancement/Advancement;)Lnet/minecraft/client/gui/screen/advancement/AdvancementTreeWidget;",
+        "new_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/gui/screen/advancement/AdvancementsScreen;ILnet/minecraft/advancement/Advancement;)Lnet/minecraft/client/gui/screen/advancement/AdvancementTreeWidget;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/gui/menu/AdvancementsScreen;",
+            "I",
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/gui/screen/advancement/AdvancementsScreen;",
+            "I",
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/advancement/AdvancementTreeWidget/getWidgetForAdvancement": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/advancement/Advancement;)Lnet/minecraft/client/gui/widget/AdvancementWidget;",
+        "new_sig": "(Lnet/minecraft/advancement/Advancement;)Lnet/minecraft/client/gui/screen/advancement/AdvancementWidget;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/advancement/AdvancementTreeWidget/method_2312": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/gui/menu/AdvancementsScreen;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/advancement/AdvancementsScreen;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/advancement/AdvancementTreeWidget/method_2319": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/widget/AdvancementWidget;Lnet/minecraft/advancement/Advancement;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/advancement/AdvancementWidget;Lnet/minecraft/advancement/Advancement;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/widget/AdvancementWidget;",
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/advancement/AdvancementWidget;",
+            "Lnet/minecraft/advancement/Advancement;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/controls/ControlsListWidget/method_2343": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/screen/controls/ControlsListWidget;)Lnet/minecraft/client/gui/menu/options/ControlsOptionsScreen;",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/controls/ControlsListWidget;)Lnet/minecraft/client/gui/screen/controls/ControlsOptionsScreen;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/screen/controls/ControlsListWidget;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/controls/ControlsListWidget;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen/method_2538": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/sortme/ServerEntryNetworkPart;",
+        "new_sig": "()Lnet/minecraft/client/network/ServerEntryNetworkPart;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/multiplayer/MultiplayerScreen/selectEntry": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/menu/MultiplayerServerListWidget$Entry;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/multiplayer/MultiplayerServerListWidget$Entry;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/menu/MultiplayerServerListWidget$Entry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/multiplayer/MultiplayerServerListWidget$Entry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/AnimatedResultButton/getResultCollection": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/AnimatedResultButton/showResultCollection": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/RecipeResultCollection;Lnet/minecraft/client/gui/screen/recipebook/RecipeBookResults;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;Lnet/minecraft/client/gui/screen/recipebook/RecipeBookResults;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeBookResults;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeBookResults;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget/getResults": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/RecipeAlternatesWidget/showAlternatesForResult": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/recipe/book/RecipeResultCollection;IIIIF)V",
+        "new_sig": "(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;IIIIF)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+            "I",
+            "I",
+            "I",
+            "I",
+            "F"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/MinecraftClient;",
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+            "I",
+            "I",
+            "I",
+            "I",
+            "F"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/RecipeBookProvider/getRecipeBookGui": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/gui/screen/recipebook/RecipeBookScreen;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/recipebook/RecipeBookWidget;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/RecipeBookResults/getLastClickedResults": {
+        "type": "signature_change",
+        "old_sig": "()Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+        "new_sig": "()Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/recipebook/RecipeBookResults/setGui": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/screen/recipebook/RecipeBookScreen;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/recipebook/RecipeBookWidget;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeBookScreen;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeBookWidget;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry/method_20145": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/widget/SelectedResourcePackListWidget;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/resourcepack/SelectedResourcePackListWidget;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/widget/SelectedResourcePackListWidget;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/resourcepack/SelectedResourcePackListWidget;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/resourcepack/ResourcePackOptionsScreen/method_2669": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;)Z",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/resourcepack/ResourcePackOptionsScreen/remove": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/gui/screen/resourcepack/ResourcePackOptionsScreen/select": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;)V",
+        "new_sig": "(Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/gui/widget/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/gui/screen/resourcepack/ResourcePackListWidget$ResourcePackEntry;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/recipe/book/ClientRecipeBook/addGroup": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/RecipeBookGroup;)Lnet/minecraft/client/recipe/book/RecipeResultCollection;",
+        "new_sig": "(Lnet/minecraft/client/recipe/book/RecipeBookGroup;)Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeBookGroup;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeBookGroup;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/client/recipe/book/ClientRecipeBook/addGroupResults": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/client/recipe/book/RecipeBookGroup;Lnet/minecraft/client/recipe/book/RecipeResultCollection;)V",
+        "new_sig": "(Lnet/minecraft/client/recipe/book/RecipeBookGroup;Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;)V",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeBookGroup;",
+            "Lnet/minecraft/client/recipe/book/RecipeResultCollection;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/client/recipe/book/RecipeBookGroup;",
+            "Lnet/minecraft/client/gui/screen/recipebook/RecipeResultCollection;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/entity/passive/SheepEntity/method_17689": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/inventory/CraftingInventory;Lnet/minecraft/recipe/crafting/CraftingRecipe;)Lnet/minecraft/item/ItemStack;",
+        "new_sig": "(Lnet/minecraft/inventory/CraftingInventory;Lnet/minecraft/recipe/CraftingRecipe;)Lnet/minecraft/item/ItemStack;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/inventory/CraftingInventory;",
+            "Lnet/minecraft/recipe/crafting/CraftingRecipe;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/inventory/CraftingInventory;",
+            "Lnet/minecraft/recipe/CraftingRecipe;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/item/BlockItem/place": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/BlockState;)Lnet/minecraft/block/BlockState;",
+        "new_sig": "(Lnet/minecraft/item/ItemPlacementContext;Lnet/minecraft/block/BlockState;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/util/math/BlockPos;",
+            "Lnet/minecraft/world/World;",
+            "Lnet/minecraft/item/ItemStack;",
+            "Lnet/minecraft/block/BlockState;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/item/ItemPlacementContext;",
+            "Lnet/minecraft/block/BlockState;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/item/Item$Settings/food": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/item/FoodItemSetting;)Lnet/minecraft/item/Item$Settings;",
+        "new_sig": "(Lnet/minecraft/item/FoodComponent;)Lnet/minecraft/item/Item$Settings;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/item/FoodItemSetting;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/item/FoodComponent;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/item/Item$Settings/method_19266": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/item/Item$Settings;)Lnet/minecraft/item/FoodItemSetting;",
+        "new_sig": "(Lnet/minecraft/item/Item$Settings;)Lnet/minecraft/item/FoodComponent;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/item/Item$Settings;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/item/Item$Settings;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/network/chat/ComponentWithSelectors/resolve": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/entity/Entity;)Lnet/minecraft/network/chat/Component;",
+        "new_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/entity/Entity;I)Lnet/minecraft/network/chat/Component;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 2,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/network/chat/Components/resolveAndStyle": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/network/chat/Component;Lnet/minecraft/entity/Entity;)Lnet/minecraft/network/chat/Component;",
+        "new_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/network/chat/Component;Lnet/minecraft/entity/Entity;I)Lnet/minecraft/network/chat/Component;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 3,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/network/chat/NbtComponent/method_10917": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/entity/Entity;Ljava/lang/String;)Ljava/util/stream/Stream;",
+        "new_sig": "(Lnet/minecraft/server/command/ServerCommandSource;Lnet/minecraft/entity/Entity;ILjava/lang/String;)Ljava/util/stream/Stream;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 2,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/server/world/ServerLightingProvider/method_17309": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/chunk/Chunk;)Lnet/minecraft/world/chunk/Chunk;",
+        "new_sig": "(Lnet/minecraft/world/chunk/Chunk;Lnet/minecraft/util/math/ChunkPos;)Lnet/minecraft/world/chunk/Chunk;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/server/world/ServerTickScheduler/getScheduledTicks": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/util/math/MutableIntBoundingBox;Z)Ljava/util/List;",
+        "new_sig": "(Lnet/minecraft/util/math/MutableIntBoundingBox;ZZ)Ljava/util/List;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 1,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/server/world/ServerTickScheduler/getScheduledTicksInChunk": {
+        "type": "signature_change",
+        "old_sig": "(ZLnet/minecraft/util/math/ChunkPos;)Ljava/util/List;",
+        "new_sig": "(Lnet/minecraft/util/math/ChunkPos;ZZ)Ljava/util/List;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Z",
+            "Lnet/minecraft/util/math/ChunkPos;"
+          ],
+          "new_args": [
+            "Lnet/minecraft/util/math/ChunkPos;",
+            "Z",
+            "Z"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/server/world/ServerTickScheduler/method_20514": {
+        "type": "signature_change",
+        "old_sig": "()V",
+        "new_sig": "(Lnet/minecraft/world/ScheduledTick;)V",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 0,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/server/world/ServerWorld/isNearOccupiedPointOfInterest": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/util/math/BlockPos;I)Z",
+        "new_sig": "(Lnet/minecraft/util/math/ChunkSectionPos;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "Lnet/minecraft/util/math/BlockPos;",
+            "I"
+          ],
+          "new_args": [
+            "Lnet/minecraft/util/math/ChunkSectionPos;"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/server/world/ThreadedAnvilChunkStorage/updateHolderMap": {
+        "type": "signature_change",
+        "old_sig": "()V",
+        "new_sig": "()Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [],
+          "new_args": [],
+          "auto": false
+        }
+      },
+      "net/minecraft/state/property/Property/getName": {
+        "type": "signature_change",
+        "old_sig": "()Ljava/lang/String;",
+        "new_sig": "(Ljava/lang/Comparable;)Ljava/lang/String;",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 0,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/ScheduledTick/method_8682": {
+        "type": "signature_change",
+        "old_sig": "(Lnet/minecraft/world/ScheduledTick;)I",
+        "new_sig": "(Lnet/minecraft/world/ScheduledTick;Lnet/minecraft/world/ScheduledTick;)I",
+        "adapter": {
+          "strategy": "insert_default",
+          "position": 0,
+          "default_value": "0",
+          "auto": true
+        }
+      },
+      "net/minecraft/world/chunk/WorldNibbleStorage/removeChunk": {
+        "type": "signature_change",
+        "old_sig": "(J)V",
+        "new_sig": "(J)Lnet/minecraft/world/chunk/ChunkNibbleArray;",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "J"
+          ],
+          "new_args": [
+            "J"
+          ],
+          "auto": false
+        }
+      },
+      "net/minecraft/world/loot/entry/AlternativeEntry/method_387": {
+        "type": "signature_change",
+        "old_sig": "([Lnet/minecraft/world/loot/LootChoiceProvider;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "new_sig": "([Lnet/minecraft/world/loot/entry/EntryCombiner;Lnet/minecraft/world/loot/context/LootContext;Ljava/util/function/Consumer;)Z",
+        "adapter": {
+          "strategy": "MANUAL_REVIEW",
+          "old_args": [
+            "[Lnet/minecraft/world/loot/LootChoiceProvider;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "new_args": [
+            "[Lnet/minecraft/world/loot/entry/EntryCombiner;",
+            "Lnet/minecraft/world/loot/context/LootContext;",
+            "Ljava/util/function/Consumer;"
+          ],
+          "auto": false
+        }
       }
     },
     "fields": {
